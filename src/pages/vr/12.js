@@ -19,13 +19,13 @@ const SecondPage = () => (
 			<div className="article__contents">
 			<div className="container">
 				<div className="article__mv">
-				<img src={withPrefix("/images/vr/vr12/mv.jpg")} alt="" />
+				<img src={withPrefix("/images/vr/vr12/mv.jpg")} alt="kicolo comfort　テレワーク・新生活様式Style" />
 				</div>
 				<section className="article__section article__section01">
 				<h2>VR見学</h2>
 				<h3>画面からVR</h3>
 				<div className="section__image">
-					<img src={withPrefix("/images/vr/vr12/sec01_img01.jpg")} alt="" />
+				<a href="https://fukamori.jp/pano/royal/honbu/202006_kicolo_summer/" target="_blank"><img src={withPrefix("/images/vr/vr12/sec01_img01.jpg")} alt="kicolo comfort　テレワーク・新生活様式Style" /></a>
 				</div>
 				<div className="button__wrap">
 					<a href="https://fukamori.jp/pano/royal/honbu/202006_kicolo_summer/" target="_blank" className="button button--primary">VRで体験する</a>
@@ -35,11 +35,11 @@ const SecondPage = () => (
 				<h2>間取り</h2>
 				<div className="layout__list row">
 					<div className="col-12 col-md-6">
-					<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr12/sec02_img01.png")} alt="" /></div>
+					<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr12/sec02_img01.png")} alt="1階間取り" /></div>
 					<p className="layout__list__caption text-center">1階</p>
 					</div>
 					<div className="col-12 col-md-6">
-					<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr12/sec02_img02.png")} alt="" /></div>
+					<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr12/sec02_img02.png")} alt="2階間取り" /></div>
 					<p className="layout__list__caption text-center">2階</p>
 					</div>
 				</div>

@@ -39,8 +39,8 @@ const SecondPage = () => (
 					<p className="layout__list__caption text-center">1階</p>
 					</div>
 					<div className="col-12 col-md-6">
-					<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr23/sec02_img02.png")} alt="2階間取り" /></div>
-					<p className="layout__list__caption text-center">2階</p>
+					<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr23/sec02_img02.png")} alt="小屋間取り" /></div>
+					<p className="layout__list__caption text-center">小屋</p>
 					</div>
 				</div>
 				<div className="layout__date row">
@@ -92,7 +92,7 @@ const SecondPage = () => (
 					</table>
 					</div>
 					<div className="col-12 col-md-6">
-					<h3>小屋部屋床面積表</h3>
+					<h3>小屋床面積表</h3>
 					<table className="table__vr">
 						<tbody>
 							<tr>

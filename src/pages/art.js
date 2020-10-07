@@ -51,9 +51,6 @@ const SecondPage = () => (
                   <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal07"><img src={withPrefix("/images/art/sec02_img07_main.png")} /></a>
                                         <figcaption>【大開口の家】<br /><span className="text-xsmall">これからの省エネ基準を解決する新発想の<br className="show-xs-only hide-md" />家づくり</span></figcaption>
                   </figure>
-                  <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal08"><img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} /></a>
-                                        <figcaption>【small village】<br /><span className="text-xsmall">ひとり暮らし・ふたり暮らしの小さな村</span></figcaption>
-                  </figure>
                   <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal09"><img src={withPrefix("/images/art/sec02_img09_main.png")} /></a>
                                         <figcaption>【骨の見える家】<br /><span className="text-xsmall">中古流通時代における<br className="show-xs-only hide-md" />価値ある新築住宅<br className="show-xs-only hide-md" />システム</span></figcaption>
                   </figure>

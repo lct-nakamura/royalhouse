@@ -9,17 +9,17 @@ import Map from "../../components/map"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="おうち時間を楽しむ癒しの家" />
+    <SEO title="eSSSizeキャンビンスタイル" />
     <article className="l-article">
 		<div className="article__container">
 			<button className="article__btn--close js-articlebtn-close"><span></span><span></span><span></span></button>
 			<div className="article__title">
-			<h1>おうち時間を楽しむ癒しの家</h1>
+			<h1>eSSSizeキャンビンスタイル</h1>
 			</div>
 			<div className="article__contents">
 			<div className="container">
 				<div className="article__mv">
-				<img src={withPrefix("/images/vr/vr09/mv.jpg")} alt="おうち時間を楽しむ癒しの家" />
+				<img src={withPrefix("/images/vr/vr09/mv.jpg")} alt="eSSSizeキャンビンスタイル" />
 				</div>
 				<section className="article__section article__section01">
 				<h2>VR見学</h2>

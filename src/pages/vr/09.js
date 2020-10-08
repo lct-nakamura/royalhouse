@@ -25,10 +25,10 @@ const SecondPage = () => (
 				<h2>VR見学</h2>
 				<h3>画面からVR</h3>
 				<div className="section__image">
-				<a href="https://fukamori.jp/pano/royal/honbu/20200514/" target="_blank"><img src={withPrefix("/images/vr/vr09/sec01_img01.jpg")} alt="おうち時間を楽しむ癒しの家" /></a>
+				<a href="https://iehaco.jp/park/vr/09/3d/" target="_blank"><img src={withPrefix("/images/vr/vr09/sec01_img01.jpg")} alt="おうち時間を楽しむ癒しの家" /></a>
 				</div>
 				<div className="button__wrap">
-					<a href="https://fukamori.jp/pano/royal/honbu/20200514/" target="_blank" className="button button--primary">VRで体験する</a>
+					<a href="https://iehaco.jp/park/vr/09/3d/" target="_blank" className="button button--primary">VRで体験する</a>
 				</div>
 				</section>
 				<section className="article__section article__section02">

@@ -25,10 +25,10 @@ const SecondPage = () => (
 						<h2>VR見学</h2>
 						<h3>画面からVR</h3>
 						<div className="section__image">
-							<img src={withPrefix("/images/vr/vr01/sec01_img01.jpg")} alt="プラステージ ナチュラルモダン内装" />
+						<a href="https://iehaco.jp/park/vr/01/3d/" target="_blank"><img src={withPrefix("/images/vr/vr01/sec01_img01.jpg")} alt="プラステージ ナチュラルモダン内装" /></a>
 						</div>
 						<div className="button__wrap">
-							<a href="https://fukamori.jp/pano/royal/honbu/202006_natural/" target="_blank" className="button button--primary">VRで体験する</a>
+							<a href="https://iehaco.jp/park/vr/01/3d/" target="_blank" className="button button--primary">VRで体験する</a>
 						</div>
 					</section>
 					<section className="article__section article__section02">
@@ -198,7 +198,7 @@ const SecondPage = () => (
 						<h2>CGムービー体験</h2>
 						<div className="movie__wrap row">
 							<div className="col-12 col-md-12">
-								<div className="movie text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/alygXh12Zrs" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></div>
+								<div className="movie text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/alygXh12Zrs?start=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></div>
 							</div>
 						</div>
 					</section>

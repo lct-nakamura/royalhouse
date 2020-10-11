@@ -25,26 +25,22 @@ const SecondPage = () => (
 						<h2>VR見学</h2>
 						<h3>画面からVR</h3>
 						<div className="section__image">
-							<img src={withPrefix("/images/vr/vr04/sec01_img01.jpg")} alt="ビルトインガレージのある家内装" />
+						<a href="https://iehaco.jp/park/vr/04/3d/" target="_blank"><img src={withPrefix("/images/vr/vr04/sec01_img01.jpg")} alt="ビルトインガレージのある家内装" /></a>
 						</div>
 						<div className="button__wrap">
-							<a href="https://fukamori.jp/pano/royal/honbu/202009build_in/" target="_blank" className="button button--primary">VRで体験する</a>
+							<a href="https://iehaco.jp/park/vr/04/3d/" target="_blank" className="button button--primary">VRで体験する</a>
 						</div>
 					</section>
 					<section className="article__section article__section02">
 						<h2>間取り</h2>
 						<div className="layout__list row">
-							<div className="col-12 col-md-4">
+							<div className="col-12 col-md-6">
 								<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr04/sec02_img01.png")} alt="1階間取り" /></div>
 								<p className="layout__list__caption text-center">1階</p>
 							</div>
-							<div className="col-12 col-md-4">
+							<div className="col-12 col-md-6">
 								<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr04/sec02_img02.png")} alt="2階間取り" /></div>
 								<p className="layout__list__caption text-center">2階</p>
-							</div>
-							<div className="col-12 col-md-4">
-								<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr04/sec02_img03.png")} alt="3階間取り" /></div>
-								<p className="layout__list__caption text-center">3階</p>
 							</div>
 						</div>
 						<div className="layout__date row">

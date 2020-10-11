@@ -19,27 +19,28 @@ const SecondPage = () => (
 			<div className="article__contents">
 				<div className="container">
 					<div className="article__mv">
-						<img src={withPrefix("/images/vr/vr08/mv.jpg")} alt="" />
+						<img src={withPrefix("/images/vr/vr08/mv.jpg")} alt="eSSSize 西海岸West Coast" />
 					</div>
 					<section className="article__section article__section01">
 						<h2>VR見学</h2>
 						<h3>画面からVR</h3>
 						<div className="section__image">
-							<img src={withPrefix("/images/vr/vr08/sec01_img01.jpg")} alt="" />
+						<a href="https://iehaco.jp/park/vr/08/3d/" target="_blank"><img src={withPrefix("/images/vr/vr08/sec01_img01.jpg")} alt="eSSSize 西海岸West Coast" /></a>
+							
 						</div>
 						<div className="button__wrap">
-							<a href="https://fukamori.jp/pano/royal/honbu/202006_esssisewest/" target="_blank" className="button button--primary">VRで体験する</a>
+							<a href="https://iehaco.jp/park/vr/08/3d/" target="_blank" className="button button--primary">VRで体験する</a>
 						</div>
 					</section>
 					<section className="article__section article__section02">
 						<h2>間取り</h2>
 						<div className="layout__list row">
 							<div className="col-12 col-md-6">
-								<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr08/sec02_img01.png")} alt="" /></div>
+								<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr08/sec02_img01.png")} alt="1階間取り" /></div>
 								<p className="layout__list__caption text-center">1階</p>
 							</div>
 							<div className="col-12 col-md-6">
-								<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr08/sec02_img02.png")} alt="" /></div>
+								<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr08/sec02_img02.png")} alt="2階間取り" /></div>
 								<p className="layout__list__caption text-center">2階</p>
 							</div>
 						</div>

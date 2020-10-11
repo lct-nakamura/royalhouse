@@ -9,37 +9,37 @@ import Map from "../../components/map"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="おうち時間を楽しむ癒しの家" />
+    <SEO title="eSSSizeキャンビンスタイル" />
     <article className="l-article">
 		<div className="article__container">
 			<button className="article__btn--close js-articlebtn-close"><span></span><span></span><span></span></button>
 			<div className="article__title">
-			<h1>おうち時間を楽しむ癒しの家</h1>
+			<h1>eSSSizeキャンビンスタイル</h1>
 			</div>
 			<div className="article__contents">
 			<div className="container">
 				<div className="article__mv">
-				<img src={withPrefix("/images/vr/vr09/mv.jpg")} alt="" />
+				<img src={withPrefix("/images/vr/vr09/mv.jpg")} alt="eSSSizeキャンビンスタイル" />
 				</div>
 				<section className="article__section article__section01">
 				<h2>VR見学</h2>
 				<h3>画面からVR</h3>
 				<div className="section__image">
-					<img src={withPrefix("/images/vr/vr09/sec01_img01.jpg")} alt="" />
+				<a href="https://iehaco.jp/park/vr/09/3d/" target="_blank"><img src={withPrefix("/images/vr/vr09/sec01_img01.jpg")} alt="おうち時間を楽しむ癒しの家" /></a>
 				</div>
 				<div className="button__wrap">
-					<a href="https://fukamori.jp/pano/royal/honbu/20200514/" target="_blank" className="button button--primary">VRで体験する</a>
+					<a href="https://iehaco.jp/park/vr/09/3d/" target="_blank" className="button button--primary">VRで体験する</a>
 				</div>
 				</section>
 				<section className="article__section article__section02">
 				<h2>間取り</h2>
 				<div className="layout__list row">
 					<div className="col-12 col-md-6">
-					<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr09/sec02_img01.png")} alt="" /></div>
+					<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr09/sec02_img01.png")} alt="1階間取り" /></div>
 					<p className="layout__list__caption text-center">1階</p>
 					</div>
 					<div className="col-12 col-md-6">
-					<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr09/sec02_img02.png")} alt="" /></div>
+					<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr09/sec02_img02.png")} alt="2階間取り" /></div>
 					<p className="layout__list__caption text-center">2階</p>
 					</div>
 				</div>

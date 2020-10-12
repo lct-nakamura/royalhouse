@@ -10,7 +10,7 @@
     .main-map__container
         position relative
         display block
-        width calc((2116 * (100vh - 82px)) / 1525)
+        width 100%
         height calc(100vh - 82px)
         margin 0 auto
         +md()
@@ -26,7 +26,8 @@
                 height calc(100vh - 70px)
         img
             display block
-            height 100%
+            width 100%
+            height auto
             margin 0 auto
     .map-balloon
         position absolute
@@ -35,41 +36,78 @@
         align-items flex-start
         cursor pointer
         &.pt01
-            top 44%
-            left 53%
+            top 31vw
+            left 52%
         &.pt02
             top 4%
             left 43%
         &.pt03
-            top 14%
-            left 23%
+            top 22vw
+            left 17%
         &.pt04
-            top 41%
+            top 30vw
             left 25%
         &.pt05
-            top 65%
+            top 48vw
             left 79%
         &.pt06
-            top 26%
-            left 18%
+            top 10vw
+            left 25%
         &.pt07
-            top 73%
+            top 54vw
             left 47%
         &.pt08
-            top 35%
+            top 26vw
             left 76%
         &.pt09
-            top 51%
-            left 40%
+            top 39vw
+            left 44%
         &.pt10
-            top 27%
+            top 20vw
             left 67%
         &.pt11
-            top 15%
+            top 11vw
             left 77%
         &.pt12
-            top 52%
-            left 59%
+            top 38vw
+            left 58%
+        +md()
+                &.pt01
+                    top 26vw
+                    left 52%
+                &.pt02
+                    top 4%
+                    left 43%
+                &.pt03
+                    top 14%
+                    left 23%
+                &.pt04
+                    top 41%
+                    left 25%
+                &.pt05
+                    top 65%
+                    left 79%
+                &.pt06
+                    top 26%
+                    left 18%
+                &.pt07
+                    top 73%
+                    left 47%
+                &.pt08
+                    top 35%
+                    left 76%
+                &.pt09
+                    top 51%
+                    left 40%
+                &.pt10
+                    top 27%
+                    left 67%
+                &.pt11
+                    top 15%
+                    left 77%
+                &.pt12
+                    top 52%
+                    left 59%
         &:hover
             .map-balloon__link
                 opacity 1

@@ -19,13 +19,13 @@ const SecondPage = () => (
 			<div className="article__contents">
 			<div className="container">
 				<div className="article__mv">
-				<img src={withPrefix("/images/vr/vr23/mv.jpg")} alt="グランドワン 平屋の家 ふたり暮らしスタイル外観" />
+				<img src={withPrefix("/images/vr/vr23/mv.jpg")} alt="グランドワン平屋の家ふたり暮らしスタイル外観" />
 				</div>
 				<section className="article__section article__section01">
 				<h2>VR見学</h2>
 				<h3>画面からVR</h3>
 				<div className="section__image">
-				<a href="https://iehaco.jp/park/vr/23/3d/" target="_blank"><img src={withPrefix("/images/vr/vr23/sec01_img01.jpg")} alt="グランドワン 平屋の家 ふたり暮らしスタイル内装" /></a>
+				<a href="https://iehaco.jp/park/vr/23/3d/" target="_blank"><img src={withPrefix("/images/vr/vr23/sec01_img01.jpg")} alt="グランドワン平屋の家ふたり暮らしスタイル内装" /></a>
 				</div>
 				<div className="button__wrap">
 					<a href="https://iehaco.jp/park/vr/23/3d/" target="_blank" className="button button--primary">VRで体験する</a>

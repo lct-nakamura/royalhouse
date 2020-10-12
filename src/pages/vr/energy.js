@@ -20,14 +20,14 @@ const SecondPage = () => (
                 <div className="menu__list row">
                   <div className="col-12 col-md-6">
                     <Link to="/vr/15">
-                      <div className="menu__list__image"><img src={withPrefix("/images/vr/energy/menu_img01.jpg")} alt="" /></div>
+                      <div className="menu__list__image"><img src={withPrefix("/images/vr/energy/menu_img01.jpg")} alt="e・co・de　smart　zeroウッディスタイル" /></div>
                       <p className="menu__list__caption icon_triborder">e・co・de　smart　zero<br />ウッディスタイル</p>
                     </Link>
                   </div>
                   <div className="col-12 col-md-6">
                     <Link to="/vr/16">
-                      <div className="menu__list__image"><img src={withPrefix("/images/vr/energy/menu_img02.jpg")} alt="" /></div>
-                      <p className="menu__list__caption icon_triborder"> e・co・de　smart　zero<br />２０２０モデル</p>
+                      <div className="menu__list__image"><img src={withPrefix("/images/vr/energy/menu_img02.jpg")} alt="e・co・de　smart　zero２０２０モデル" /></div>
+                      <p className="menu__list__caption icon_triborder">e・co・de　smart　zero<br />２０２０モデル</p>
                     </Link>
                   </div>
                 </div>

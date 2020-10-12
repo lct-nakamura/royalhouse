@@ -20,19 +20,19 @@ const SecondPage = () => (
                 <div className="menu__list row">
                   <div className="col-12 col-md-6">
                     <Link to="/vr/21">
-                      <div className="menu__list__image"><img src={withPrefix('/images/vr/groundone/menu_img01.jpg')} alt="" /></div>
+                      <div className="menu__list__image"><img src={withPrefix('/images/vr/groundone/menu_img01.jpg')} alt="平屋の家フラットスタイル" /></div>
                       <p className="menu__list__caption icon_triborder">グランドワン<br />平屋の家　フラットスタイル</p>
                     </Link>
                   </div>
                   <div className="col-12 col-md-6">
                     <Link to="/vr/22">
-                      <div className="menu__list__image"><img src={withPrefix('/images/vr/groundone/menu_img02.jpg')} alt="" /></div>
+                      <div className="menu__list__image"><img src={withPrefix('/images/vr/groundone/menu_img02.jpg')} alt="平屋の家南欧スタイル" /></div>
                       <p className="menu__list__caption icon_triborder">グランドワン<br />平屋の家　南欧スタイル</p>
                     </Link>
                   </div>
                   <div className="col-12 col-md-6">
                     <Link to="/vr/23">
-                      <div className="menu__list__image"><img src={withPrefix('/images/vr/groundone/menu_img03.jpg')} alt="" /></div>
+                      <div className="menu__list__image"><img src={withPrefix('/images/vr/groundone/menu_img03.jpg')} alt="平屋の家ふたり暮らしスタイル" /></div>
                       <p className="menu__list__caption icon_triborder">グランドワン<br />平屋の家　ふたり暮らしスタイル</p>
                     </Link>
                   </div>

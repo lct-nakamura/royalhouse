@@ -329,9 +329,6 @@ const SecondPage = () => (
                 <li data-target="#slide05" data-slide-to="5">
                   <img src={withPrefix("/images/art/sec02_img05_05.png")} />
                 </li>
-                <li data-target="#slide05" data-slide-to="6">
-                  <img src={withPrefix("/images/art/sec02_img05_06.png")} />
-                </li>
               </ol>
               <div className="carousel-inner">
                 <div className="carousel-item active">

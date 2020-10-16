@@ -44,6 +44,7 @@ exports.components = {
   "component---src-pages-recommend-33-js": hot(preferDefault(require("/Users/chiho/personal/shoko/oct-royalhouse/src/pages/recommend/33.js"))),
   "component---src-pages-recommend-34-js": hot(preferDefault(require("/Users/chiho/personal/shoko/oct-royalhouse/src/pages/recommend/34.js"))),
   "component---src-pages-sss-js": hot(preferDefault(require("/Users/chiho/personal/shoko/oct-royalhouse/src/pages/sss.js"))),
+  "component---src-pages-thanks-js": hot(preferDefault(require("/Users/chiho/personal/shoko/oct-royalhouse/src/pages/thanks.js"))),
   "component---src-pages-using-typescript-tsx": hot(preferDefault(require("/Users/chiho/personal/shoko/oct-royalhouse/src/pages/using-typescript.tsx"))),
   "component---src-pages-vr-01-js": hot(preferDefault(require("/Users/chiho/personal/shoko/oct-royalhouse/src/pages/vr/01.js"))),
   "component---src-pages-vr-02-js": hot(preferDefault(require("/Users/chiho/personal/shoko/oct-royalhouse/src/pages/vr/02.js"))),

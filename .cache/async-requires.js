@@ -41,6 +41,7 @@ exports.components = {
   "component---src-pages-recommend-33-js": () => import("./../../../src/pages/recommend/33.js" /* webpackChunkName: "component---src-pages-recommend-33-js" */),
   "component---src-pages-recommend-34-js": () => import("./../../../src/pages/recommend/34.js" /* webpackChunkName: "component---src-pages-recommend-34-js" */),
   "component---src-pages-sss-js": () => import("./../../../src/pages/sss.js" /* webpackChunkName: "component---src-pages-sss-js" */),
+  "component---src-pages-thanks-js": () => import("./../../../src/pages/thanks.js" /* webpackChunkName: "component---src-pages-thanks-js" */),
   "component---src-pages-using-typescript-tsx": () => import("./../../../src/pages/using-typescript.tsx" /* webpackChunkName: "component---src-pages-using-typescript-tsx" */),
   "component---src-pages-vr-01-js": () => import("./../../../src/pages/vr/01.js" /* webpackChunkName: "component---src-pages-vr-01-js" */),
   "component---src-pages-vr-02-js": () => import("./../../../src/pages/vr/02.js" /* webpackChunkName: "component---src-pages-vr-02-js" */),

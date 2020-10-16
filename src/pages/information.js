@@ -37,33 +37,33 @@ const SecondPage = () => (
               <h2>いまおすすめの住宅資材・<br className="show-sm hide-md" />設備チェック！</h2>
               <p>あなたの住まいづくりをもっと楽しく・もっと素敵に！<br />建具・収納・キッチン・バスルームなどオススメの住宅資材・設備をご紹介</p>
               <ul className="row information__list">
-                <li className="col-6 col-md-4"><Link to="/recommend/05">フェリテUR</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/06">カナリエ</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/07">COCOSH</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/08">ユニバス（エスコート）</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/09">ユニバス（楽浴楽座）</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/05">フェリテUR（風呂）</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/06">カナリエ（キッチン）</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/07">COCOSH（洗面化粧台）</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/08">ユニバス エスコート（風呂）</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/09">ユニバス 楽浴楽座（風呂）</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/10">テレワークデスク</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/11">無垢のキッチン</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/12">無垢の洗面化粧台</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/13">エアウォッシュフローリング <br className="d-none d-md-block" />ラスティック</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/14">格子スクリーン</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/15">ニッチ収納</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/15">ニッチ収納（連絡ポスト）</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/16">キッチンカウンター収納</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/17">リビング収納</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/18">ハンギング収納（玄関）</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/19">手洗いカウンター</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/20">ベリッシュCC</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/21">シストS-J</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/20">ベリッシュCC（ドア）</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/21">シストS-J（床材）</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/22">コイズミ照明 SA品番</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/23#SWD302KL">ドアホン VL-SWD302KL</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/23#SE30XL">ドアホン VL-SE30XL</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/24">TRCダンパー</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/25#JRS">JRS-1AE-T<br className=" d-none d-md-block" />（1対1ドアホン）</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/25#24A">WP-24A<br className="d-none d-md-block" />（スマホ対応・宅配BOX連携）</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/25#24B">WP-24B<br className="d-none d-md-block" />（スマホ対応・宅配BOX連携）</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/24">TRCダンパー（在来軸組工法用制振システム）</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/25#JRS">JRS-1AE-T（1対1ドアホン）<br className=" d-none d-md-block" />（1対1ドアホン）</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/25#24A">WP-24A（スマホ対応・宅配BOX連携）<br className="d-none d-md-block" />（スマホ対応・宅配BOX連携）</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/25#24B">WP-24B（スマホ対応・宅配BOX連携）<br className="d-none d-md-block" />（スマホ対応・宅配BOX連携）</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/26#210">門柱型2種 幅210</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/26#290"> 門柱型2種　幅290</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/26#貫通型">貫通型1種</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/26#290"> 門柱型2種 幅290</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/26#貫通型">貫通型1種（ポスト）</Link></li>
               </ul>
             </section>
           </div>

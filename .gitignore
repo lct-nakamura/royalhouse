@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # These are some examples of commonly ignored file patterns.
 # You should customize this list as applicable to your project.
 # Learn more about .gitignore:
@@ -48,3 +49,6 @@ Thumbs.db
 *.mov
 *.wmv
 
+=======
+/Users/chiho/personal/shoko/oct-royalhouse/node_modules
+>>>>>>> 3fe2848cdb34d1fecb8f886a9fb2c9c5ccc9f8c9

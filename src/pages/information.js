@@ -36,34 +36,35 @@ const SecondPage = () => (
             <section className="article__section article__section02">
               <h2>いまおすすめの住宅資材・<br className="show-sm hide-md" />設備チェック！</h2>
               <p>あなたの住まいづくりをもっと楽しく・もっと素敵に！<br />建具・収納・キッチン・バスルームなどオススメの住宅資材・設備をご紹介</p>
-              <ul className="row information__list">
-                <li className="col-6 col-md-4"><Link to="/recommend/05">システムバスルーム（風呂）</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/06">システムキッチン（キッチン）</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/07">洗面化粧台（洗面化粧台）</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/08">ユニットバス エスコート（風呂）</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/09">ユニットバス 楽浴楽座（風呂）</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/10">テレワークデスク</Link></li>
+              <ul className="row information__list__blue">
+                <li className="col-6 col-md-4"><Link to="/recommend/05">システムバスルーム</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/06">システムキッチン</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/07">洗面化粧台</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/08">ユニットバス エスコート</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/09">ユニットバス 楽浴楽座</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/11">キッチン</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/12">洗面化粧台</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/19">手洗いカウンター</Link></li>
+              </ul>
+              <ul className="row information__list__red">
+                {/* red */}
+                <li className="col-6 col-md-4"><Link to="/recommend/10">テレワークデスク</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/13">フローリング</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/14">格子スクリーン</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/15">ウォールニッチ（連絡ポスト）</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/15">ウォールニッチ</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/16">キッチンカウンター収納</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/17">リビング収納</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/18">ハンギング収納</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/19">手洗いカウンター</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/22">照明</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/23">インターホン・テレビドアホン</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/24">在来軸組工法用制振システム</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/25">テレビドアホン</Link></li>
+                <li className="col-6 col-md-4"><Link to="/recommend/26">ポスト</Link></li>
+              </ul>
+              <ul className="row information__list__green">
+                {/* green */}
                 <li className="col-6 col-md-4"><Link to="/recommend/20">ドア</Link></li>
                 <li className="col-6 col-md-4"><Link to="/recommend/21">床材</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/22">照明</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/23#SWD302KL">インターホン・テレビドアホン</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/23#SE30XL">インターホン・テレビドアホン</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/24">在来軸組工法用制振システム</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/25#JRS">テレビドアホン</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/25#24A">テレビドアホン</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/25#24B">テレビドアホン</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/26#210">ポスト</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/26#290"> ポスト</Link></li>
-                <li className="col-6 col-md-4"><Link to="/recommend/26#貫通型">ポスト</Link></li>
               </ul>
             </section>
           </div>

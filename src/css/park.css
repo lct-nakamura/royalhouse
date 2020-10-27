@@ -2125,14 +2125,14 @@ label {
   border-top: 1px solid rgba(45, 48, 56, 0.2);
 }
 
-.information__list {
+.information__list__blue {
   padding: 0 10px;
 }
-.information__list li {
+.information__list__blue li {
   padding-right: 0;
   padding-left: 0;
 }
-.information__list li a {
+.information__list__blue li a {
   display: block;
   text-decoration: none;
   padding: 0.8em 0.5em 0.8em 2em;
@@ -2143,13 +2143,13 @@ label {
   border-radius: 4px;
 }
 @media only screen and (max-width: 768px) {
-  .information__list li a {
+  .information__list__blue li a {
     padding: 0.6em 0.5em 0.6em 1.4em;
     font-size: 13px;
     font-size: 1.3rem;
   }
 }
-.information__list li a:before {
+.information__list__blue li a:before {
   content: "";
   position: absolute;
   left: 5px;
@@ -2159,24 +2159,25 @@ label {
   background: rgba(97, 181, 219, 0.6);
   border-radius: 50%;
 }
-.information__list li a:before:nth-child(6) {
-  background: rgba(248, 94, 63, 0.6);
-}
 @media only screen and (max-width: 768px) {
-  .information__list li a:before {
+  .information__list__blue li a:before {
     width: 7px;
     height: 7px;
     left: 3px;
   }
 }
-.information__list li a:hover {
+.information__list__blue li a:hover {
   background: rgba(97, 181, 219, 0.3);
 }
-.information__list li:nth-child(6), .information__list li:nth-child(n+9):nth-child(-n+14), .information__list li:nth-child(n+18):nth-child(-n+27) {
+
+.information__list__red {
+  padding: 0 10px;
+}
+.information__list__red li {
   padding-right: 0;
   padding-left: 0;
 }
-.information__list li:nth-child(6) a, .information__list li:nth-child(n+9):nth-child(-n+14) a, .information__list li:nth-child(n+18):nth-child(-n+27) a {
+.information__list__red li a {
   display: block;
   text-decoration: none;
   padding: 0.8em 0.5em 0.8em 2em;
@@ -2187,13 +2188,13 @@ label {
   border-radius: 4px;
 }
 @media only screen and (max-width: 768px) {
-  .information__list li:nth-child(6) a, .information__list li:nth-child(n+9):nth-child(-n+14) a, .information__list li:nth-child(n+18):nth-child(-n+27) a {
+  .information__list__red li a {
     padding: 0.6em 0.5em 0.6em 1.4em;
     font-size: 13px;
     font-size: 1.3rem;
   }
 }
-.information__list li:nth-child(6) a:before, .information__list li:nth-child(n+9):nth-child(-n+14) a:before, .information__list li:nth-child(n+18):nth-child(-n+27) a:before {
+.information__list__red li a:before {
   content: "";
   position: absolute;
   left: 5px;
@@ -2204,20 +2205,24 @@ label {
   border-radius: 50%;
 }
 @media only screen and (max-width: 768px) {
-  .information__list li:nth-child(6) a:before, .information__list li:nth-child(n+9):nth-child(-n+14) a:before, .information__list li:nth-child(n+18):nth-child(-n+27) a:before {
+  .information__list__red li a:before {
     width: 7px;
     height: 7px;
     left: 3px;
   }
 }
-.information__list li:nth-child(6) a:hover, .information__list li:nth-child(n+9):nth-child(-n+14) a:hover, .information__list li:nth-child(n+18):nth-child(-n+27) a:hover {
-  background: rgba(97, 181, 219, 0.3);
+.information__list__red li a:hover {
+  background: rgba(234, 175, 57, 0.3);
 }
-.information__list li:nth-child(n+16):nth-child(-n+17) {
+
+.information__list__green {
+  padding: 0 10px;
+}
+.information__list__green li {
   padding-right: 0;
   padding-left: 0;
 }
-.information__list li:nth-child(n+16):nth-child(-n+17) a {
+.information__list__green li a {
   display: block;
   text-decoration: none;
   padding: 0.8em 0.5em 0.8em 2em;
@@ -2228,13 +2233,13 @@ label {
   border-radius: 4px;
 }
 @media only screen and (max-width: 768px) {
-  .information__list li:nth-child(n+16):nth-child(-n+17) a {
+  .information__list__green li a {
     padding: 0.6em 0.5em 0.6em 1.4em;
     font-size: 13px;
     font-size: 1.3rem;
   }
 }
-.information__list li:nth-child(n+16):nth-child(-n+17) a:before {
+.information__list__green li a:before {
   content: "";
   position: absolute;
   left: 5px;
@@ -2245,14 +2250,14 @@ label {
   border-radius: 50%;
 }
 @media only screen and (max-width: 768px) {
-  .information__list li:nth-child(n+16):nth-child(-n+17) a:before {
+  .information__list__green li a:before {
     width: 7px;
     height: 7px;
     left: 3px;
   }
 }
-.information__list li:nth-child(n+16):nth-child(-n+17) a:hover {
-  background: rgba(97, 181, 219, 0.3);
+.information__list__green li a:hover {
+  background: rgba(133, 189, 17, 0.3);
 }
 
 .features__block .col-12 {

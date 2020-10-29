@@ -140,7 +140,7 @@ const SecondPage = () => (
                 </div>
                 <div className="form-group row">
                   <div className="col-12 col-sm-4 required"><label for="MfpField_06">お問い合わせ内容</label></div>
-                  <div className="input-group col-12 col-sm-8 "> <textarea id="MfpField_06" className="form-control"  rows="5" placeholder="こちらにお問い合わせ内容を入力してください" required="required"></textarea></div>
+                  <div className="input-group col-12 col-sm-8 "> <textarea id="MfpField_06" className="form-control" rows="5" placeholder="こちらにお問い合わせ内容を入力してください" required="required" name="お問い合わせ内容"></textarea></div>
                 </div>
 
                 <p className="text-center button__submit"><button type="submit" className="button button--primary">確認画面へ</button></p>

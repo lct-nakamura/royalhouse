@@ -28,7 +28,7 @@ const SecondPage = () => (
                   <div className="input-group col-12 col-sm-6">
 
                     <div className="form-check d-block w-100">
-                      <input className="form-check-input" type="checkbox" id="MfpField_01a" name="お問い合わせ内容選択[]" value="暮らしについて" required />
+                      <input className="form-check-input" type="checkbox" id="MfpField_01a" name="お問い合わせ内容選択[]" value="暮らしについて" />
                       <label className="form-check-label" for="MfpField_01a">暮らしについて</label>
                     </div>
                     <div className="form-check d-block w-100">
@@ -143,7 +143,7 @@ const SecondPage = () => (
                   <div className="input-group col-12 col-sm-8 "> <textarea id="MfpField_06" className="form-control" rows="5" placeholder="こちらにお問い合わせ内容を入力してください" required="required" name="お問い合わせ内容"></textarea></div>
                 </div>
 
-                <p className="text-center button__submit"><button type="submit" className="button button--primary">確認画面へ</button></p>
+                <p className="text-center button__submit"><button type="submit" className="button button--primary" id="contact__submit">確認画面へ</button></p>
               </form>
             </section>
           </div>
@@ -153,5 +153,4 @@ const SecondPage = () => (
     <Map />
   </Layout>
 )
-
 export default SecondPage

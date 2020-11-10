@@ -31,13 +31,13 @@ function balloonAnime() {
     });
 
     timelineParameters
-    .add({
-        targets: '.map-balloon',
-        translateX: [{ value: randomMovementX }, { value: randomMovementX }, { value: randomMovementX }, { value: 0 }],
-        translateY: [{ value: randomMovementY }, { value: randomMovementY }, { value: randomMovementY }, { value: 0 }],
-        easing: 'linear',
-        duration: randomSpeed,
-    });
+        .add({
+            targets: '.map-balloon',
+            translateX: [{ value: randomMovementX }, { value: randomMovementX }, { value: randomMovementX }, { value: 0 }],
+            translateY: [{ value: randomMovementY }, { value: randomMovementY }, { value: randomMovementY }, { value: 0 }],
+            easing: 'linear',
+            duration: randomSpeed,
+        });
 }
 
 
@@ -84,9 +84,9 @@ export const onInitialClientRender = () => {
 
         // スマホでのマップ表示位置を中央へ
         var mainMap = document.querySelector('.main-map');
-        if (window.matchMedia( "(max-width: 480px)" ).matches) {
+        if (window.matchMedia("(max-width: 480px)").matches) {
             mainMap.scrollLeft += 150;
-        } else if (window.matchMedia( "(max-width: 768px)" ).matches) {
+        } else if (window.matchMedia("(max-width: 768px)").matches) {
             mainMap.scrollLeft += 60;
         } else {
             mainMap.scrollLeft += 0;
@@ -155,9 +155,9 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
 
         // スマホでのマップ表示位置を中央へ
         var mainMap = document.querySelector('.main-map');
-        if (window.matchMedia( "(max-width: 480px)" ).matches) {
+        if (window.matchMedia("(max-width: 480px)").matches) {
             mainMap.scrollLeft += 150;
-        } else if (window.matchMedia( "(max-width: 768px)" ).matches) {
+        } else if (window.matchMedia("(max-width: 768px)").matches) {
             mainMap.scrollLeft += 60;
         } else {
             mainMap.scrollLeft += 0;
@@ -168,6 +168,7 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
 export const onRouteUpdateDelayed = () => {
     // console.log("Now Loading...")
 }
+
 
 
 

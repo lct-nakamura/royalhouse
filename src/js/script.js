@@ -47,3 +47,14 @@ $(document).ready(() => {
         window.scrollTo(0, scrollpos);
     });
 })
+//コンタクトフォームのチェックボックスバリデーション
+$(function () {
+    $("#contact__submit").on("click", function () {
+        var checkedsum = $('.form-check-input:checked').length; //チェックが入っているチェックボックスの取得
+        if (checkedsum > 0) {
+            $('.form-check-input').prop("required", false);
+        } else {
+            $('.form-check-input').prop("required", true);
+        }
+    });
+});

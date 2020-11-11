@@ -2,7 +2,7 @@ module.exports = {
   // 本番環境は/park以下になるのでその設定
   // build時オプションつける
   // gatsby build --prefix-paths
-  pathPrefix: `/park`,
+  pathPrefix: `/test`,
 
   siteMetadata: {
     title: `ロイヤルハウス住まいのバーチャル展示場`,
@@ -58,7 +58,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id:'GTM-M2LW29B',
+        id: 'GTM-M2LW29B',
 
         // Include GTM in development.
         //

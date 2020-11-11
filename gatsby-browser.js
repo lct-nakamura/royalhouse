@@ -80,6 +80,18 @@ export const onInitialClientRender = () => {
             }
         });
 
+        //コンタクトフォームのチェックボックスバリデーション
+        $(function () {
+            $("#contact__submit").on("click", function () {
+                var checkedsum = $('.form-check-input:checked').length; //チェックが入っているチェックボックスの取得
+                if (checkedsum > 0) {
+                    $('.form-check-input').prop("required", false);
+                } else {
+                    $('.form-check-input').prop("required", true);
+                }
+            });
+        });
+
         balloonAnime();
 
         // スマホでのマップ表示位置を中央へ
@@ -149,6 +161,18 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
                 'top': -scrollpos
             });
             $('.l-article').addClass('is-show');
+        });
+
+        //コンタクトフォームのチェックボックスバリデーション
+        $(function () {
+            $("#contact__submit").on("click", function () {
+                var checkedsum = $('.form-check-input:checked').length; //チェックが入っているチェックボックスの取得
+                if (checkedsum > 0) {
+                    $('.form-check-input').prop("required", false);
+                } else {
+                    $('.form-check-input').prop("required", true);
+                }
+            });
         });
 
         balloonAnime();

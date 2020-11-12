@@ -46,4 +46,8 @@ $(document).ready(() => {
         $('.l-article').removeClass('is-show');
         window.scrollTo(0, scrollpos);
     });
+<<<<<<< HEAD
 })
+=======
+})
+>>>>>>> 9e5e5eaf27af0856d5047d8b19a6ffbebd4e2e9e

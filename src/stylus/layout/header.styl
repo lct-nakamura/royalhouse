@@ -1,0 +1,145 @@
+.l-header
+    position relative
+    width 100%
+    height 82px
+    background #fff
+    padding 0
+    z-index 2
+    +md()
+        position fixed
+        bottom 0
+        top auto
+        height 70px
+
+.header__container
+    display flex
+    align-items center
+    height 100%
+    padding 0 12px 0 30px
+    +md()
+        padding 0 12px
+
+.header__logo
+    color grn
+    text-decoration none
+    +md()
+        display none
+
+.header-nav
+    display flex
+    align-items: center
+    margin-left auto
+    +md()
+        margin-left 20px
+    +sm()
+        margin-left 10px
+    .header-nav__list
+        display flex
+    .header-nav__item
+        display flex
+        width 5em
+        +sm()
+            width auto
+            margin-right 5vw
+        &:first-of-type
+            display none
+            +md()
+                display flex
+        &:nth-of-type(2)
+        &:nth-of-type(3)
+            +sm()
+                margin-right 3vw
+    .header-nav__link
+        display flex
+        flex-direction column
+        text-decoration none
+        color grn
+        font-size 13px
+        padding-top 5px
+        +md()
+            font-size 12px
+            padding-top 0
+        &:hover
+            opacity .8
+        .header-nav__icon
+            max-width 36px
+            fill grn
+            margin 0 auto 6px
+            svg
+                max-height 100%
+            &.icon-pin
+                width 34px
+                height 36px
+            &.icon-info
+                width 36px
+                height 33px
+                margin-top 1px
+            &.icon-catalog
+                width 35px
+                height 33px
+                margin-top 2px
+            &.icon-file
+                width 28px
+                height 35px
+                margin-top 0px
+        span
+            line-height 1
+            margin-top auto
+
+
+.header__btn--menu
+    position relative
+    width 50px
+    height 50px
+    color grn
+    margin 0 10px 0 20px
+    +md()
+        position absolute
+        top -10px
+        right 10px
+        width 66px
+        height 66px
+        background grn
+        border-radius 5em
+        box-shadow 0 0 5px 3px rgba(#000,.2)
+        color #fff
+        margin 0
+    &:hover
+        cursor pointer
+        opacity .8
+    span
+        position: absolute;
+        top: 50%
+        left: 50%
+        right: 0
+        display: block
+        width: 40px
+        height: 6px
+        background: grn
+        border-radius 10px
+        margin: auto
+        transform: translate(-50%,-50%)
+        transform-origin: center
+        transition .3s
+        +md()
+            top 45%
+            width 30px
+            height 4px
+            background #fff
+            margin 0
+        &:first-of-type
+            transform: translate(-50%,calc(-50% - 12px))
+            +md()
+                transform: translate(-50%,calc(-50% - 10px))
+        &:last-of-type
+            transform: translate(-50%,calc(-50% + 12px))
+            +md()
+                transform: translate(-50%,calc(-50% + 10px))
+                &::after
+                    position absolute
+                    top 4px
+                    content 'MUNU'
+                    display block
+                    font-size 10px
+
+

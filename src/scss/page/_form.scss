@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+// カタログ
+.catalog {
+  figure {
+    img {
+      box-shadow: 0 0 5px #ccc;
+    }
+
+    figcaption {
+      line-height: 1.4;
+      margin: 15px 0 7px;
+      background: rgba($color_primary,.8);
+      padding:4px 15px;
+      text-align: center;
+      color: $color_white;
+      letter-spacing: .9px;
+    }
+  }
+}
+
+// フォームは基本的にmailformpro.scssにて編集しています

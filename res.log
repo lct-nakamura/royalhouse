@@ -1,0 +1,38 @@
+success open and validate gatsby-configs - 0.028s
+success load plugins - 1.006s
+success onPreInit - 0.065s
+success delete html and css files from previous builds - 0.044s
+success initialize cache - 0.008s
+success copy gatsby files - 0.182s
+success onPreBootstrap - 0.021s
+success createSchemaCustomization - 0.010s
+success Checking for changed pages - 0.012s
+success source and transform nodes - 0.131s
+success building schema - 0.710s
+info Total nodes: 43, SitePage nodes: 1 (use --verbose for breakdown)
+success createPages - 0.006s
+success Checking for changed pages - 0.001s
+success createPagesStatefully - 0.435s
+success Cleaning up stale page-data - 0.004s
+success update schema - 0.032s
+success onPreExtractQueries - 0.001s
+success extract queries from components - 0.610s
+success write out redirect data - 0.001s
+success Build manifest and related icons - 0.190s
+success onPostBootstrap - 0.194s
+info bootstrap finished - 9.373s
+success run static queries - 0.020s - 1/1 50.67/s
+success run page queries - 0.084s - 70/70 834.03/s
+success write out requires - 0.005s
+success Building production JavaScript and CSS bundles - 13.512s
+success Building static HTML for pages - 3.587s - 70/70 19.52/s
+success onPostBuild - 0.001s
+info Done building in 38.1200815 sec
+
+
+Hello! Will you help Gatsby improve by taking a four question survey?
+It takes less than five minutes and your ideas and feedback will be very helpful.
+
+Give us your feedback here: https://gatsby.dev/feedback
+
+

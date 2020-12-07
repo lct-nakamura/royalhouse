@@ -47,7 +47,11 @@ $(document).ready(() => {
         window.scrollTo(0, scrollpos);
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 })
 =======
 })
 >>>>>>> 9e5e5eaf27af0856d5047d8b19a6ffbebd4e2e9e
+=======
+})
+>>>>>>> 630311f711f73eaa49accac4d5af1d93c346f306

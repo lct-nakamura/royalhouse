@@ -54,4 +54,8 @@ $(document).ready(() => {
 >>>>>>> 9e5e5eaf27af0856d5047d8b19a6ffbebd4e2e9e
 =======
 })
+<<<<<<< HEAD
 >>>>>>> develop_lct_mascat
+=======
+>>>>>>> 630311f711f73eaa49accac4d5af1d93c346f306
+>>>>>>> 7ff3c6d4b361602af45b040a68e87172bf63f962

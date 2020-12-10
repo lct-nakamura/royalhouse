@@ -59,7 +59,11 @@ const SecondPage = () => (
 									<p className="layout__list__caption text-center">2階</p>
 								</div>
 								<div className="col-12 col-md-12">
+<<<<<<< HEAD
 >>>>>>> develop_lct_mascat
+=======
+>>>>>>> 630311f711f73eaa49accac4d5af1d93c346f306
+>>>>>>> 7ff3c6d4b361602af45b040a68e87172bf63f962
 									<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr18/sec02_img03.png")} alt="ロフト" /></div>
 									<p className="layout__list__caption text-center">ロフト</p>
 								</div>

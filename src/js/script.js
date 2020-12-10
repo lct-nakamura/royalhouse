@@ -47,7 +47,11 @@ $(document).ready(() => {
         window.scrollTo(0, scrollpos);
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 })
 =======
 })
 >>>>>>> 9e5e5eaf27af0856d5047d8b19a6ffbebd4e2e9e
+=======
+})
+>>>>>>> develop_lct_mascat

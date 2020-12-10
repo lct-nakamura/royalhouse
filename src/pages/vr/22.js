@@ -37,11 +37,19 @@ const SecondPage = () => (
 						<section className="article__section article__section02">
 							<h2>間取り</h2>
 							<div className="layout__list row">
+<<<<<<< HEAD
 								<div className="col-12 col-md-6">
 									<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr22/sec02_img01.png")} alt="1階間取り" /></div>
 									<p className="layout__list__caption text-center">1階</p>
 								</div>
 								<div className="col-12 col-md-6">
+=======
+								<div className="col-12 col-md-12">
+									<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr22/sec02_img01.png")} alt="1階間取り" /></div>
+									<p className="layout__list__caption text-center">1階</p>
+								</div>
+								<div className="col-12 col-md-12">
+>>>>>>> develop_lct_mascat
 									<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr22/sec02_img02.png")} alt="ロフト間取り" /></div>
 									<p className="layout__list__caption text-center">ロフト</p>
 								</div>

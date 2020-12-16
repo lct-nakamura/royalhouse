@@ -11,7 +11,7 @@ const SecondPage = () => (
   <Layout>
     <SEO title="美術館" />
     <article className="l-article">
-    <div className="article__container">
+      <div className="article__container">
         <button className="article__btn--close js-articlebtn-close"><span></span><span></span><span></span></button>
         <div className="article__title">
           <h1>美術館</h1>
@@ -21,6 +21,7 @@ const SecondPage = () => (
           <div className="container">
             <section className="article__section article__section01">
               <h2>グッドデザイン賞受賞作品<br />photo selection</h2>
+              <div className="text-center mb-3"><img src={withPrefix("/images/art/gd_royal_sss.png")} className="gd_royal_sss" alt="グッドデザインロイヤルSSS構法" /></div>
               <p>グッドデザイン受賞商品には、これから家づくりのアイデアがたくさん盛り込まれています。<br />是非、自由設計を考える際のヒントとしても、ご活用ください。</p>
             </section>
             <section className="article__section article__section02">
@@ -28,35 +29,35 @@ const SecondPage = () => (
               <p className="text-center">写真をクリックするとスライドショーが表示されます</p>
               <div id="modal-container" className="row">
 
-                  <figure className="col-6">
-                      <a href="#" data-toggle="modal" data-target="#modal01"><img src={withPrefix("/images/art/sec02_img01_main.png")} /></a>
-                      <figcaption>【Life Block】<br /><span className="text-xsmall">家族参加でつくる<br className="show-xs-only hide-md" />新発想の家づくり</span></figcaption>
-                  </figure>
-                  <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal02"><img src={withPrefix("/images/art/sec02_img02_main.png")} /></a>
-                      <figcaption>【育つ家】<br /><span className="text-xsmall">平屋から、<br className="show-xs-only hide-md" />みんなで育てる家</span></figcaption>
-                  </figure>
-                  <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal03"><img src={withPrefix("/images/art/sec02_img03_main.png")} /></a>
-                    <figcaption>【ピロティの家】<br /><span className="text-xsmall">家の内外を曖昧に<br className="show-xs-only hide-md" />つなぐ、ピロティの<br className="show-xs-only hide-md" />新たな価値</span>
-                    </figcaption>
-                  </figure>
-                  <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal04"><img src={withPrefix("/images/art/sec02_img04_main.png")} /></a>
-                                        <figcaption>【門のある家】<br /><span className="text-xsmall">地域との距離感を選択<br className="show-xs-only hide-md" />できるデザインと<br className="show-xs-only hide-md" />暮らし</span><br /></figcaption>
-                  </figure>
-                  <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal05"><img src={withPrefix("/images/art/sec02_img05_main.png")} /></a>
-                                        <figcaption>【積み木の家】<br /><span className="text-xsmall">つくっては変えられる<br className="show-xs-only hide-md" />発想を縛られない<br className="show-xs-only hide-md" />無柱空間</span></figcaption>
-                  </figure>
-                  <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal06"><img src={withPrefix("/images/art/sec02_img06_main.png")} /></a>
-                                        <figcaption>【軒の家】<br /><span className="text-xsmall">ダイナミックな吹抜け<br className="show-xs-only hide-md" />半戸外空間を持つ<br className="show-xs-only hide-md" />暮らし</span></figcaption>
-                  </figure>
-                  <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal07"><img src={withPrefix("/images/art/sec02_img07_main.png")} /></a>
-                                        <figcaption>【大開口の家】<br /><span className="text-xsmall">これからの省エネ基準を解決する新発想の<br className="show-xs-only hide-md" />家づくり</span></figcaption>
-                  </figure>
-                  <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal09"><img src={withPrefix("/images/art/sec02_img09_main.png")} /></a>
-                                        <figcaption>【骨の見える家】<br /><span className="text-xsmall">中古流通時代における<br className="show-xs-only hide-md" />価値ある新築住宅<br className="show-xs-only hide-md" />システム</span></figcaption>
-                  </figure>
-                  <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal10"><img src={withPrefix("/images/art/sec02_img10_main.png")} /></a>
-                                        <figcaption>【外暮らしの家】<br /><span className="text-xsmall">小さく建てて、<br className="show-xs-only hide-md" />大きく暮らす家</span></figcaption>
-                  </figure>
+                <figure className="col-6">
+                  <a href="#" data-toggle="modal" data-target="#modal01"><img src={withPrefix("/images/art/sec02_img01_main.png")} /></a>
+                  <figcaption>【Life Block】<br /><span className="text-xsmall">家族参加でつくる<br className="show-xs-only hide-md" />新発想の家づくり</span></figcaption>
+                </figure>
+                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal02"><img src={withPrefix("/images/art/sec02_img02_main.png")} /></a>
+                  <figcaption>【育つ家】<br /><span className="text-xsmall">平屋から、<br className="show-xs-only hide-md" />みんなで育てる家</span></figcaption>
+                </figure>
+                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal03"><img src={withPrefix("/images/art/sec02_img03_main.png")} /></a>
+                  <figcaption>【ピロティの家】<br /><span className="text-xsmall">家の内外を曖昧に<br className="show-xs-only hide-md" />つなぐ、ピロティの<br className="show-xs-only hide-md" />新たな価値</span>
+                  </figcaption>
+                </figure>
+                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal04"><img src={withPrefix("/images/art/sec02_img04_main.png")} /></a>
+                  <figcaption>【門のある家】<br /><span className="text-xsmall">地域との距離感を選択<br className="show-xs-only hide-md" />できるデザインと<br className="show-xs-only hide-md" />暮らし</span><br /></figcaption>
+                </figure>
+                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal05"><img src={withPrefix("/images/art/sec02_img05_main.png")} /></a>
+                  <figcaption>【積み木の家】<br /><span className="text-xsmall">つくっては変えられる<br className="show-xs-only hide-md" />発想を縛られない<br className="show-xs-only hide-md" />無柱空間</span></figcaption>
+                </figure>
+                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal06"><img src={withPrefix("/images/art/sec02_img06_main.png")} /></a>
+                  <figcaption>【軒の家】<br /><span className="text-xsmall">ダイナミックな吹抜け<br className="show-xs-only hide-md" />半戸外空間を持つ<br className="show-xs-only hide-md" />暮らし</span></figcaption>
+                </figure>
+                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal07"><img src={withPrefix("/images/art/sec02_img07_main.png")} /></a>
+                  <figcaption>【大開口の家】<br /><span className="text-xsmall">これからの省エネ基準を解決する新発想の<br className="show-xs-only hide-md" />家づくり</span></figcaption>
+                </figure>
+                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal09"><img src={withPrefix("/images/art/sec02_img09_main.png")} /></a>
+                  <figcaption>【骨の見える家】<br /><span className="text-xsmall">中古流通時代における<br className="show-xs-only hide-md" />価値ある新築住宅<br className="show-xs-only hide-md" />システム</span></figcaption>
+                </figure>
+                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal10"><img src={withPrefix("/images/art/sec02_img10_main.png")} /></a>
+                  <figcaption>【外暮らしの家】<br /><span className="text-xsmall">小さく建てて、<br className="show-xs-only hide-md" />大きく暮らす家</span></figcaption>
+                </figure>
 
               </div>
             </section>

@@ -22,7 +22,12 @@ const SecondPage = () => (
 						<section className="article__section article__section01">
 							<p>ロイヤルSSS（スリーエス）構法は、先人の知恵と革新的テクノロジーを融合させて生まれた新しいニッポンの家づくり。 </p>
 							<p>木という天然素材の強さや優しさと、伝統的な木造建築の美しさや賢さを活かしながら、より永く、より安心して暮らせる住まいへと進化した「安心の木造住宅」です。</p>
-							<div className="text-center mt-5"><img src={withPrefix("/images/sss/royal_logo.png")} className="royal_logo" alt="ロゴ：ロイヤル構法" /></div>
+							<div className="text-center mt-5">
+								<div className="row">
+									<div className="col-md-6 col-12"><img src={withPrefix("/images/sss/gd_royal_sss.png")} className="gd_royal_sss" alt="グッドデザインロイヤルSSS構法" /></div>
+									<div className="col-md-6 col-12 mt-2"><img src={withPrefix("/images/sss/royal_logo.png")} className="royal_logo" alt="ロゴ：ロイヤル構法" /></div>
+								</div>
+							</div>
 						</section>
 						<section className="article__section article__section02">
 							<div className="movie__wrap row">

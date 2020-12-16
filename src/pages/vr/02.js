@@ -39,17 +39,6 @@ const SecondPage = () => (
 						<section className="article__section article__section02">
 							<h2>間取り</h2>
 							<div className="layout__list row">
-<<<<<<< HEAD
-								<div className="col-12 col-md-4">
-									<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr02/sec02_img01.png")} alt="1階間取り" /></div>
-									<p className="layout__list__caption text-center">1階</p>
-								</div>
-								<div className="col-12 col-md-4">
-									<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr02/sec02_img02.png")} alt="1.5階間取り" /></div>
-									<p className="layout__list__caption text-center">1.5階</p>
-								</div>
-								<div className="col-12 col-md-4">
-=======
 								<div className="col-12 col-md-12">
 									<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr02/sec02_img01.png")} alt="1階間取り" /></div>
 									<p className="layout__list__caption text-center">1階</p>
@@ -59,11 +48,6 @@ const SecondPage = () => (
 									<p className="layout__list__caption text-center">1.5階</p>
 								</div>
 								<div className="col-12 col-md-12">
-<<<<<<< HEAD
->>>>>>> develop_lct_mascat
-=======
->>>>>>> 630311f711f73eaa49accac4d5af1d93c346f306
->>>>>>> 7ff3c6d4b361602af45b040a68e87172bf63f962
 									<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr02/sec02_img03.png")} alt="2階間取り" /></div>
 									<p className="layout__list__caption text-center">2階</p>
 								</div>

@@ -19,12 +19,6 @@ const SecondPage = () => (
             <section className="menu__section">
               <div className="menu__list row">
                 <div className="col-12 col-md-6">
-                  <Link to="/vr/24">
-                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img07.jpg")} alt="プラステージナチュラルモダンスタイル" /></div>
-                    <p className="menu__list__caption icon_triborder">プラスパティオ<br />StayHomeDesign「VILLA」</p>
-                  </Link>
-                </div>
-                <div className="col-12 col-md-6">
                   <Link to="/vr/01">
                     <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img01.jpg")} alt="プラステージナチュラルモダンスタイル" /></div>
                     <p className="menu__list__caption icon_triborder">プラステージ<br />ナチュラルモダンスタイル</p>
@@ -46,6 +40,12 @@ const SecondPage = () => (
                   <Link to="/vr/04">
                     <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img04.jpg")} alt="ビルトインガレージのある家" /></div>
                     <p className="menu__list__caption icon_triborder">ビルトインガレージのある家</p>
+                  </Link>
+                </div>
+                <div className="col-12 col-md-6">
+                  <Link to="/vr/24">
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img07.jpg")} alt="プラステージナチュラルモダンスタイル" /></div>
+                    <p className="menu__list__caption icon_triborder">プラスパティオ<br />StayHomeDesign「VILLA」</p>
                   </Link>
                 </div>
                 <div className="col-12 col-md-6">

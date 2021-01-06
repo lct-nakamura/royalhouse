@@ -44,8 +44,8 @@ const SecondPage = () => (
                 </div>
                 <div className="col-12 col-md-6">
                   <Link to="/vr/24">
-                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img07.jpg")} alt="プラステージナチュラルモダンスタイル" /></div>
-                    <p className="menu__list__caption icon_triborder">プラスパティオ<br />StayHomeDesign「VILLA」</p>
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img07.jpg")} alt="プラスパティオStayHomeDesign" /></div>
+                    <p className="menu__list__caption icon_triborder">プラスパティオ<br />StayHomeDesign</p>
                   </Link>
                 </div>
                 <div className="col-12 col-md-6">

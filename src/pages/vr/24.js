@@ -9,12 +9,12 @@ import Map from "../../components/map"
 
 const SecondPage = () => (
 	<Layout>
-		<SEO title="プラスパティオ StayHomeDesign「VILLA」" />
+		<SEO title="プラスパティオ StayHomeDesign" />
 		<article className="l-article">
 			<div className="article__container">
 				<button className="article__btn--close js-articlebtn-close"><span></span><span></span><span></span></button>
 				<div className="article__title">
-					<h1>プラスパティオ StayHomeDesign「VILLA」</h1>
+					<h1>プラスパティオ StayHomeDesign</h1>
 				</div>
 				<div className="article__contents">
 					<div className="container">
@@ -22,7 +22,7 @@ const SecondPage = () => (
 							<h2>CGムービー体験</h2>
 							<div className="movie__wrap row">
 								<div className="col-12 col-md-12">
-									<div className="movie text-center"><iframe title="プラスパティオ StayHomeDesign「VILLA」" width="560" height="315" src="https://www.youtube.com/embed/95FVhNZ9fUc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+									<div className="movie text-center"><iframe title="プラスパティオ StayHomeDesign" width="560" height="315" src="https://www.youtube.com/embed/95FVhNZ9fUc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 								</div>
 							</div>
 						</section>
@@ -30,7 +30,7 @@ const SecondPage = () => (
 							<h2>VR見学</h2>
 							<h3>画面からVR</h3>
 							<div className="section__image">
-								<a href="https://iehaco.jp/park/vr/24/3d/" target="_blank" rel="noreferrer"><img src={withPrefix("/images/vr/vr24/sec01_img01.jpg")} alt="プラスパティオ StayHomeDesign「VILLA」内装" /></a>
+								<a href="https://iehaco.jp/park/vr/24/3d/" target="_blank" rel="noreferrer"><img src={withPrefix("/images/vr/vr24/sec01_img01.jpg")} alt="プラスパティオ StayHomeDesign内装" /></a>
 							</div>
 							<div className="button__wrap">
 								<a href="https://iehaco.jp/park/vr/24/3d/" target="_blank" rel="noreferrer" className="button button--primary">VRで体験する</a>

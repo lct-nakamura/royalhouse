@@ -66,7 +66,7 @@ const SecondPage = () => (
 												<td> 3.31㎡</td>
 											</tr>
 											<tr>
-												<td>1階 ﾄｲﾚ</td>
+												<td>1階 トイレ</td>
 												<td> 2.36㎡</td>
 											</tr>
 											<tr>

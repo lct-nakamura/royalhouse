@@ -40,7 +40,7 @@ const SecondPage = () => (
               <a href="https://my.matterport.com/show/?m=YxZJP2ioLVk&play=1&lang=jp&st=3000&ts=1" target="_blank" className="bnr_lifeblock_vr">
                 <div className="row">
                   <div className="col-sm-4">
-                    <img src={withPrefix("/images/lifeblock/gd_logo2019.png")} alt="GOOD DESIGN AWARD 2019" />
+                    <img src={withPrefix("/images/lifeblock/gd_royal_sss.png")} alt="GOOD DESIGN ロイヤルSSS構法で建てる家" />
                   </div>
                   <div className="col-sm-8">
                     <p>展示場にいるかのようなリアルな体験！<br />住まいの内観や外観を見ることができます。</p>

@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{RXBc:function(t,n,c){"use strict";c.r(n);var e=c("nKUr"),s=(c("q1tI"),c("Wbzz"),c("Bl7J")),r=(c("tBDR"),c("vrFN")),a=c("wWKz");n.default=function(){return Object(e.jsxs)(s.a,{children:[Object(e.jsx)(r.a,{title:"トップ"}),Object(e.jsx)(a.a,{})]})}}}]);
-//# sourceMappingURL=component---src-pages-index-js-76fd3a9e53b0278dace8.js.map

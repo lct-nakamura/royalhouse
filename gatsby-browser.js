@@ -31,13 +31,13 @@ function balloonAnime() {
     });
 
     timelineParameters
-    .add({
-        targets: '.map-balloon',
-        translateX: [{ value: randomMovementX }, { value: randomMovementX }, { value: randomMovementX }, { value: 0 }],
-        translateY: [{ value: randomMovementY }, { value: randomMovementY }, { value: randomMovementY }, { value: 0 }],
-        easing: 'linear',
-        duration: randomSpeed,
-    });
+        .add({
+            targets: '.map-balloon',
+            translateX: [{ value: randomMovementX }, { value: randomMovementX }, { value: randomMovementX }, { value: 0 }],
+            translateY: [{ value: randomMovementY }, { value: randomMovementY }, { value: randomMovementY }, { value: 0 }],
+            easing: 'linear',
+            duration: randomSpeed,
+        });
 }
 
 
@@ -80,13 +80,25 @@ export const onInitialClientRender = () => {
             }
         });
 
+        //コンタクトフォームのチェックボックスバリデーション
+        $(function () {
+            $("#contact__submit").on("click", function () {
+                var checkedsum = $('.form-check-input:checked').length; //チェックが入っているチェックボックスの取得
+                if (checkedsum > 0) {
+                    $('.form-check-input').prop("required", false);
+                } else {
+                    $('.form-check-input').prop("required", true);
+                }
+            });
+        });
+
         balloonAnime();
 
         // スマホでのマップ表示位置を中央へ
         var mainMap = document.querySelector('.main-map');
-        if (window.matchMedia( "(max-width: 480px)" ).matches) {
+        if (window.matchMedia("(max-width: 480px)").matches) {
             mainMap.scrollLeft += 150;
-        } else if (window.matchMedia( "(max-width: 768px)" ).matches) {
+        } else if (window.matchMedia("(max-width: 768px)").matches) {
             mainMap.scrollLeft += 60;
         } else {
             mainMap.scrollLeft += 0;
@@ -151,13 +163,25 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
             $('.l-article').addClass('is-show');
         });
 
+        //コンタクトフォームのチェックボックスバリデーション
+        $(function () {
+            $("#contact__submit").on("click", function () {
+                var checkedsum = $('.form-check-input:checked').length; //チェックが入っているチェックボックスの取得
+                if (checkedsum > 0) {
+                    $('.form-check-input').prop("required", false);
+                } else {
+                    $('.form-check-input').prop("required", true);
+                }
+            });
+        });
+
         balloonAnime();
 
         // スマホでのマップ表示位置を中央へ
         var mainMap = document.querySelector('.main-map');
-        if (window.matchMedia( "(max-width: 480px)" ).matches) {
+        if (window.matchMedia("(max-width: 480px)").matches) {
             mainMap.scrollLeft += 150;
-        } else if (window.matchMedia( "(max-width: 768px)" ).matches) {
+        } else if (window.matchMedia("(max-width: 768px)").matches) {
             mainMap.scrollLeft += 60;
         } else {
             mainMap.scrollLeft += 0;
@@ -168,6 +192,7 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
 export const onRouteUpdateDelayed = () => {
     // console.log("Now Loading...")
 }
+
 
 
 

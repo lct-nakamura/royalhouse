@@ -4,7 +4,7 @@
 #
 #  PHPメールプログラム　フリー版 最終更新日2018/07/27
 #　改造や改変は自己責任で行ってください。
-#	
+#
 #  HP: http://www.php-factory.net/
 #
 #  重要！！サイトでチェックボックスを使用する場合のみですが。。。
@@ -30,17 +30,19 @@ if (version_compare(PHP_VERSION, '5.1.0', '>=')) {//PHP5.1.0以上の場合の�
 //---------------------------　必須設定　必ず設定してください　-----------------------
 
 //サイトのトップページのURL　※デフォルトでは送信完了後に「トップページへ戻る」ボタンが表示されますので
-$site_top = "https://iehaco.jp/park/";
+$site_top = "https://iehaco.jp/test/";
 
 //管理者のメールアドレス ※メールを受け取るメールアドレス(複数指定する場合は「,」で区切ってください 例 $to = "aa@aa.aa,bb@bb.bb";)
-$to = "xxxxxxx@xxxx.xx";
+//$to = "mail@royal-house.co.jp";
+$to = "chiho8052@gmail.com";
 
 //自動返信メールの送信元メールアドレス
 //必ず実在するメールアドレスでかつ出来る限り設置先サイトのドメインと同じドメインのメールアドレスとすることを強く推奨します
-$from = "xxxxxxx@xxxx.xx";
+//$from = "mail@royal-house.co.jp";
+$from = "chiho8052@gmail.com";
 
 //フォームのメールアドレス入力箇所のname属性の値（name="○○"　の○○部分）
-$Email = "Email";
+$Email = "email";
 //---------------------------　必須設定　ここまで　------------------------------------
 
 
@@ -84,13 +86,13 @@ $confirmDsp = 1;
 $jumpPage = 0;
 
 // 送信完了後に表示するページURL（上記で1を設定した場合のみ）※httpから始まるURLで指定ください。（相対パスでも基本的には問題ないです）
-$thanksPage = "http://xxx.xxxxxxxxx/thanks.html";
+$thanksPage = "/thanks";
 
 // 必須入力項目を設定する(する=1, しない=0)
 $requireCheck = 0;
 
 /* 必須入力項目(入力フォームで指定したname属性の値を指定してください。（上記で1を設定した場合のみ）
-値はシングルクォーテーションで囲み、複数の場合はカンマで区切ってください。フォーム側と順番を合わせると良いです。 
+値はシングルクォーテーションで囲み、複数の場合はカンマで区切ってください。フォーム側と順番を合わせると良いです。
 配列の形「name="○○[]"」の場合には必ず後ろの[]を取ったものを指定して下さい。*/
 $require = array('お名前','Email');
 
@@ -116,28 +118,43 @@ $dsp_name = 'お名前';
 //自動返信メールの冒頭の文言 ※日本語部分のみ変更可
 $remail_text = <<< TEXT
 
-お問い合わせありがとうございました。
-早急にご返信致しますので今しばらくお待ちください。
-
-送信内容は以下になります。
-
+◇ご注意    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+このメールはお問い合わせフォームよりお問い合わせいただいた方へ自動送信しております。
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━□■□　お問い合わせ内容　□■□━━━━━━━━━━━━━━━━━━━━━
 TEXT;
 
 
+$remail_text_sub = <<< TEXTSUB
+
+---------------------------------------------------------------------------------------------------------------
+お問い合せ内容を確認次第、3営業日以内にご返答いたしますので、
+今しばらくお待ちくださいますよう、よろしくお願い申し上げます。
+また、稀にお問い合わせいただいたメールが迷惑メールフォルダに振り分けられご連絡が遅れる場合がございます。
+お急ぎの場合や、3営業日を過ぎて連絡がない場合は、お手数ですがお電話にて再度ご連絡をお願いいたします。
+恐れ入りますが、予めご了承くださいますようお願いいたします。
+それでは今しばらくお待ちくださいませ。
+TEXTSUB;
+
+
+
+
+
 //自動返信メールに署名（フッター）を表示(する=1, しない=0)※管理者宛にも表示されます。
-$mailFooterDsp = 0;
+$mailFooterDsp = 1;
 
 //上記で「1」を選択時に表示する署名（フッター）（FOOTER～FOOTER;の間に記述してください）
 $mailSignature = <<< FOOTER
 
-──────────────────────
-株式会社○○○○　佐藤太郎
-〒150-XXXX 東京都○○区○○ 　○○ビル○F　
-TEL：03- XXXX - XXXX 　FAX：03- XXXX - XXXX
-携帯：090- XXXX - XXXX 　
-E-mail:xxxx@xxxx.com
-URL: http://www.php-factory.net/
-──────────────────────
+---------------------------------------------------------------------------------------------------------------
+ロイヤルハウス株式会社
+住所：〒460-0002
+愛知県名古屋市中区丸の内3丁目20番3号 BPRプレイス久屋大通 4階
+TEL：
+052-959-3700（代）
+0120-6186-21（フリーダイヤル）
+---------------------------------------------------------------------------------------------------------------
+
 
 FOOTER;
 
@@ -166,7 +183,7 @@ $use_envelope = 0;
 
 //機種依存文字の変換
 /*たとえば㈱（かっこ株）や①（丸1）、その他特殊な記号や特殊な漢字などは変換できずに「？」と表示されます。それを回避するための機能です。
-確認画面表示時に置換処理されます。「変換前の文字」が「変換後の文字」に変換され、送信メール内でも変換された状態で送信されます。（たとえば「㈱」の場合、「（株）」に変換されます） 
+確認画面表示時に置換処理されます。「変換前の文字」が「変換後の文字」に変換され、送信メール内でも変換された状態で送信されます。（たとえば「㈱」の場合、「（株）」に変換されます）
 必要に応じて自由に追加して下さい。ただし、変換前の文字と変換後の文字の順番と数は必ず合わせる必要がありますのでご注意下さい。*/
 
 //変換前の文字
@@ -219,9 +236,9 @@ if(empty($errm)){
 		}
 	}
 }
-  
+
 if(($confirmDsp == 0 || $sendmail == 1) && $empty_flag != 1){
-	
+
 	//トークンチェック（CSRF対策）※確認画面がONの場合のみ実施
 	if($useToken == 1 && $confirmDsp == 1){
 		if(empty($_SESSION['mailform_token']) || ($_SESSION['mailform_token'] !== $_POST['mailform_token'])){
@@ -230,10 +247,10 @@ if(($confirmDsp == 0 || $sendmail == 1) && $empty_flag != 1){
 		if(isset($_SESSION['mailform_token'])) unset($_SESSION['mailform_token']);//トークン破棄
 		if(isset($_POST['mailform_token'])) unset($_POST['mailform_token']);//トークン破棄
 	}
-	
+
 	//差出人に届くメールをセット
 	if($remail == 1) {
-		$userBody = mailToUser($_POST,$dsp_name,$remail_text,$mailFooterDsp,$mailSignature,$encode);
+		$userBody = mailToUser($_POST,$dsp_name,$remail_text,$remail_text_sub,$mailFooterDsp,$mailSignature,$encode);
 		$reheader = userHeader($refrom_name,$from,$encode);
 		$re_subject = "=?iso-2022-jp?B?".base64_encode(mb_convert_encoding($re_subject,"JIS",$encode))."?=";
 	}
@@ -241,7 +258,7 @@ if(($confirmDsp == 0 || $sendmail == 1) && $empty_flag != 1){
 	$adminBody = mailToAdmin($_POST,$subject,$mailFooterDsp,$mailSignature,$encode,$confirmDsp);
 	$header = adminHeader($userMail,$post_mail,$BccMail,$to);
 	$subject = "=?iso-2022-jp?B?".base64_encode(mb_convert_encoding($subject,"JIS",$encode))."?=";
-	
+
 	//-fオプションによるエンベロープFrom（Return-Path）の設定(safe_modeがOFFの場合かつ上記設定がONの場合のみ実施)
 	if($use_envelope == 0){
 		mail($to,$subject,$adminBody,$header);
@@ -251,7 +268,7 @@ if(($confirmDsp == 0 || $sendmail == 1) && $empty_flag != 1){
 		if($remail == 1 && !empty($post_mail)) mail($post_mail,$re_subject,$userBody,$reheader,'-f'.$from);
 	}
 }
-else if($confirmDsp == 1){ 
+else if($confirmDsp == 1){
 
 /*　▼▼▼送信確認画面のレイアウト※編集可　オリジナルのデザインも適用可能▼▼▼　*/
 ?>
@@ -346,7 +363,7 @@ input[type="submit"], input[type="reset"], input[type="button"] {
 /* ▲▲▲送信確認画面のレイアウト　※オリジナルのデザインも適用可能▲▲▲　*/
 }
 
-if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 && $sendmail == 0))) { 
+if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 && $sendmail == 0))) {
 
 /* ▼▼▼送信完了画面のレイアウト　編集可 ※送信完了後に指定のページに移動しない場合のみ表示▼▼▼　*/
 ?>
@@ -376,15 +393,15 @@ if(($jumpPage == 0 && $sendmail == 1) || ($jumpPage == 0 && ($confirmDsp == 0 &&
 <!--  CV率を計測する場合ここにAnalyticsコードを貼り付け -->
 </body>
 </html>
-<?php 
+<?php
 /* ▲▲▲送信完了画面のレイアウト 編集可 ※送信完了後に指定のページに移動しない場合のみ表示▲▲▲　*/
   }
 }
 //確認画面無しの場合の表示、指定のページに移動する設定の場合、エラーチェックで問題が無ければ指定ページヘリダイレクト
-else if(($jumpPage == 1 && $sendmail == 1) || $confirmDsp == 0) { 
+else if(($jumpPage == 1 && $sendmail == 1) || $confirmDsp == 0) {
 	if($empty_flag == 1){ ?>
 <div align="center"><h4>入力にエラーがあります。下記をご確認の上「戻る」ボタンにて修正をお願い致します。</h4><div style="color:red"><?php echo $errm; ?></div><br /><br /><input type="button" value=" 前画面に戻る " onClick="history.back()"></div>
-<?php 
+<?php
 	}else{ header("Location: ".$thanksPage); }
 }
 
@@ -426,7 +443,7 @@ function postToMail($arr){
 	foreach($arr as $key => $val) {
 		$out = '';
 		if(is_array($val)){
-			foreach($val as $key02 => $item){ 
+			foreach($val as $key02 => $item){
 				//連結項目の処理
 				if(is_array($item)){
 					$out .= connect2val($item);
@@ -435,13 +452,13 @@ function postToMail($arr){
 				}
 			}
 			$out = rtrim($out,', ');
-			
+
 		}else{ $out = $val; }//チェックボックス（配列）追記ここまで
-		
+
 		if (version_compare(PHP_VERSION, '5.1.0', '<=')) {//PHP5.1.0以下の場合のみ実行（7.4でget_magic_quotes_gpcが非推奨になったため）
 			if(get_magic_quotes_gpc()) { $out = stripslashes($out); }
 		}
-		
+
 		//全角→半角変換
 		if($hankaku == 1){
 			$out = zenkaku2hankaku($key,$out,$hankaku_array);
@@ -459,7 +476,7 @@ function confirmOutput($arr){
 	foreach($arr as $key => $val) {
 		$out = '';
 		if(is_array($val)){
-			foreach($val as $key02 => $item){ 
+			foreach($val as $key02 => $item){
 				//連結項目の処理
 				if(is_array($item)){
 					$out .= connect2val($item);
@@ -468,22 +485,22 @@ function confirmOutput($arr){
 				}
 			}
 			$out = rtrim($out,', ');
-			
+
 		}else{ $out = $val; }//チェックボックス（配列）追記ここまで
-		
+
 		if (version_compare(PHP_VERSION, '5.1.0', '<=')) {//PHP5.1.0以下の場合のみ実行（7.4でget_magic_quotes_gpcが非推奨になったため）
 			if(get_magic_quotes_gpc()) { $out = stripslashes($out); }
 		}
-		
+
 		$out = nl2br(h($out));//※追記 改行コードを<br>タグに変換
 		$key = h($key);
 		$out = str_replace($replaceStr['before'], $replaceStr['after'], $out);//機種依存文字の置換処理
-		
+
 		//全角→半角変換
 		if($hankaku == 1){
 			$out = zenkaku2hankaku($key,$out,$hankaku_array);
 		}
-		
+
 		$html .= "<tr><th>".$key."</th><td>".$out;
 		$html .= '<input type="hidden" name="'.$key.'" value="'.str_replace(array("<br />","<br>"),"",$out).'" />';
 		$html .= "</td></tr>\n";
@@ -494,7 +511,7 @@ function confirmOutput($arr){
 		$_SESSION['mailform_token'] = $token;
 		$html .= '<input type="hidden" name="mailform_token" value="'.$token.'" />';
 	}
-	
+
 	return $html;
 }
 
@@ -576,13 +593,15 @@ function userHeader($refrom_name,$to,$encode){
 	return $reheader;
 }
 //ユーザ宛送信メールボディ
-function mailToUser($arr,$dsp_name,$remail_text,$mailFooterDsp,$mailSignature,$encode){
+function mailToUser($arr,$dsp_name,$remail_text,$remail_text_sub,$mailFooterDsp,$mailSignature,$encode){
 	$userBody = '';
 	if(isset($arr[$dsp_name])) $userBody = h($arr[$dsp_name]). " 様\n";
 	$userBody.= $remail_text;
-	$userBody.="\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\n";
+	$userBody.="\n";
+	//$userBody.="\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\n";
 	$userBody.= postToMail($arr);//POSTデータを関数からセット
-	$userBody.="\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\n";
+	//$userBody.="\n＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝\n\n";
+	$userBody.= $remail_text_sub;
 	$userBody.="送信日時：".date( "Y/m/d (D) H:i:s", time() )."\n";
 	if($mailFooterDsp == 1) $userBody.= $mailSignature;
 	return mb_convert_encoding($userBody,"JIS",$encode);
@@ -595,7 +614,7 @@ function requireCheck($require){
 		$existsFalg = '';
 		foreach($_POST as $key => $val) {
 			if($key == $requireVal) {
-				
+
 				//連結指定の項目（配列）のための必須チェック
 				if(is_array($val)){
 					$connectEmpty = 0;
@@ -607,7 +626,7 @@ function requireCheck($require){
 								}
 							}
 						}
-						
+
 					}
 					if($connectEmpty > 0){
 						$res['errm'] .= "<p class=\"error_messe\">【".h($key)."】は必須項目です。</p>\n";
@@ -619,18 +638,18 @@ function requireCheck($require){
 					$res['errm'] .= "<p class=\"error_messe\">【".h($key)."】は必須項目です。</p>\n";
 					$res['empty_flag'] = 1;
 				}
-				
+
 				$existsFalg = 1;
 				break;
 			}
-			
+
 		}
 		if($existsFalg != 1){
 				$res['errm'] .= "<p class=\"error_messe\">【".$requireVal."】が未選択です。</p>\n";
 				$res['empty_flag'] = 1;
 		}
 	}
-	
+
 	return $res;
 }
 //リファラチェック
@@ -642,7 +661,7 @@ function refererCheck($Referer_check,$Referer_check_domain){
 	}
 }
 function copyright(){
-	echo '<a style="display:block;text-align:center;margin:15px 0;font-size:11px;color:#aaa;text-decoration:none" href="http://www.php-factory.net/" target="_blank">- PHP工房 -</a>';
+	echo '<!--<a style="display:block;text-align:center;margin:15px 0;font-size:11px;color:#aaa;text-decoration:none" href="http://www.php-factory.net/" target="_blank">- PHP工房 -</a>-->';
 }
 //----------------------------------------------------------------------
 //  関数定義(END)

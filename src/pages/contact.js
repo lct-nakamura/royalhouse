@@ -22,29 +22,29 @@ const SecondPage = () => (
 
               <h2>お問い合わせフォーム</h2>
               <p>子育てしやすい家・ペットと暮らす・二世帯住宅の暮らし・趣味を楽しむなど、実現したい暮らし方とその実現について、些細なことでもご相談ください！</p>
-              <form id="mailformpro" action="mail.php" method="POST">
+              <form id="mailformpro" action="../mail.php" method="POST">
                 <div className="form-group row">
-                  <div className="col-12 col-sm-6 required"><label for="MfpField_01">お問い合わせ内容をご選択ください。</label><p className="small">※複数選択可能</p></div>
-                  <div className="input-group col-12 col-sm-6 ">
+                  <div className="col-12 col-sm-6 required"><label for="MfpField_01" required="required">お問い合わせ内容をご選択ください。</label><p className="small">※複数選択可能</p></div>
+                  <div className="input-group col-12 col-sm-6">
 
                     <div className="form-check d-block w-100">
-                      <input className="form-check-input" type="checkbox" id="MfpField_01a" />
+                      <input className="form-check-input" type="checkbox" id="MfpField_01a" name="お問い合わせ内容選択[]" value="暮らしについて" />
                       <label className="form-check-label" for="MfpField_01a">暮らしについて</label>
                     </div>
                     <div className="form-check d-block w-100">
-                      <input className="form-check-input" type="checkbox" id="MfpField_01b" />
+                      <input className="form-check-input" type="checkbox" id="MfpField_01b" name="お問い合わせ内容選択[]" value="住宅や性能について" />
                       <label className="form-check-label" for="MfpField_01b">住宅や性能について</label>
                     </div>
                     <div className="form-check d-block w-100">
-                      <input className="form-check-input" type="checkbox" id="MfpField_01c" />
+                      <input className="form-check-input" type="checkbox" id="MfpField_01c" name="お問い合わせ内容選択[]" value="間取りについて" />
                       <label className="form-check-label" for="MfpField_01c">間取りについて</label>
                     </div>
                     <div className="form-check d-block w-100">
-                      <input className="form-check-input" type="checkbox" id="MfpField_01d" />
+                      <input className="form-check-input" type="checkbox" id="MfpField_01d" name="お問い合わせ内容選択[]" value="土地探しについて" />
                       <label className="form-check-label" for="MfpField_01d">土地探しについて </label>
                     </div>
                     <div className="form-check d-block w-100">
-                      <input className="form-check-input" type="checkbox" id="MfpField_01e" />
+                      <input className="form-check-input" type="checkbox" id="MfpField_01e" name="お問い合わせ内容選択[]" value="設備、商品について" />
                       <label className="form-check-label" for="MfpField_01e">設備、商品について </label>
                     </div>
                   </div>
@@ -71,7 +71,7 @@ const SecondPage = () => (
                   <div className="col-12 col-sm-4 required"><label for="MfpField_05">お住いの地域</label></div>
                   <div className="input-group col-12 col-sm-8 ">
                     <div className="w-100">
-                      <select className="custom-select" id="MfpField_05" name="都道府県" required="required">
+                      <select className="custom-select" id="MfpField_05" name="都道府県[]" required="required">
                         <option value="" selected="selected">【選択して下さい】</option>
                         <optgroup label="北海道・東北地方">
                           <option value="北海道">北海道</option>
@@ -140,10 +140,10 @@ const SecondPage = () => (
                 </div>
                 <div className="form-group row">
                   <div className="col-12 col-sm-4 required"><label for="MfpField_06">お問い合わせ内容</label></div>
-                  <div className="input-group col-12 col-sm-8 "> <textarea id="MfpField_06" className="form-control"  rows="5" placeholder="こちらにお問い合わせ内容を入力してください"></textarea></div>
+                  <div className="input-group col-12 col-sm-8 "> <textarea id="MfpField_06" className="form-control" rows="5" placeholder="こちらにお問い合わせ内容を入力してください" required="required" name="お問い合わせ内容"></textarea></div>
                 </div>
 
-                <p className="text-center button__submit"><button type="submit" className="button button--primary">確認画面へ</button></p>
+                <p className="text-center button__submit"><button type="submit" className="button button--primary" id="contact__submit">確認画面へ</button></p>
               </form>
             </section>
           </div>
@@ -153,5 +153,4 @@ const SecondPage = () => (
     <Map />
   </Layout>
 )
-
 export default SecondPage

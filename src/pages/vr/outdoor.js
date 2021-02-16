@@ -20,13 +20,13 @@ const SecondPage = () => (
                 <div className="menu__list row">
                   <div className="col-12 col-md-6">
                     <Link to="/vr/08">
-                      <div className="menu__list__image"><img src={withPrefix("/images/vr/outdoor/menu_img01.jpg")} alt="" /></div>
+                      <div className="menu__list__image"><img src={withPrefix("/images/vr/outdoor/menu_img01.jpg")} alt="西海岸West Coast" /></div>
                       <p className="menu__list__caption icon_triborder">eSSSize<br />西海岸West Coast</p>
                     </Link>
                   </div>
                   <div className="col-12 col-md-6">
                     <Link to="/vr/09">
-                      <div className="menu__list__image"><img src={withPrefix("/images/vr/outdoor/menu_img02.jpg")} alt="" /></div>
+                      <div className="menu__list__image"><img src={withPrefix("/images/vr/outdoor/menu_img02.jpg")} alt="キャビンスタイル" /></div>
                       <p className="menu__list__caption icon_triborder">eSSSize<br />キャビンスタイル</p>
                     </Link>
                   </div>

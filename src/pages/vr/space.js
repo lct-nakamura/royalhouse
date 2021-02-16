@@ -20,37 +20,43 @@ const SecondPage = () => (
               <div className="menu__list row">
                 <div className="col-12 col-md-6">
                   <Link to="/vr/01">
-                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img01.jpg")} alt="" /></div>
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img01.jpg")} alt="プラステージナチュラルモダンスタイル" /></div>
                     <p className="menu__list__caption icon_triborder">プラステージ<br />ナチュラルモダンスタイル</p>
                   </Link>
                 </div>
                 <div className="col-12 col-md-6">
                   <Link to="/vr/02">
-                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img02.jpg")} alt="" /></div>
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img02.jpg")} alt="北欧モデルスタイル" /></div>
                     <p className="menu__list__caption icon_triborder">プラステージ<br />北欧モデルスタイル</p>
                   </Link>
                 </div>
                 <div className="col-12 col-md-6">
                   <Link to="/vr/03">
-                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img03.jpg")} alt="" /></div>
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img03.jpg")} alt="アーバンステージ" /></div>
                     <p className="menu__list__caption icon_triborder">アーバンステージ</p>
                   </Link>
                 </div>
                 <div className="col-12 col-md-6">
                   <Link to="/vr/04">
-                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img04.jpg")} alt="" /></div>
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img04.jpg")} alt="ビルトインガレージのある家" /></div>
                     <p className="menu__list__caption icon_triborder">ビルトインガレージのある家</p>
                   </Link>
                 </div>
                 <div className="col-12 col-md-6">
+                  <Link to="/vr/24">
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img07.jpg")} alt="プラスパティオStayHomeDesign" /></div>
+                    <p className="menu__list__caption icon_triborder">プラスパティオ<br />StayHomeDesign</p>
+                  </Link>
+                </div>
+                <div className="col-12 col-md-6">
                   <Link to="/vr/05">
-                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img05.jpg")} alt="" /></div>
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img05.jpg")} alt="中庭のある家" /></div>
                     <p className="menu__list__caption icon_triborder">プラスパティオ<br />中庭のある家</p>
                   </Link>
                 </div>
                 <div className="col-12 col-md-6">
                   <Link to="/vr/06">
-                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img06.jpg")} alt="" /></div>
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/space/menu_img06.jpg")} alt="空庭のある家" /></div>
                     <p className="menu__list__caption icon_triborder">プラスパティオ<br />空庭のある家</p>
                   </Link>
                 </div>

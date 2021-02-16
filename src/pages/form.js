@@ -44,7 +44,7 @@ const SecondPage = () => (
             </section>
             <section className="article__section article__section02">
               <h2>プレミアム・カタログ・資料請求フォーム</h2>
-              <form id="mailformpro" action="mail.php" method="POST">
+              <form id="mailformpro" action="../mail.php" method="POST">
                 <div className="form-group row">
                   <div className="col-12 col-sm-4 required"><label for="MfpField_01">お名前</label></div>
                   <div className="input-group col-12 col-sm-8 ">
@@ -67,7 +67,7 @@ const SecondPage = () => (
                   <div className="form-group row">
                     <div className="col-12 col-sm-4 required"><label for="MfpField_04">郵便番号</label></div>
                     <div className="input-group col-12 col-sm-8 ">
-                      <input type="text" className="form-control" id="MfpField_04" placeholder="000-0000" name="郵便番号" data-address="都道府県,市区町村,市区町村" />
+                      <input type="text" className="form-control" id="MfpField_04" placeholder="000-0000" name="郵便番号" data-address="都道府県,市区町村,市区町村" required="required" />
                     </div>
                   </div>
                 </div>
@@ -76,7 +76,7 @@ const SecondPage = () => (
                   <div className="input-group col-12 col-sm-8 ">
                     <div className="w-100">
                       <label for="MfpField_05">都道府県</label>
-                      <select className="custom-select" id="MfpField_05" name="都道府県" required="required">
+                      <select className="custom-select" id="MfpField_05" name="都道府県[]" required="required">
                         <option value="" defaultValue="selected">【選択して下さい】</option>
                         <optgroup label="北海道・東北地方">
                           <option value="北海道">北海道</option>
@@ -154,13 +154,13 @@ const SecondPage = () => (
                 <div className="form-group row">
                   <div className="col-12 col-sm-4 required"><label for="MfpField_08">電話番号</label></div>
                   <div className="input-group col-12 col-sm-8 ">
-                    <input type="tel" id="MfpField_08" data-type="tel" name="電話番号" size="16" data-min="9" className="form-control" className="mfp_element_17" placeholder="000-0000-0000" style={{width: "96px"}} />
+                    <input type="tel" id="MfpField_08" data-type="tel" name="電話番号" size="16" data-min="9" className="form-control" className="mfp_element_17" placeholder="000-0000-0000" required="required" style={{width: "96px"}} />
                   </div>
                 </div>
                 <div className="form-group row">
                   <div className="col-12 col-sm-4 required"><label for="MfpField_09">ご職業</label></div>
                   <div className="input-group col-12 col-sm-8 ">
-                    <select className="custom-select" id="MfpField_09" name="ご職業" data-search-for="MfpField_15">
+                    <select className="custom-select" id="MfpField_09" name="ご職業" data-search-for="MfpField_15" required="required">
                       <option value="" defaultValue="selected">【選択して下さい】</option>
                       <option value="会社員">会社員 </option>
                       <option value="会社役員">会社役員 </option>
@@ -175,11 +175,11 @@ const SecondPage = () => (
                     <label for="MfpField_10">今後ロイヤルハウスからの<br />最新情報をお送りしてもよろしいですか？</label>
                   </div>
                   <div className="form-check">
-                    <input className="form-check-input" type="radio" name="radio1" id="MfpField_10a" checked />
+                    <input className="form-check-input" type="radio" name="最新情報送信[]" value="はい" id="MfpField_10a" checked />
                     <label className="form-check-label" for="MfpField_10a">はい</label>
                   </div>
                   <div className="form-check">
-                    <input className="form-check-input" type="radio" name="radio1" id="MfpField_10b" />
+                    <input className="form-check-input" type="radio" name="最新情報送信[]" value="いいえ" id="MfpField_10b" />
                     <label className="form-check-label" for="MfpField_10b">いいえ</label>
                   </div>
                 </div>

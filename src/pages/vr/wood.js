@@ -20,31 +20,31 @@ const SecondPage = () => (
               <div className="menu__list row">
                 <div className="col-12 col-md-6">
                   <Link to="/vr/10">
-                    <div className="menu__list__image"><img src={withPrefix("/images/vr/wood/menu_img01.jpg")} alt="" /></div>
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/wood/menu_img01.jpg")} alt="kicoloスタイリッシュStyle" /></div>
                     <p className="menu__list__caption icon_triborder">kicolo<br />スタイリッシュStyle</p>
                   </Link>
                 </div>
                 <div className="col-12 col-md-6">
                   <Link to="/vr/11">
-                    <div className="menu__list__image"><img src={withPrefix("/images/vr/wood/menu_img02.jpg")} alt="" /></div>
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/wood/menu_img02.jpg")} alt="和モダンStyle" /></div>
                     <p className="menu__list__caption icon_triborder">kicolo<br />和モダンStyle</p>
                   </Link>
                 </div>
                 <div className="col-12 col-md-6">
                   <Link to="/vr/12">
-                    <div className="menu__list__image"><img src={withPrefix("/images/vr/wood/menu_img03.jpg")} alt="" /></div>
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/wood/menu_img03.jpg")} alt="テレワーク・新生活様式Style" /></div>
                     <p className="menu__list__caption icon_triborder">kicolo comfort<br />テレワーク・新生活様式Style</p>
                   </Link>
                 </div>
                 <div className="col-12 col-md-6">
                   <Link to="/vr/13">
-                    <div className="menu__list__image"><img src={withPrefix("/images/vr/wood/menu_img04.jpg")} alt="" /></div>
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/wood/menu_img04.jpg")} alt="平屋　スキップフロアつき" /></div>
                     <p className="menu__list__caption icon_triborder">kicolo<br />平屋　スキップフロアつき</p>
                   </Link>
                 </div>
                 <div className="col-12 col-md-6">
                   <Link to="/vr/14">
-                    <div className="menu__list__image"><img src={withPrefix("/images/vr/wood/menu_img05.jpg")} alt="" /></div>
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/wood/menu_img05.jpg")} alt="いごこちStyle" /></div>
                     <p className="menu__list__caption icon_triborder">kicolo comfort<br />いごこちStyle</p>
                   </Link>
                 </div>

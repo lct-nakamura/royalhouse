@@ -14,13 +14,14 @@
     display block
     width calc(100% - 460px)
     max-width 1000px
+    //height calc(100% - 70px)
     height 100%
-    background rgba(#fff,.95)
-    box-shadow 10px 0 10px -5px rgba(#000,.2)
+    background #e0e3d9
+    box-shadow 10px -75px 10px -5px rgba(#000,.15)
     overflow-scrolling touch
     transform:translateX(-100%)
     transition .3s
-    overflow auto
+    //overflow auto
     opacity 0
     z-index 3
     +md()
@@ -28,5 +29,100 @@
     &.is-show
         transform none
         opacity 1
+        .article__btn--back
+        .article__btn--close
+            animation navFadeIn .3s forwards .3s
     .article__container
         position relative
+        width 100%
+        height calc(100% - 70px)
+        background #fff
+        overflow auto
+        margin-top 70px
+    .article-nav
+        position fixed
+        left 0
+        top 0
+        display flex
+        width calc(100vw - 460px)
+        height 70px
+        max-width 1000px
+        align-items center
+        background #e0e3d9
+        padding 0 20px
+        z-index 99
+        +md()
+            width 100%
+            padding 0 10px
+    .article__btn--back
+        position relative
+        display inline-flex
+        align-items center
+        height 40px
+        background transparent
+        border 2px solid grn
+        border-radius 4px
+        color grn
+        font-weight bold
+        font-size 12px
+        padding 0 10px 0 10px
+        opacity 0
+        +sm()
+            font-size 16px
+            padding 0 10px 0 5px
+        &:hover
+            background grn
+            color #fff
+            opacity .8
+            svg
+                stroke #fff
+        i
+            width 14px
+            display block
+            margin-right 8px
+            +sm()
+                width 20px
+                margin-right 4px
+            svg
+                width 100%
+        span
+            span
+                +sm()
+                    display none
+    .article__btn--close
+        position relative
+        width: 68px;
+        height: 68px;
+        background: transparent;
+        color grn
+        margin 0 0 0 auto
+        opacity 0
+        z-index 2
+        +md()
+            margin-right 10px
+        span
+            position: absolute;
+            top: 50%
+            left: 50%
+            display: block
+            width: 41px
+            height: 3px
+            background: grn
+            border-radius 6px
+            margin: auto
+            transform: translate(-50%,-50%)
+            transform-origin: top left
+            transition .3s
+            opacity 0
+            &:first-of-type
+                opacity 1
+                transform: rotate(45deg) translate(-50%, -50%);
+            &:last-of-type
+                opacity 1
+                transform: rotate(-45deg) translate(-50%, -50%);
+
+@keyframes navFadeIn
+    0%
+        opacity 0
+    100%
+        opacity 1

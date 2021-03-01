@@ -126,11 +126,11 @@ img {
 
   .article__title{
     text-align: center;
-    padding: 80px;
+    padding: 36px 50px 80px;
     color: $color_primary;
     background: #E0E3D9;
     @include media(sm) {
-      padding: 40px 1em;
+      padding: 28px 1em 40px;
     }
     h1{
       @include fontsize(30);
@@ -144,9 +144,14 @@ img {
   }
   .article__contents{
     @include fontsize(14);
+    width: 100%;
     max-width: 700px;
     margin: 0 auto;
     padding: 70px 0;
+    overflow: hidden;
+    @include media(sm) {
+      padding-top: 30px;
+    }
   }
   .article__mv{
     margin-bottom:30px;

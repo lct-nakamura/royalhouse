@@ -12,7 +12,13 @@ const SecondPage = () => (
 		<SEO title="グランドワン 平屋の家 ふたり暮らしスタイル" />
 		<article className="l-article">
 			<div className="article__container">
-				<button className="article__btn--close js-articlebtn-close"><span></span><span></span><span></span></button>
+				<nav className="article-nav">
+					<a onClick={() => window.history.back()} className="article__btn--back">
+						<i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="56" height="56" viewBox="0 0 24 24" stroke-width="3" stroke="#1d945a" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="15 6 9 12 15 18" /></svg></i>
+						<span><span>１つ前のページへ</span>戻る</span>
+					</a>
+					<button className="article__btn--close js-articlebtn-close"><span></span><span></span><span></span></button>
+				</nav>
 				<div className="article__title">
 					<h1>グランドワン 平屋の家 ふたり暮らしスタイル</h1>
 				</div>

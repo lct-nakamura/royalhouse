@@ -6,8 +6,14 @@
 import "./src/stylus/style.styl"
 import "./src/scss/park.scss"
 
-import anime from 'animejs/lib/anime.es.js';
+import anime from 'animejs/lib/anime.es.js'
+import tingle from 'tingle.js'
+import Cookies from 'js-cookie'
+
 const $ = require("jquery")
+
+
+
 
 //風船アニメーション
 var randomMovementX = function () {
@@ -41,11 +47,48 @@ function balloonAnime() {
 }
 
 
+var ytModal = new tingle.modal({
+    onClose: function () {
+        console.log('close');
+    },
+    onOpen: function () {
+        console.log('open');
+    },
+    beforeOpen: function () {
+        console.log('before open');
+    },
+    beforeClose: function () {
+        console.log('before close');
+        return true;
+    },
+    cssClass: ['class1', 'class2']
+});
+// var btn = document.querySelector('.js-yt-modal-1');
+// btn.addEventListener('click', function () {
+//     ytModal.open();
+// });
+//ytModal.setContent(document.querySelector('.yt-modal').innerHTML);
+
+
+
+
 
 export const onClientEntry = () => {
     // console.log("We've started!")
     window.addEventListener('load', () => {
-        // document.body.classList.add('test')
+        if (document.querySelector('.yt-modal') != null) {
+            ytModal.setContent(document.querySelector('.yt-modal').innerHTML);
+        }
+        if (Cookies.get('access') == 'on') {
+            console.log('not first access!')
+        } else {
+            console.log('first access!')
+            if (document.querySelector('.yt-modal') != null) {
+                ytModal.open()
+            }
+
+        }
+        Cookies.set('access', 'on', { expires: 30 })
     });
 }
 
@@ -103,6 +146,8 @@ export const onInitialClientRender = () => {
         } else {
             mainMap.scrollLeft += 0;
         }
+
+
     })
 }
 

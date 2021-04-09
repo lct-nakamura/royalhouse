@@ -12,6 +12,11 @@ const IndexPage = () => (
   <Layout>
     <SEO title="トップ" />
     <Map />
+    <div className="yt-modal" style={{display:'none'}}>
+      <div className="ytWrap">
+        <iframe width="" height="" src="https://www.youtube-nocookie.com/embed/ScMzIvxBSi4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      </div>
+    </div>
   </Layout>
 )
 

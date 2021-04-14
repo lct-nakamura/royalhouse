@@ -29,7 +29,7 @@ const SecondPage = () => (
 							<div className="movie__wrap row">
 								<div className="col-12 col-md-12">
 									<div className="movie text-center">
-										<iframe width="560" height="315" src="https://www.youtube.com/embed/LvVlhvbeHOc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="e・co・de smart zero ウッディスタイル"></iframe></div>
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/LvVlhvbeHOc?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="e・co・de smart zero ウッディスタイル"></iframe></div>
 								</div>
 							</div>
 						</section>

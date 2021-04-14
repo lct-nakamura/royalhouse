@@ -149,6 +149,14 @@ export const onInitialClientRender = () => {
 
 
     })
+
+    //VR MOVIE　toggle
+$(function(){
+    $("#acMenu dt").on("click", function() {
+    $(this).next().slideToggle();
+    $(this).toggleClass("active");//追加部分
+    });
+    });
 }
 
 export const onPreRouteUpdate = ({ location, prevLocation }) => {
@@ -237,7 +245,6 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
 export const onRouteUpdateDelayed = () => {
     // console.log("Now Loading...")
 }
-
 
 
 

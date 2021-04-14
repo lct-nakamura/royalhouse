@@ -20,6 +20,7 @@
     "gatsby-plugin-sass": "^2.3.14",
     "gatsby-plugin-sharp": "^2.6.36",
     "gatsby-plugin-stylus": "^2.3.12",
+    "gatsby-remark-responsive-iframe": "^4.0.0",
     "gatsby-source-filesystem": "^2.3.30",
     "gatsby-transformer-sharp": "^2.5.15",
     "jquery": "^3.5.1",

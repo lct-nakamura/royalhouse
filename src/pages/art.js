@@ -9,7 +9,7 @@ import Map from "../components/map"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="美術館" />
+    <SEO title="グッドデザイン賞作品 マーターポート" />
     <article className="l-article">
       <div className="article__container">
         <nav className="article-nav">

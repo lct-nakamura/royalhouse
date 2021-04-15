@@ -12,7 +12,7 @@ const Map = () => (
             </div>
 
             <div className="map-balloon pt01">
-                <Link to="https://www.royal-house.co.jp/fcshop/" className="map-balloon__link" activeClassName="is-current">
+                <Link to="https://www.royal-house.co.jp/fcshop/" target="_blank" className="map-balloon__link" activeClassName="is-current">
                     <p>Royal house<br/>タウン</p>
                 </Link>
             </div>

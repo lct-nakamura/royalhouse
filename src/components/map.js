@@ -12,8 +12,8 @@ const Map = () => (
             </div>
 
             <div className="map-balloon pt01">
-                <Link to="/art" className="map-balloon__link" activeClassName="is-current">
-                    <p>グッドデザイン<br />Photoミュージアム</p>
+                <Link to="https://www.royal-house.co.jp/fcshop/" target="_blank" className="map-balloon__link" activeClassName="is-current">
+                    <p>Royal house<br/>タウン</p>
                 </Link>
             </div>
             <div className="map-balloon pt02">
@@ -67,10 +67,21 @@ const Map = () => (
                 </Link>
             </div>
             <div className="map-balloon pt12">
-                <Link to="/lifeblock" className="map-balloon__link" activeClassName="is-current">
-                    <p>「LIFE Block」の<br />バーチャル展示場</p>
+                <Link to="/art" className="map-balloon__link" activeClassName="is-current">
+                    <p>GD写真館&amp;<br/>マーターポート</p>
                 </Link>
             </div>
+            <div className="map-balloon pt13">
+                <Link to="/concept-movie" className="map-balloon__link" activeClassName="is-current">
+                    <p>コンセプトムービー</p>
+                </Link>
+            </div>
+            <div className="map-balloon pt14">
+                <Link to="/vr-tag" className="map-balloon__link" activeClassName="is-current">
+                    <p>全国のVRモデル事例集</p>
+                </Link>
+            </div>
+            
         </div>
     </div>
 )

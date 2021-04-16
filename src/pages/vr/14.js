@@ -27,7 +27,7 @@ const SecondPage = () => (
 							<div className="movie__wrap row">
 								<div className="col-12 col-md-12">
 									<div className="movie text-center">
-										<iframe width="560" height="315" src="https://www.youtube.com/embed/cG8mZbDywz4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="kicolo comfort 2020春"></iframe></div>
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/cG8mZbDywz4?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="kicolo comfort 2020春"></iframe></div>
 								</div>
 							</div>
 						</section>

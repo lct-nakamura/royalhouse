@@ -83,7 +83,13 @@ module.exports = {
         //routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
       },
     },
-
+    //iframe用プラグイン
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`],
+      },
+    },
     //Google Analytics 利用の場合
     // {
     //   resolve: `gatsby-plugin-google-analytics`,

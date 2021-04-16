@@ -47,22 +47,8 @@ function balloonAnime() {
 }
 
 
-var ytModal = new tingle.modal({
-    onClose: function () {
-        console.log('close');
-    },
-    onOpen: function () {
-        console.log('open');
-    },
-    beforeOpen: function () {
-        console.log('before open');
-    },
-    beforeClose: function () {
-        console.log('before close');
-        return true;
-    },
-    cssClass: ['class1', 'class2']
-});
+var ytModal = new tingle.modal();
+var ytModalMain = new tingle.modal();
 // var btn = document.querySelector('.js-yt-modal-1');
 // btn.addEventListener('click', function () {
 //     ytModal.open();
@@ -76,19 +62,20 @@ var ytModal = new tingle.modal({
 export const onClientEntry = () => {
     // console.log("We've started!")
     window.addEventListener('load', () => {
+        // 初回アクセス時にモーダル表示（30日間有効）
         if (document.querySelector('.yt-modal') != null) {
             ytModal.setContent(document.querySelector('.yt-modal').innerHTML);
         }
         if (Cookies.get('access') == 'on') {
-            console.log('not first access!')
         } else {
-            console.log('first access!')
             if (document.querySelector('.yt-modal') != null) {
                 ytModal.open()
             }
-
         }
         Cookies.set('access', 'on', { expires: 30 })
+
+
+
     });
 }
 
@@ -146,6 +133,30 @@ export const onInitialClientRender = () => {
         } else {
             mainMap.scrollLeft += 0;
         }
+
+        // 使い方modal
+        var modalTriger = document.querySelector('.js-modal-triger');
+        modalTriger.addEventListener('click', function () {
+            ytModalMain.open();
+        });
+        ytModalMain.setContent(document.querySelector('.yt-modal--main').innerHTML);
+
+        var modalTriger2 = document.querySelector('.js-modal-triger--2');
+        modalTriger2.addEventListener('click', function () {
+            ytModalMain.open();
+        });
+        ytModalMain.setContent(document.querySelector('.yt-modal--main').innerHTML);
+
+        // 風船のテキスト３秒表示
+        let balloonLabel = document.querySelectorAll('.map-balloon');
+        for (let i = 0; i < balloonLabel.length; ++i) {
+            balloonLabel[i].classList.add('is-show')
+        }
+        setTimeout(function () {
+            for (let i = 0; i < balloonLabel.length; ++i) {
+                balloonLabel[i].classList.remove('is-show')
+            }
+        }, 3000);
 
 
     })
@@ -231,6 +242,20 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
         } else {
             mainMap.scrollLeft += 0;
         }
+
+        // 使い方modal
+        var modalTriger = document.querySelector('.js-modal-triger');
+        modalTriger.addEventListener('click', function () {
+            ytModalMain.open();
+        });
+        ytModalMain.setContent(document.querySelector('.yt-modal--main').innerHTML);
+
+        var modalTriger2 = document.querySelector('.js-modal-triger--2');
+        modalTriger2.addEventListener('click', function () {
+            ytModalMain.open();
+        });
+        ytModalMain.setContent(document.querySelector('.yt-modal--main').innerHTML);
+
     })
 }
 

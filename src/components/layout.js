@@ -28,6 +28,11 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main className="l-main">{children}</main>
+      <div className="yt-modal--main" style={{display:'none'}}>
+        <div className="ytWrap">
+          <iframe width="" height="" src="https://www.youtube-nocookie.com/embed/ScMzIvxBSi4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </div>
+      </div>
     </>
   )
 }

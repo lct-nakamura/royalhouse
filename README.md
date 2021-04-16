@@ -69,7 +69,7 @@ gatsby clean
 
 その他、複数単語の属性値の場合、キャメルケースにする。
 frameborder => frameBorder
-allowfullscreen => allowFullScreen
+allowFullScreen => allowFullScreen
 
 ### style属性は{{}}の中に書く
 

@@ -26,7 +26,7 @@ const SecondPage = () => (
 							<h2>CGムービー体験</h2>
 							<div className="movie__wrap row">
 								<div className="col-12 col-md-12">
-									<div className="movie text-center"><iframe title="グランドワン 平屋の家 南欧スタイル" width="560" height="315" src="https://www.youtube.com/embed/HJFWSWNq_I8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+									<div className="movie text-center"><iframe title="グランドワン 平屋の家 南欧スタイル" width="560" height="315" src="https://www.youtube.com/embed/HJFWSWNq_I8" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></div>
 								</div>
 							</div>
 						</section>

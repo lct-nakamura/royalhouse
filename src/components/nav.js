@@ -7,6 +7,10 @@ const Nav = () => (
     <button className="nav__btn--close js-menubtn-close"><span></span><span></span><span></span></button>
     <div className="nav__container">
       <h2 className="nav__ttl">バーチャル展示場</h2>
+      <button className="nav__btn--yt js-modal-triger--2">
+        <i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 639.37 447.66"><path d="M626.2,70.05a80.11,80.11,0,0,0-56.35-56.36C519.82,0,319.68,0,319.68,0S119.55,0,69.52,13.17c-26.86,7.37-49,29.49-56.35,56.88C0,120.08,0,223.83,0,223.83S0,328.11,13.17,377.62A80.11,80.11,0,0,0,69.52,434c50.56,13.69,250.17,13.69,250.17,13.69s200.13,0,250.16-13.17a80.11,80.11,0,0,0,56.36-56.35c13.16-50,13.16-153.78,13.16-153.78S639.9,120.08,626.2,70.05ZM256,319.68V128l166.42,95.85Z"/></svg></i>
+        <span>使い方案内</span>
+      </button>
       <section className="nav-sec">
         <h3 className="nav-sec__ttl">バーチャルモデルハウス</h3>
         <ul className="nav__list">

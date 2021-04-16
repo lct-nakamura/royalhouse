@@ -47,13 +47,16 @@ function balloonAnime() {
 }
 
 
-var ytModal = new tingle.modal();
-var ytModalMain = new tingle.modal();
-// var btn = document.querySelector('.js-yt-modal-1');
-// btn.addEventListener('click', function () {
-//     ytModal.open();
-// });
-//ytModal.setContent(document.querySelector('.yt-modal').innerHTML);
+var ytModal = new tingle.modal({
+    onClose: function () {
+        ytModal.destroy();
+    }
+});
+var ytModalMain = new tingle.modal({
+    onClose: function () {
+        ytModalMain.destroy();
+    }
+});
 
 
 
@@ -134,18 +137,7 @@ export const onInitialClientRender = () => {
             mainMap.scrollLeft += 0;
         }
 
-        // 使い方modal
-        var modalTriger = document.querySelector('.js-modal-triger');
-        modalTriger.addEventListener('click', function () {
-            ytModalMain.open();
-        });
-        ytModalMain.setContent(document.querySelector('.yt-modal--main').innerHTML);
 
-        var modalTriger2 = document.querySelector('.js-modal-triger--2');
-        modalTriger2.addEventListener('click', function () {
-            ytModalMain.open();
-        });
-        ytModalMain.setContent(document.querySelector('.yt-modal--main').innerHTML);
 
         // 風船のテキスト３秒表示
         let balloonLabel = document.querySelectorAll('.map-balloon');
@@ -254,15 +246,25 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
         // 使い方modal
         var modalTriger = document.querySelector('.js-modal-triger');
         modalTriger.addEventListener('click', function () {
+            var ytModalMain = new tingle.modal({
+                onClose: function () {
+                    ytModalMain.destroy();
+                }
+            });
+            ytModalMain.setContent(document.querySelector('.yt-modal--main').innerHTML);
             ytModalMain.open();
         });
-        ytModalMain.setContent(document.querySelector('.yt-modal--main').innerHTML);
 
         var modalTriger2 = document.querySelector('.js-modal-triger--2');
         modalTriger2.addEventListener('click', function () {
+            var ytModalMain = new tingle.modal({
+                onClose: function () {
+                    ytModalMain.destroy();
+                }
+            });
+            ytModalMain.setContent(document.querySelector('.yt-modal--main').innerHTML);
             ytModalMain.open();
         });
-        ytModalMain.setContent(document.querySelector('.yt-modal--main').innerHTML);
 
     })
 }

@@ -25,17 +25,17 @@ const SecondPage = () => (
         <div className="article__contents">
           <div className="container">
             <section className="article__section article__section01">
-           </section>
+              <h2><span className="d-inline-block">COMUNI OSHAREの</span><span className="d-inline-block">コンセプトムービー</span></h2>
+              <div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/TKUhcXUGzzQ?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="COMUNI OSHAREのコンセプトムービー"></iframe></div>
+            </section>
           </div>
         </div>
       </div>
     </article>
- 
-
 
     <Map />
   </Layout>
-  
+
 
 )
 

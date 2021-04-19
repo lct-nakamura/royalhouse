@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: `/test`,
 
   siteMetadata: {
-    title: `ロイヤルハウス住まいのバーチャル展示場`,
+    title: `Royal House Park 住まいのバーチャル展示場`,
     description: ``,
     author: ``,
   },

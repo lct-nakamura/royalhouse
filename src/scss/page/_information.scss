@@ -122,7 +122,7 @@
         }
       }
     }
-  
+
   // リストの色（緑系）の設定
   .information__list__green {
     padding: 0 10px;
@@ -225,3 +225,16 @@
 //     background: $color_secondary;
 //   }
 // }
+
+.info-bnr__list {
+  li {
+    margin-bottom: 50px;
+    @include media(sm) {
+      margin-bottom: 20px;
+    }
+    a {
+      display: block;
+      border: 2px solid #1D945C;
+    }
+  }
+}

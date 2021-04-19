@@ -186,6 +186,19 @@ img {
     }
   }
 }
+.fluid-movie {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
 .features__block__image{
     margin: 5px;
 }

@@ -22,7 +22,7 @@ const SecondPage = () => (
         <div className="article__title">
           <h1>グッドデザイン賞作品<br/>マーターポート</h1>
         </div>
-        <div className="article__icon"><img src={withPrefix("/images/art/icon.png")} /></div>
+        {/* <div className="article__icon"><img src={withPrefix("/images/art/icon.png")} /></div> */}
         <div className="article__contents">
           <div className="container">
             <section className="article__section article__section01">
@@ -67,7 +67,7 @@ const SecondPage = () => (
 
               </div>
             </section>
-            <section className="article__section article__section03">           
+            <section className="article__section article__section03">
           <h2>自分たちで、創り・育て・変えられる家。「Life Block」<br /><span className="small">2019年度グッドデザイン賞受賞作品</span></h2>
           <div className="article__icon"><img src={withPrefix("/images/lifeblock/icon.png")} /></div>
         <div className="article__contents">

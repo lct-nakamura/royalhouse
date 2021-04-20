@@ -9,7 +9,7 @@ import Map from "../components/map"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="おしらせ・おすすめ商品" />
+    <SEO title="おすすめ&トピックス" />
     <article className="l-article">
       <div className="article__container">
         <nav className="article-nav">
@@ -20,12 +20,12 @@ const SecondPage = () => (
 					<button className="article__btn--close js-articlebtn-close"><span></span><span></span><span></span></button>
 				</nav>
         <div className="article__title">
-          <h1>お役立ち情報</h1>
+          <h1>おすすめ&トピックス</h1>
         </div>
         <div className="article__contents">
           <div className="container">
             <section className="article__section article__section01">
-              <p className="text-center h3 mb-5">お役立ち情報をクリックで詳細をご覧いただけます。</p>
+              {/* <p className="text-center h3 mb-5">お役立ち情報をクリックで詳細をご覧いただけます。</p> */}
               <ul className="info-bnr__list">
                 <li><a href="https://www.royal-house.co.jp/mlit-support/" target="_blank"><img src={withPrefix("/images/information/shiensaku.jpg")} alt="4つの支援策" /></a></li>
                 <li><a href="https://www.sumitomoriko.co.jp/trc-damper-wh/" target="_blank"><img src={withPrefix("/images/information/trc.jpg")} alt="TRCダンパー" /></a></li>

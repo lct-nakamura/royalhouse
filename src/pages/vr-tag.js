@@ -20,7 +20,7 @@ const SecondPage = () => (
 					<button className="article__btn--close js-articlebtn-close"><span></span><span></span><span></span></button>
 				</nav>
         <div className="article__title">
-          <h1>全国のVRモデル事例集</h1>
+          <h1>全国のバーチャルモデル事例集</h1>
         </div>
         <div className="article__contents">
           <div className="container">
@@ -38,9 +38,9 @@ const SecondPage = () => (
     <a href="https://www.royal-house.co.jp/vr_taste/country/">カントリー</a>
     <a href="https://www.royal-house.co.jp/vr_taste/european/">ヨーロピアン</a>
     <a href="https://www.royal-house.co.jp/vr_taste/vintage/">ヴィンテージ</a>
-    <a href="https://www.royal-house.co.jp/vr_taste/hotellike/">ホテルライク</a>    
+    <a href="https://www.royal-house.co.jp/vr_taste/hotellike/">ホテルライク</a>
     <a href="https://www.royal-house.co.jp/vr_taste/surfershouse/">サーファーズハウス</a>
-    <a href="https://www.royal-house.co.jp/vr_taste/scandinavian/">北欧風</a>    
+    <a href="https://www.royal-house.co.jp/vr_taste/scandinavian/">北欧風</a>
     <a href="https://www.royal-house.co.jp/vr_taste/resortstyle/">リゾート風</a>
     <a href="https://www.royal-house.co.jp/vr_taste/provencestyle/">南欧プロヴァンス風</a>
     </dd>
@@ -93,19 +93,19 @@ const SecondPage = () => (
     <a href="https://www.royal-house.co.jp/movie_tag/fun_music/">音楽を楽しむ</a>
     <a href="https://www.royal-house.co.jp/movie_tag/bbq/">BBQを楽しむ</a>
     <a href="https://www.royal-house.co.jp/movie_tag/surfin/">サーフィンを楽しむ</a>
-    </dd>    
+    </dd>
   </dl>
             </section>
           </div>
         </div>
       </div>
     </article>
- 
+
 
 
     <Map />
   </Layout>
-  
+
 
 )
 

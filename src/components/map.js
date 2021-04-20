@@ -13,7 +13,7 @@ const Map = () => (
 
             <div className="map-balloon pt01">
                 <Link to="https://www.royal-house.co.jp/fcshop/" target="_blank" className="map-balloon__link" activeClassName="is-current">
-                    <p>Royal house<br/>タウン</p>
+                    <p>お近くのロイヤルハウス<br/>・VR展示場</p>
                 </Link>
             </div>
             <div className="map-balloon pt02">
@@ -53,7 +53,7 @@ const Map = () => (
             </div>
             <div className="map-balloon pt09">
                 <Link to="/information" className="map-balloon__link" activeClassName="is-current">
-                    <p>おしらせ<br />おすすめ商品</p>
+                    <p>おすすめ＆トピックス</p>
                 </Link>
             </div>
             <div className="map-balloon pt10">
@@ -68,7 +68,7 @@ const Map = () => (
             </div>
             <div className="map-balloon pt12">
                 <Link to="/art" className="map-balloon__link" activeClassName="is-current">
-                    <p>GD写真館&amp;<br/>マーターポート</p>
+                    <p>グッドデザイン賞<br/>写真館</p>
                 </Link>
             </div>
             <div className="map-balloon pt13">
@@ -81,7 +81,7 @@ const Map = () => (
                     <p>全国のVRモデル事例集</p>
                 </Link>
             </div>
-            
+
         </div>
     </div>
 )

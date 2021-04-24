@@ -78,7 +78,7 @@ const Map = () => (
             </div>
             <div className="map-balloon pt14">
                 <Link to="https://www.royal-house.co.jp/vr-movie/" className="map-balloon__link" activeClassName="is-current">
-                    <p>全国のVRモデル事例集</p>
+                    <p>全国のバーチャルモデル事例集</p>
                 </Link>
             </div>
 

@@ -9,7 +9,7 @@ import Map from "../components/map"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="コンセプトムービー" />
+    <SEO title="COMUNIOshare" />
     <article className="l-article">
       <div className="article__container">
         <nav className="article-nav">
@@ -20,14 +20,13 @@ const SecondPage = () => (
 					<button className="article__btn--close js-articlebtn-close"><span></span><span></span><span></span></button>
 				</nav>
         <div className="article__title">
-          <h1>コンセプトムービー</h1>
+          <h1>COMUNIOshare</h1>
         </div>
         <div className="article__contents">
           <div className="container">
             <section className="article__section article__section01">
-              <h2><span className="d-inline-block">COMUNIOshareの</span><span className="d-inline-block">コンセプトムービー</span></h2>
-              <div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/wcBOOqplsFw?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="COMUNI OSHAREのコンセプトムービー"></iframe></div>
-              <Link to="/comuni" className="comuni__link" activeClassName="is-current">COMUNIOshareについて詳しく見る</Link>
+              <h2><span className="d-inline-block">COMUNIOshare</span></h2>
+              
             </section>
           </div>
         </div>

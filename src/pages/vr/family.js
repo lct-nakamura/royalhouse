@@ -24,6 +24,12 @@ const SecondPage = () => (
           <div className="container">
             <section className="menu__section">
               <div className="menu__list row">
+              <div className="col-12 col-md-6">
+                  <Link to="/comuni">
+                    <div class="menu__list__image"><img src={withPrefix("/images/vr/family/menu_img05.jpg")} alt="楽しく家事、子育てがシェアできる家「COMUNI Oshare」" /></div>
+                    <p class="menu__list__caption icon_triborder">楽しく家事、子育てがシェアできる家<br/>「COMUNI Oshare」</p>
+                    </Link>
+                    </div>
                 <div className="col-12 col-md-6">
                   <Link to="/vr/17">
                     <div className="menu__list__image"><img src={withPrefix("/images/vr/family/menu_img01.jpg")} alt="子育て中もキレイに暮らせる家「COMUNI美ファイン」" /></div>
@@ -48,13 +54,6 @@ const SecondPage = () => (
                     <p className="menu__list__caption icon_triborder">子育て夫婦が楽しく暮らす家<br />「COMUNI」二世帯</p>
                   </Link>
                 </div>
-                <div className="col-12 col-md-6">
-                  <Link to="/comuni">
-          <div class="menu__list__image"><img src={withPrefix("/images/vr/family/menu_img05.jpg")} alt="楽しく家事、子育てがシェアできる家「COMUNI Oshare」" /></div>
-          <p class="menu__list__caption icon_triborder">楽しく家事、子育てがシェアできる家<br/>
-            「COMUNI Oshare」</p>
-            </Link>
-            </div>
               </div>
             </section>
           </div>

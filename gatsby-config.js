@@ -2,7 +2,7 @@ module.exports = {
   // 本番環境は/park以下になるのでその設定
   // build時オプションつける
   // gatsby build --prefix-paths
-  pathPrefix: `/test`,
+  pathPrefix: `/park`,
 
   siteMetadata: {
     title: `Royal House Park 住まいのバーチャル展示場`,

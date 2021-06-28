@@ -148,7 +148,7 @@ export const onInitialClientRender = () => {
             for (let i = 0; i < balloonLabel.length; ++i) {
                 balloonLabel[i].classList.remove('is-show')
             }
-        }, 3000);
+        }, 5000);
 
 
     })
@@ -268,10 +268,6 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
 
     })
 }
-
 export const onRouteUpdateDelayed = () => {
     // console.log("Now Loading...")
 }
-
-
-

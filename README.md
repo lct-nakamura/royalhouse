@@ -43,6 +43,7 @@ gatsby build --prefix-paths
 ### おまけ
 ※/public内をきれいにする
 
+
 ```shell
 gatsby clean
 ```

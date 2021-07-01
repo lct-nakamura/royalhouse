@@ -216,3 +216,57 @@ img {
     transform: translatey(0px);
   }
 }
+.campaign-bnr{
+  position: absolute;
+  bottom:10px;
+  right: 20px;
+  transition: 0.3s;
+}
+.campaign-bnr:hover{
+  transform: translateY(-10px);
+  opacity: 0.8;
+}
+.campaign-bnr img.sp{
+  display: none;
+}
+@media screen and (max-width:767px) {
+  .campaign-bnr{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    transition: 0.3s;
+  }
+  .campaign-bnr img.sp{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .campaign-bnr img.pc{
+    display: none;
+  }
+}
+.entry-bnr{
+margin: 0 auto 24px;
+text-align: center;
+}
+.entry-bnr img{
+  margin: 0 auto;
+}
+.entry-bnr img.sp{
+  display: none;
+}
+.entry-intro{
+  margin-bottom: 32px;
+  font-size: 14px;
+  font-weight: bold;
+}
+@media screen and (max-width:767px) {
+  .entry-bnr img.sp{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .entry-bnr img.pc{
+    display: none;
+  }
+}

@@ -5,8 +5,6 @@
 //     }, 200);
 
 // });
-
-
 $(document).ready(() => {
     var state = false;
     var scrollpos;

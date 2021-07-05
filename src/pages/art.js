@@ -9,7 +9,7 @@ import Map from "../components/map"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="グッドデザイン賞作品 マーターポート" />
+    <SEO title="グッドデザイン賞作品" />
     <article className="l-article">
       <div className="article__container">
         <nav className="article-nav">
@@ -20,7 +20,7 @@ const SecondPage = () => (
 					<button className="article__btn--close js-articlebtn-close"><span></span><span></span><span></span></button>
 				</nav>
         <div className="article__title">
-          <h1>グッドデザイン賞作品<br/>マーターポート</h1>
+          <h1>グッドデザイン賞作品</h1>
         </div>
         {/* <div className="article__icon"><img src={withPrefix("/images/art/icon.png")} /></div> */}
         <div className="article__contents">
@@ -249,12 +249,12 @@ const SecondPage = () => (
                 <li data-target="#slide03" data-slide-to="2">
                   <img src={withPrefix("/images/art/sec02_img03_02.png")} />
                 </li>
-                <li data-target="#slide03" data-slide-to="3">
+                {/* <li data-target="#slide03" data-slide-to="3">
                   <img src={withPrefix("/images/art/sec02_img03_03.png")} />
                 </li>
                 <li data-target="#slide03" data-slide-to="4">
                   <img src={withPrefix("/images/art/sec02_img03_04.png")} />
-                </li>
+                </li> */}
                 <li data-target="#slide03" data-slide-to="5">
                   <img src={withPrefix("/images/art/sec02_img03_05.png")} />
                 </li>

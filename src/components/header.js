@@ -5,6 +5,7 @@ import React from "react"
 import Nav from "./nav"
 
 const Header = ({ siteTitle }) => (
+
   <header className="l-header">
     <div className="header__container">
       <h1 className="header__logo">{siteTitle}</h1>
@@ -36,6 +37,7 @@ const Header = ({ siteTitle }) => (
     </div>
     <Nav />
   </header>
+
 )
 
 Header.propTypes = {

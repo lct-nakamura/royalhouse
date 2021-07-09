@@ -231,8 +231,8 @@ img {
 }
 @media screen and (max-width:767px) {
   .campaign-bnr{
-    position: absolute;
-    bottom:0;
+    position: fixed;
+    bottom:74px;
     right: 0;
     transition: 0.3s;
   }

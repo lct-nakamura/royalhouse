@@ -17,9 +17,7 @@ const IndexPage = () => (
       <iframe width="" height="" src="https://www.youtube.com/embed/AyBYKr1MFcA?rel=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
     </div>
-    <div className="campaign-bnr">
-    <Link to="/entry/"><img src={withPrefix("/images/campaign-bnr-pc.jpg")} alt="35周年記念記念キャンペーンはこちら" className="pc" /><img src={withPrefix("/images/campaign-bnr-sp.jpg")} alt="35周年記念記念キャンペーンはこちら" className="sp" /></Link>
-    </div>
+    
   </Layout>
 )
 

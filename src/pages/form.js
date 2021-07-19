@@ -50,13 +50,13 @@ const SecondPage = () => (
             </section>
             <section className="article__section article__section02">
               <h2>プレミアム・カタログ・資料請求フォーム</h2>
-              <form id="mailformpro" action="../mail.php" method="POST">
+              <form id="mailformpro" action="../mail-form.php" method="POST">
                 <div className="form-group row">
                   <div className="col-12 col-sm-4 required"><label for="MfpField_01">お名前</label></div>
                   <div className="input-group col-12 col-sm-8 ">
                     <input type="text" className="form-control" id="MfpField_01" placeholder="お名前" name="お名前" data-kana="フリガナ" required="required" />
                   </div>
-                </div>
+                </div>ga
                 <div className="form-group row">
                   <div className="col-12 col-sm-4 optional"><label for="MfpField_02">フリガナ</label></div>
                   <div className="input-group col-12 col-sm-8 ">

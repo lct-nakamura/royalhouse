@@ -60,7 +60,7 @@ const SecondPage = () => (
                   <div className="input-group col-12 col-sm-8 ">
                     <input type="text" className="form-control" id="MfpField_02" placeholder="お名前" name="お名前" data-kana="ふりがな" required="required" />
                   </div>
-                </div>
+                </div>                
                 <div className="form-group row">
                   <div className="col-12 col-sm-4 required"><label for="MfpField_03">ふりがな</label></div>
                   <div className="input-group col-12 col-sm-8 ">
@@ -70,7 +70,7 @@ const SecondPage = () => (
                 <div className="form-group row">
                   <div className="col-12 col-sm-4 required"><label for="MfpField_04">メールアドレス</label></div>
                   <div className="input-group col-12 col-sm-8 ">
-                    <input type="email" data-type="email" className="form-control" id="MfpField_04" placeholder="info@xxx.com" name="Email" required="required" />
+                    <input type="email" data-type="email" className="form-control" id="MfpField_04" placeholder="info@xxx.com" name="email" required="required" />
                   </div>
                 </div>
                 <div className="form-group row">

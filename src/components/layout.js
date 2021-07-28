@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { withPrefix } from "gatsby"
 import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 
 import Header from "./header"
 
@@ -28,14 +29,15 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main className="l-main">{children}</main>
-      <div className="campaign-bnr">
-  <a href="/entry/"><img src={withPrefix("/images/campaign-bnr-pc.jpg")} alt="35周年記念記念キャンペーンはこちら" className="pc" /><img src={withPrefix("/images/campaign-bnr-sp.jpg")} alt="35周年記念記念キャンペーンはこちら" className="sp" /></a>
+       <div className="campaign-bnr">
+       <Link to="/35campaign/" target="_blank" className="map-balloon__link" activeClassName="is-current"><img src={withPrefix("/images/campaign-bnr-pc.jpg")} alt="35周年記念記念キャンペーンはこちら" className="pc" /><img src={withPrefix("/images/campaign-bnr-sp.jpg")} alt="35周年記念記念キャンペーンはこちら" className="sp" /></Link>
   </div>
+      
       <div className="yt-modal--main" style={{display:'none'}}>
         <div className="ytWrap">
         <iframe width="" height="" src="https://www.youtube.com/embed/AyBYKr1MFcA?rel=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
-      </div>
+      </div>   
     </>
   )
 }

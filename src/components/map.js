@@ -81,12 +81,9 @@ const Map = () => (
                     <p>全国のバーチャルモデル事例集</p>
                 </Link>
             </div>
-
         </div>
-       
-    
+        
     </div>
-)
-
-
-export default Map
+   
+    )
+    export default Map

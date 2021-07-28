@@ -1,0 +1,377 @@
+@charset "UTF-8";
+/*35周年キャンペーン*/
+.bg-wrap{
+  background: url("/test/images/35-campaign/35-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.bg-wrap .article__contents{
+max-width: 800px;
+padding-top: 0;
+}
+.tf-campaign nav.article-nav{
+background:none !important;
+}
+.bg-wrap .article__title{
+  background: none;
+  padding-bottom: 0;
+  position: relative;  
+}
+img.balloon{
+  position: absolute;
+  top: 140px;
+  right:0;
+}
+p.caution{
+  font-size: 16px;
+  color: #000;
+}
+p.caution span{
+  display: block;
+  font-size: 20px;
+  color:#f62167;
+  font-weight: bold;
+}
+
+.l-main .select h2, .l-main .flow h2{
+  background: url("/test/images/35-campaign/35-h2-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding:8px !important;
+  color: #fff !important;
+}
+.l-main .select h2:not(.h2__title)::before, .l-main .select h2:not(.h2__title)::after,
+.l-main .flow h2:not(.h2__title)::before, .l-main .flow h2:not(.h2__title)::after{
+  content: none;
+}
+.l-main .select h2:not(.h2__title)::after,
+.l-main .flow h2:not(.h2__title)::after{
+  background:none;
+}
+.select .wrap{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.select .wrap .box{
+  width: 250px;
+}
+.entry-btn{
+  margin-bottom: 8px;
+}
+.present{
+  padding-bottom: 0;
+}
+.present #item01{
+  background: url("/test/images/35-campaign/item-01-bg.gif");
+  background-position: top right;
+  padding-bottom:80px;
+  margin-bottom: 60px;
+  
+}
+.present #item02{
+  background: url("/test/images/35-campaign/item-02-bg.gif");
+  background-position: top left;
+  padding-bottom:80px;
+  margin-bottom: 60px;
+  
+}
+.present #item03{
+  background: url("/test/images/35-campaign/item-03-bg.gif");
+  background-position: top right;
+  padding-bottom:80px;
+}
+.present .wrap{
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0 auto 40px;
+
+}
+.present .wrap .txt{
+  width: 380px;
+}
+.present .wrap .txt .num{
+  display: flex;
+  margin-bottom: 32px;
+  align-items: flex-start;
+}
+.present .wrap .txt .num p{
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 24px;
+  line-height: 1;
+  text-align: center;
+  color: #fff;  
+  margin-left: 16px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+.present #item01 .num p{
+background-color: #4d9de4;
+}
+.present #item02 .num p{
+  background-color: #0cbba7;
+  }
+  .present #item03 .num p{
+    background-color: #f68c3e;
+    }
+.present .wrap .txt .num p span{
+  font-size: 24px;
+}
+.present .wrap .txt p{
+  font-family: 'メイリオ', Meiryo,'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+.present .wrap .txt p.title{
+  font-size: 33px;
+  line-height: 1.5;
+}
+.present .wrap .txt p.title span.weak{
+  font-size:28px;
+}
+.present .wrap .txt p.title span.yellow{
+  background:linear-gradient(transparent 60%, #ff6 60%);
+}
+.present .wrap .image{
+  width:400px;
+}
+.cam-movie {
+  text-align: center;
+}
+.cam-movie .comment{
+  text-align: center;
+}
+.cam-movie iframe{
+  margin: 32px auto;
+}
+.entry-btn{
+  text-align: center;
+}
+p.caution{
+  text-align: center;
+}
+p.caution span{
+  display: block;
+  font-size: 20px;
+  color:#f62167;
+  font-weight: bold;
+}
+.l-main .designer{
+  width: 800px;
+  margin: 0 auto 60px;
+}
+.l-main .designer h3{
+  position: relative;
+  text-align: center;
+  font-family: 'メイリオ', Meiryo,'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+  margin-bottom: 40px;
+}
+.l-main .designer h3:before {
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+  width: 100%;
+  height: 2px;
+  content: '';
+  background: #000;
+}
+
+.l-main .designer h3 span {
+  position: relative;
+  padding: 0 1em;
+  background: #ffefdb;
+}
+.l-main .designer-prof .image{
+  width:240px;
+  height: auto;
+}
+.l-main .designer-prof .image img{
+  width:100%;
+  height: auto;
+}
+.l-main .designer-prof .txt{
+  width:520px;
+}
+.l-main .designer-prof .txt p.title span{
+  display: block;
+  font-size: 18px;
+}
+.designer-works .wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.designer-works .box{
+  width: 260px;
+}
+.designer-works .box .image{
+  width: 260px;
+  margin-bottom: 16px;
+}
+.designer-works .box p{
+  font-size: 15px;
+  text-align: center;
+}
+.designer-works .box:nth-last-of-type(1){
+  padding: 0 0 0 24px;
+}
+.designer-works .box:nth-last-of-type(1) li{
+  font-size: 13px;
+}
+.sp{
+  display: none;
+}
+@media screen and(max-width:767px) {
+  .bg-wrap .content35{
+    padding-bottom: 0;
+  }
+  .sp{
+    display: block;
+  }
+  .pc{
+    display: none;
+  }
+  img.balloon{
+    position: absolute;
+    width: 80px;
+    height: auto;
+    top: 18vw;
+    right:2%;
+  }
+  .bg-wrap{
+    background-size: contain;
+  }
+  p.caution span{
+    font-size: 18px;
+  }
+  p.caution{
+    font-size: 14px;
+  }
+  .l-main .select h2, .l-main .flow h2{
+    background-image: none;
+    background-color: #dc0a11;
+  }
+  .select{
+    padding-top: 40px;
+  }
+  .select .wrap{
+    display: block;
+  }
+  .select .wrap .box {
+  margin:0 auto 24px;
+  }
+  .select .wrap .box a{
+    display: block;
+    
+  }
+  .select .wrap .box a img{
+    margin: 0 auto;
+  }
+  .present .wrap{
+    display: block;
+    width: 92%;
+    margin-bottom: 8px;
+
+  }
+  
+  .cam-movie{
+    position: relative;
+    width: 92%;
+    padding-top: 56.25%;
+    margin: 0 auto 64px;
+  }
+  .cam-movie iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .present .wrap .image{
+    width: 100%;
+  }
+  .present .wrap .image img{
+    width: 100%;
+    height: a;
+  }
+  .present .wrap .txt{
+    width: 100%;
+  }
+  .present .wrap .txt .num{
+    margin-bottom: 16px;
+  }
+  .present .wrap .txt .num img{
+    zoom: 0.5;
+  }
+  .present .wrap .txt p.title{
+    font-size: 24px;
+  }
+  .present .wrap .txt .num p{
+    font-size: 16px;
+  }
+  .present .wrap .txt p.title span.weak{
+    font-size: 16px;
+  }
+  .present .wrap .txt .num p span{
+    font-size: 20px;
+  }
+  .present #item01{
+    background-image:url("/test/images/35-campaign/item-01-bg-sp.gif");
+    background-repeat: repeat;
+    padding-top: 4%;
+    padding-bottom: 40px;
+    margin-bottom:32px;
+  }
+  .present #item02{
+    background:url("/test/images/35-campaign/item-02-bg-sp.gif");
+    background-repeat: repeat;
+    padding-top: 4%;
+    padding-bottom: 40px;
+    margin-bottom:32px;
+  }
+  .present #item03{
+    background:url("/test/images/35-campaign/item-03-bg-sp.gif");
+    background-repeat: repeat;
+    padding-top: 4%;
+    padding-bottom: 40px;
+    margin-bottom:32px;
+  }
+  .present #item03 .image{
+    margin-bottom: 32px;
+  }
+  .entry-btn{
+    width: 92%;
+    margin: 0 auto 16px;
+  }
+  .entry-btn a{
+    display: block;
+  }
+  .present p.caution{
+    width: 92%;
+    margin: 0 auto;
+  }
+  .l-main .designer h3 span {
+    background: #ffefdb;
+}
+  .l-main .designer{
+    width: 92%;
+  }
+  .l-main .designer-prof .txt{
+    width: 100%;
+  }
+  .designer-works .box{width: 100%;
+  margin-bottom: 40px;}
+  .designer-works .box img{
+    margin: 0 auto;
+  }
+  .l-main .present #item03 .designer .wrap .box .image{
+    margin-bottom: 8px;
+  }
+  .tf-campaign .article-nav img{
+    zoom: 0.5;
+  }
+  
+  
+  
+}

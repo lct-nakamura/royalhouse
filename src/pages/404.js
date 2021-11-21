@@ -1,12 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 import { withPrefix } from 'gatsby'
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
 import Map from "../components/map"
-
 const NotFoundPage = () => (
   <Layout>
     <SEO title="ページが見つかりませんでした。" />

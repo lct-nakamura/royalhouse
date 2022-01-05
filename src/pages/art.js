@@ -32,12 +32,24 @@ const SecondPage = () => (
             </section>
             <section className="article__section article__section02">
 
-              <p className="text-center">写真をクリックするとスライドショーが表示されます</p>
+              <p className="text-center">写真をクリックすると動画でご紹介！</p>
               <div id="modal-container" className="row">
 
                 <figure className="col-6">
+                  <a href="#" data-toggle="modal" data-target="#modal11"><img src={withPrefix("/images/art/sec02_img11_main.png")} /></a>
+                  <figcaption>【FamigliaDomani】<br /><span className="text-xsmall">家の中の外空間<br className="show-xs-only hide-md" />～明日の我が家～</span></figcaption>
+                </figure>
+                <figure className="col-6">
+                  <a href="#" data-toggle="modal" data-target="#modal12"><img src={withPrefix("/images/art/sec02_img12_main.png")} /></a>
+                  <figcaption>【現代の曲がり屋】<br /><span className="text-xsmall">集う・遊ぶ・憩う・働く場をデザイン。</span></figcaption>
+                </figure>
+                <figure className="col-6">
                   <a href="#" data-toggle="modal" data-target="#modal01"><img src={withPrefix("/images/art/sec02_img01_main.png")} /></a>
                   <figcaption>【Life Block】<br /><span className="text-xsmall">家族参加でつくる<br className="show-xs-only hide-md" />新発想の家づくり</span></figcaption>
+                </figure>
+                <figure className="col-6">
+                  <a href="#" data-toggle="modal" data-target="#modal13"><img src={withPrefix("/images/art/sec02_img13_main.png")} /></a>
+                  <figcaption>【プラスS構法】<br /><span className="text-xsmall">こだわりの大空間設計が実現する、<br className="pc" />革新的なトラス構造の家です。</span></figcaption>
                 </figure>
                 <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal02"><img src={withPrefix("/images/art/sec02_img02_main.png")} /></a>
                   <figcaption>【育つ家】<br /><span className="text-xsmall">平屋から、<br className="show-xs-only hide-md" />みんなで育てる家</span></figcaption>
@@ -58,8 +70,14 @@ const SecondPage = () => (
                 <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal07"><img src={withPrefix("/images/art/sec02_img07_main.png")} /></a>
                   <figcaption>【大開口の家】<br /><span className="text-xsmall">これからの省エネ基準を解決する新発想の<br className="show-xs-only hide-md" />家づくり</span></figcaption>
                 </figure>
+                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal14"><img src={withPrefix("/images/art/sec02_img14_main.png")} /></a>
+                  <figcaption>【Village】<br /><span className="text-xsmall">ひとり暮らし・ふたり暮らしの小さな村</span></figcaption>
+                </figure>
                 <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal09"><img src={withPrefix("/images/art/sec02_img09_main.png")} /></a>
                   <figcaption>【骨の見える家】<br /><span className="text-xsmall">中古流通時代における<br className="show-xs-only hide-md" />価値ある新築住宅<br className="show-xs-only hide-md" />システム</span></figcaption>
+                </figure>
+                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal15"><img src={withPrefix("/images/art/sec02_img15_main.png")} /></a>
+                  <figcaption>【SSS構法】<br /><span className="text-xsmall">木のポテンシャルを活かす高耐震長寿命の家</span></figcaption>
                 </figure>
                 <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal10"><img src={withPrefix("/images/art/sec02_img10_main.png")} /></a>
                   <figcaption>【外暮らしの家】<br /><span className="text-xsmall">小さく建てて、<br className="show-xs-only hide-md" />大きく暮らす家</span></figcaption>
@@ -111,6 +129,131 @@ const SecondPage = () => (
         </div>
       </div>
     </article>
+    <div className="modal fade modal_slideshow" id="modal11" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+      <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div className="modal-content">
+          <div className="modal-header">
+            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div className="modal-body">
+            <div id="slide11" className="carousel slide">
+              {/*<ol className="carousel-indicators">
+                <li data-target="#slide11" data-slide-to="0" className="active">
+                  <img src={withPrefix("/images/art/sec02_img11_main.png")} />
+                </li>
+                <li data-target="#slide11" data-slide-to="1">
+                  <img src={withPrefix("/images/art/sec02_img11_01.png")} />
+                </li>
+                <li data-target="#slide11" data-slide-to="2">
+                  <img src={withPrefix("/images/art/sec02_img11_02.png")} />
+                </li>
+                <li data-target="#slide11" data-slide-to="3">
+                  <img src={withPrefix("/images/art/sec02_img11_03.png")} />
+                </li>
+                <li data-target="#slide11" data-slide-to="4">
+                  <img src={withPrefix("/images/art/sec02_img11_04.png")} />
+                </li>
+                <li data-target="#slide11" data-slide-to="5">
+                  <img src={withPrefix("/images/art/sec02_img11_05.png")} />
+                </li>
+                <li data-target="#slide11" data-slide-to="6">
+                  <img src={withPrefix("/images/art/sec02_img11_06.png")} />
+                </li>
+              </ol>*/}
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video11.mp4")} /></video>
+                </div>
+                {/*<div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img11_01.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img11_02.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img11_03.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img11_04.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img11_05.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img11_06.png")} />
+                </div>*/}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="modal fade modal_slideshow" id="modal12" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+      <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div className="modal-content">
+          <div className="modal-header">
+            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div className="modal-body">
+            <div id="slide12" className="carousel slide">
+              {/*<ol className="carousel-indicators">
+                <li data-target="#slide12" data-slide-to="0" className="active">
+                  <img src={withPrefix("/images/art/sec02_img12_main.png")} />
+                </li>
+                <li data-target="#slide12" data-slide-to="1">
+                  <img src={withPrefix("/images/art/sec02_img12_01.png")} />
+                </li>
+                <li data-target="#slide12" data-slide-to="2">
+                  <img src={withPrefix("/images/art/sec02_img12_02.png")} />
+                </li>
+                <li data-target="#slide12" data-slide-to="3">
+                  <img src={withPrefix("/images/art/sec02_img12_03.png")} />
+                </li>
+                <li data-target="#slide12" data-slide-to="4">
+                  <img src={withPrefix("/images/art/sec02_img12_04.png")} />
+                </li>
+                <li data-target="#slide12" data-slide-to="5">
+                  <img src={withPrefix("/images/art/sec02_img12_05.png")} />
+                </li>
+                <li data-target="#slide12" data-slide-to="6">
+                  <img src={withPrefix("/images/art/sec02_img12_06.png")} />
+                </li>
+              </ol>*/}
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video12.mp4")} /></video>
+                </div>
+                {/*<div className="carousel-item active">
+                  <img src={withPrefix("/images/art/sec02_img12_main.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img12_01.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img12_02.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img12_03.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img12_04.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img12_05.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img12_06.png")} />
+                </div>*/}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div className="modal fade modal_slideshow" id="modal01" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
@@ -121,7 +264,7 @@ const SecondPage = () => (
           </div>
           <div className="modal-body">
             <div id="slide01" className="carousel slide">
-              <ol className="carousel-indicators">
+              {/*<ol className="carousel-indicators">
                 <li data-target="#slide01" data-slide-to="0" className="active">
                   <img src={withPrefix("/images/art/sec02_img01_main.png")} />
                 </li>
@@ -143,9 +286,12 @@ const SecondPage = () => (
                 <li data-target="#slide01" data-slide-to="6">
                   <img src={withPrefix("/images/art/sec02_img01_06.png")} />
                 </li>
-              </ol>
+              </ol>*/}
               <div className="carousel-inner">
                 <div className="carousel-item active">
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video01.mp4")} /></video>
+                </div>
+                {/*<div className="carousel-item active">
                   <img src={withPrefix("/images/art/sec02_img01_main.png")} />
                 </div>
                 <div className="carousel-item">
@@ -165,7 +311,65 @@ const SecondPage = () => (
                 </div>
                 <div className="carousel-item">
                   <img src={withPrefix("/images/art/sec02_img01_06.png")} />
+                </div>*/}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="modal fade modal_slideshow" id="modal13" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+      <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div className="modal-content">
+          <div className="modal-header">
+            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div className="modal-body">
+            <div id="slide13" className="carousel slide">
+              {/*<ol className="carousel-indicators">
+                <li data-target="#slide13" data-slide-to="0" className="active">
+                  <img src={withPrefix("/images/art/sec02_img13_main.png")} />
+                </li>
+                <li data-target="#slide13" data-slide-to="1">
+                  <img src={withPrefix("/images/art/sec02_img13_01.png")} />
+                </li>
+                <li data-target="#slide13" data-slide-to="2">
+                  <img src={withPrefix("/images/art/sec02_img13_02.png")} />
+                </li>
+                <li data-target="#slide13" data-slide-to="3">
+                  <img src={withPrefix("/images/art/sec02_img13_03.png")} />
+                </li>
+                <li data-target="#slide13" data-slide-to="4">
+                  <img src={withPrefix("/images/art/sec02_img13_04.png")} />
+                </li>
+                <li data-target="#slide13" data-slide-to="5">
+                  <img src={withPrefix("/images/art/sec02_img13_05.png")} />
+                </li>
+              </ol>*/}
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video13.mp4")} /></video>
                 </div>
+                {/*<div className="carousel-item active">
+                  <img src={withPrefix("/images/art/sec02_img13_main.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img13_01.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img13_02.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img13_03.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img13_04.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img13_05.png")} />
+                </div>*/}
               </div>
             </div>
           </div>
@@ -182,7 +386,7 @@ const SecondPage = () => (
           </div>
           <div className="modal-body">
             <div id="slide02" className="carousel slide">
-              <ol className="carousel-indicators">
+              {/*<ol className="carousel-indicators">
                 <li data-target="#slide02" data-slide-to="0" className="active">
                   <img src={withPrefix("/images/art/sec02_img02_main.png")} />
                 </li>
@@ -195,16 +399,13 @@ const SecondPage = () => (
                 <li data-target="#slide02" data-slide-to="3">
                   <img src={withPrefix("/images/art/sec02_img02_03.png")} />
                 </li>
-                <li data-target="#slide02" data-slide-to="4">
-                  <img src={withPrefix("/images/art/sec02_img02_04.png")} />
-                </li>
-                <li data-target="#slide02" data-slide-to="5">
-                  <img src={withPrefix("/images/art/sec02_img02_05.png")} />
-                </li>
 
-              </ol>
+              </ol>*/}
               <div className="carousel-inner">
                 <div className="carousel-item active">
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video02.mp4")} /></video>
+                </div>
+                {/*<div className="carousel-item active">
                   <img src={withPrefix("/images/art/sec02_img02_main.png")} />
                 </div>
                 <div className="carousel-item">
@@ -215,13 +416,7 @@ const SecondPage = () => (
                 </div>
                 <div className="carousel-item">
                   <img src={withPrefix("/images/art/sec02_img02_03.png")} />
-                </div>
-                <div className="carousel-item">
-                  <img src={withPrefix("/images/art/sec02_img02_04.png")} />
-                </div>
-                <div className="carousel-item">
-                  <img src={withPrefix("/images/art/sec02_img02_05.png")} />
-                </div>
+                </div>*/}
 
               </div>
             </div>
@@ -239,7 +434,7 @@ const SecondPage = () => (
           </div>
           <div className="modal-body">
             <div id="slide03" className="carousel slide">
-              <ol className="carousel-indicators">
+              {/*<ol className="carousel-indicators">
                 <li data-target="#slide03" data-slide-to="0" className="active">
                   <img src={withPrefix("/images/art/sec02_img03_main.png")} />
                 </li>
@@ -254,14 +449,17 @@ const SecondPage = () => (
                 </li>
                 <li data-target="#slide03" data-slide-to="4">
                   <img src={withPrefix("/images/art/sec02_img03_04.png")} />
-                </li> */}
+                </li> */}{/*
                 <li data-target="#slide03" data-slide-to="5">
                   <img src={withPrefix("/images/art/sec02_img03_05.png")} />
                 </li>
 
-              </ol>
+              </ol>*/}
               <div className="carousel-inner">
                 <div className="carousel-item active">
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video03.mp4")} /></video>
+                </div>
+                {/*<div className="carousel-item active">
                   <img src={withPrefix("/images/art/sec02_img03_main.png")} />
                 </div>
                 <div className="carousel-item">
@@ -278,7 +476,7 @@ const SecondPage = () => (
                 </div>
                 <div className="carousel-item">
                   <img src={withPrefix("/images/art/sec02_img03_05.png")} />
-                </div>
+                </div>*/}
 
               </div>
             </div>
@@ -296,7 +494,7 @@ const SecondPage = () => (
           </div>
           <div className="modal-body">
             <div id="slide04" className="carousel slide">
-              <ol className="carousel-indicators">
+              {/*<ol className="carousel-indicators">
                 <li data-target="#slide04" data-slide-to="0" className="active">
                   <img src={withPrefix("/images/art/sec02_img04_main.png")} />
                 </li>
@@ -318,9 +516,12 @@ const SecondPage = () => (
                 <li data-target="#slide04" data-slide-to="6">
                   <img src={withPrefix("/images/art/sec02_img04_06.png")} />
                 </li>
-              </ol>
+              </ol>*/}
               <div className="carousel-inner">
                 <div className="carousel-item active">
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video04.mp4")} /></video>
+                </div>
+                {/*<div className="carousel-item active">
                   <img src={withPrefix("/images/art/sec02_img04_main.png")} />
                 </div>
                 <div className="carousel-item">
@@ -340,7 +541,7 @@ const SecondPage = () => (
                 </div>
                 <div className="carousel-item">
                   <img src={withPrefix("/images/art/sec02_img04_06.png")} />
-                </div>
+                </div>*/}
               </div>
             </div>
           </div>
@@ -357,7 +558,7 @@ const SecondPage = () => (
           </div>
           <div className="modal-body">
             <div id="slide05" className="carousel slide">
-              <ol className="carousel-indicators">
+              {/*<ol className="carousel-indicators">
                 <li data-target="#slide05" data-slide-to="0" className="active">
                   <img src={withPrefix("/images/art/sec02_img05_main.png")} />
                 </li>
@@ -376,9 +577,12 @@ const SecondPage = () => (
                 <li data-target="#slide05" data-slide-to="5">
                   <img src={withPrefix("/images/art/sec02_img05_05.png")} />
                 </li>
-              </ol>
+              </ol>*/}
               <div className="carousel-inner">
                 <div className="carousel-item active">
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video05.mp4")} /></video>
+                </div>
+                {/*<div className="carousel-item active">
                   <img src={withPrefix("/images/art/sec02_img05_main.png")} />
                 </div>
                 <div className="carousel-item">
@@ -398,7 +602,7 @@ const SecondPage = () => (
                 </div>
                 <div className="carousel-item">
                   <img src={withPrefix("/images/art/sec02_img05_06.png")} />
-                </div>
+                </div>*/}
               </div>
             </div>
           </div>
@@ -415,7 +619,7 @@ const SecondPage = () => (
           </div>
           <div className="modal-body">
             <div id="slide06" className="carousel slide">
-              <ol className="carousel-indicators">
+              {/*<ol className="carousel-indicators">
                 <li data-target="#slide06" data-slide-to="0" className="active">
                   <img src={withPrefix("/images/art/sec02_img06_main.png")} />
                 </li>
@@ -435,9 +639,12 @@ const SecondPage = () => (
                   <img src={withPrefix("/images/art/sec02_img06_05.png")} />
                 </li>
 
-              </ol>
+              </ol>*/}
               <div className="carousel-inner">
                 <div className="carousel-item active">
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video06.mp4")} /></video>
+                </div>
+                {/*<div className="carousel-item active">
                   <img src={withPrefix("/images/art/sec02_img06_main.png")} />
                 </div>
                 <div className="carousel-item">
@@ -454,7 +661,7 @@ const SecondPage = () => (
                 </div>
                 <div className="carousel-item">
                   <img src={withPrefix("/images/art/sec02_img06_05.png")} />
-                </div>
+                </div>*/}
 
               </div>
             </div>
@@ -472,7 +679,7 @@ const SecondPage = () => (
           </div>
           <div className="modal-body">
             <div id="slide07" className="carousel slide">
-              <ol className="carousel-indicators">
+              {/*<ol className="carousel-indicators">
                 <li data-target="#slide07" data-slide-to="0" className="active">
                   <img src={withPrefix("/images/art/sec02_img07_01.png")} />
                 </li>
@@ -492,9 +699,12 @@ const SecondPage = () => (
                   <img src={withPrefix("/images/art/sec02_img07_06.png")} />
                 </li>
 
-              </ol>
+              </ol>*/}
               <div className="carousel-inner">
                 <div className="carousel-item active">
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video07.mp4")} /></video>
+                </div>
+                {/*<div className="carousel-item active">
                   <img src={withPrefix("/images/art/sec02_img07_01.png")} />
                 </div>
                 <div className="carousel-item">
@@ -511,7 +721,49 @@ const SecondPage = () => (
                 </div>
                 <div className="carousel-item">
                   <img src={withPrefix("/images/art/sec02_img07_06.png")} />
+                </div>*/}
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="modal fade modal_slideshow" id="modal14" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+      <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div className="modal-content">
+          <div className="modal-header">
+            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div className="modal-body">
+            <div id="slide14" className="carousel slide">
+              {/*<ol className="carousel-indicators">
+                <li data-target="#slide14" data-slide-to="0" className="active">
+                  <img src={withPrefix("/images/art/sec02_img14_01.png")} />
+                </li>
+                <li data-target="#slide14" data-slide-to="1">
+                  <img src={withPrefix("/images/art/sec02_img14_02.png")} />
+                </li>
+                <li data-target="#slide14" data-slide-to="2">
+                  <img src={withPrefix("/images/art/sec02_img14_03.png")} />
+                </li>
+
+              </ol>*/}
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video14.mp4")} /></video>
                 </div>
+                {/*<div className="carousel-item active">
+                  <img src={withPrefix("/images/art/sec02_img14_01.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img14_02.png")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("/images/art/sec02_img14_03.png")} />
+                </div>*/}
 
               </div>
             </div>
@@ -529,7 +781,7 @@ const SecondPage = () => (
           </div>
           <div className="modal-body">
             <div id="slide08" className="carousel slide">
-              <ol className="carousel-indicators">
+              {/*<ol className="carousel-indicators">
                 <li data-target="#slide08" data-slide-to="0" className="active">
                   <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
                 </li>
@@ -551,29 +803,95 @@ const SecondPage = () => (
                 <li data-target="#slide08" data-slide-to="6">
                   <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
                 </li>
-              </ol>
+              </ol>*/}
+              <div className="carousel-inner">
+                {/*<div className="carousel-item active">
+                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
+                </div>
+                <div className="carousel-item">
+                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
+                </div>*/}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="modal fade modal_slideshow" id="modal15" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+      <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div className="modal-content">
+          <div className="modal-header">
+            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div className="modal-body">
+            <div id="slide15" className="carousel slide">
+              {/*<ol className="carousel-indicators">
+                <li data-target="#slide15" data-slide-to="0" className="active">
+                  <img src={withPrefix("/images/art/sec02_img15_01.png")} />
+                </li>
+                <li data-target="#slide15" data-slide-to="1">
+                  <img src={withPrefix("/images/art/sec02_img15_02.png")} />
+                </li>
+                <li data-target="#slide15" data-slide-to="2">
+                  <img src={withPrefix("/images/art/sec02_img15_03.png")} />
+                </li>
+                <li data-target="#slide15" data-slide-to="3">
+                  <img src={withPrefix("/images/art/sec02_img15_04.png")} />
+                </li>
+                <li data-target="#slide15" data-slide-to="4">
+                  <img src={withPrefix("/images/art/sec02_img15_05.png")} />
+                </li>
+                <li data-target="#slide15" data-slide-to="5">
+                  <img src={withPrefix("/images/art/sec02_img15_06.png")} />
+                </li>
+                <li data-target="#slide15" data-slide-to="5">
+                  <img src={withPrefix("/images/art/sec02_img15_07.png")} />
+                </li>
+
+              </ol>*/}
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video15.mp4")} /></video>
+                </div>
+                {/*<div className="carousel-item active">
+                  <img src={withPrefix("/images/art/sec02_img15_01.png")} />
                 </div>
                 <div className="carousel-item">
-                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
+                  <img src={withPrefix("/images/art/sec02_img15_02.png")} />
                 </div>
                 <div className="carousel-item">
-                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
+                  <img src={withPrefix("/images/art/sec02_img15_03.png")} />
                 </div>
                 <div className="carousel-item">
-                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
+                  <img src={withPrefix("/images/art/sec02_img15_04.png")} />
                 </div>
                 <div className="carousel-item">
-                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
+                  <img src={withPrefix("/images/art/sec02_img15_05.png")} />
                 </div>
                 <div className="carousel-item">
-                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
+                  <img src={withPrefix("/images/art/sec02_img15_06.png")} />
                 </div>
                 <div className="carousel-item">
-                  <img src={withPrefix("https://placehold.jp/c7c7c7/ffffff/738x479.png?text=準備中")} />
-                </div>
+                  <img src={withPrefix("/images/art/sec02_img15_07.png")} />
+                </div>*/}
+
               </div>
             </div>
           </div>
@@ -590,7 +908,7 @@ const SecondPage = () => (
           </div>
           <div className="modal-body">
             <div id="slide09" className="carousel slide">
-              <ol className="carousel-indicators">
+              {/*<ol className="carousel-indicators">
                 <li data-target="#slide09" data-slide-to="0" className="active">
                   <img src={withPrefix("/images/art/sec02_img09_main.png")} />
                 </li>
@@ -612,9 +930,12 @@ const SecondPage = () => (
                 <li data-target="#slide09" data-slide-to="6">
                   <img src={withPrefix("/images/art/sec02_img09_06.png")} />
                 </li>
-              </ol>
+              </ol>*/}
               <div className="carousel-inner">
                 <div className="carousel-item active">
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video08.mp4")} /></video>
+                </div>
+                {/*<div className="carousel-item active">
                   <img src={withPrefix("/images/art/sec02_img09_main.png")} />
                 </div>
                 <div className="carousel-item">
@@ -634,7 +955,7 @@ const SecondPage = () => (
                 </div>
                 <div className="carousel-item">
                   <img src={withPrefix("/images/art/sec02_img09_06.png")} />
-                </div>
+                </div>*/}
               </div>
             </div>
           </div>
@@ -651,7 +972,7 @@ const SecondPage = () => (
           </div>
           <div className="modal-body">
             <div id="slide10" className="carousel slide">
-              <ol className="carousel-indicators">
+              {/*<ol className="carousel-indicators">
                 <li data-target="#slide10" data-slide-to="0" className="active">
                   <img src={withPrefix("/images/art/sec02_img10_main.png")} />
                 </li>
@@ -673,9 +994,12 @@ const SecondPage = () => (
                 <li data-target="#slide10" data-slide-to="6">
                   <img src={withPrefix("/images/art/sec02_img10_06.png")} />
                 </li>
-              </ol>
+              </ol>*/}
               <div className="carousel-inner">
                 <div className="carousel-item active">
+                  <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video10.mp4")} /></video>
+                </div>
+                {/*<div className="carousel-item active">
                   <img src={withPrefix("/images/art/sec02_img10_main.png")} />
                 </div>
                 <div className="carousel-item">
@@ -695,7 +1019,7 @@ const SecondPage = () => (
                 </div>
                 <div className="carousel-item">
                   <img src={withPrefix("/images/art/sec02_img10_06.png")} />
-                </div>
+                </div>*/}
               </div>
             </div>
           </div>

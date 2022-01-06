@@ -154,12 +154,14 @@ export const onInitialClientRender = () => {
     })
 
     //VR MOVIE　toggle
-$(function(){
-    $("#acMenu dt").on("click", function() {
-    $(this).next().slideToggle();
-    $(this).toggleClass("active");//追加部分
+    $(function(){
+        $("#acMenu dt").on("click", function() {
+        $(this).next().slideToggle();
+        $(this).toggleClass("active");//追加部分
+        });
     });
-    });
+
+
 }
 
 export const onPreRouteUpdate = ({ location, prevLocation }) => {
@@ -266,7 +268,24 @@ export const onRouteUpdate = ({ location, prevLocation }) => {
             ytModalMain.open();
         });
 
+        // video modal
+        let videoModals = document.querySelectorAll('.video-modal-trigger');
+        for (let i = 0; i < videoModals.length; ++i) {
+            videoModals[i].addEventListener('click', function () {
+                var videoModalContent = new tingle.modal({
+                    onClose: function () {
+                        videoModalContent.destroy();
+                    }
+                });
+                var videoContainer = this.parentNode.lastElementChild;
+                videoModalContent.setContent((videoContainer).innerHTML);
+                videoModalContent.open();
+            });
+        }
+
     })
+
+
 }
 export const onRouteUpdateDelayed = () => {
     // console.log("Now Loading...")

@@ -3,11 +3,13 @@
 // 一覧部分
 #modal-container {
   figure {
-    a {
+    a,
+    .video-modal-trigger {
       display: block;
       overflow: hidden;
       border: 8px inset $color_secondary;
       display: block;
+      transition: .3s;
 
       img {
         display: block;
@@ -16,7 +18,8 @@
       }
 
       &:hover {
-
+        cursor: pointer;
+        opacity: .9;
         // border: 3px solid rgba(#6f9a86 ,.4);
         img {
           transform: scale(1.1, 1.1);
@@ -29,6 +32,12 @@
       margin: 5px auto 40px;
       font-size: 110%;
     }
+  }
+}
+
+.tingle-modal {
+  .videoWrap video {
+    display: block;
   }
 }
 

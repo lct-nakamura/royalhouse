@@ -36,51 +36,143 @@ const SecondPage = () => (
               <div id="modal-container" className="row">
 
                 <figure className="col-6">
-                  <a href="#" data-toggle="modal" data-target="#modal11"><img src={withPrefix("/images/art/sec02_img11_main.png")} /></a>
+                  <div className="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img11_main.png")} /></div>
                   <figcaption>【FamigliaDomani】<br /><span className="text-xsmall">家の中の外空間<br className="show-xs-only hide-md" />～明日の我が家～</span></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video11.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
+
                 <figure className="col-6">
-                  <a href="#" data-toggle="modal" data-target="#modal12"><img src={withPrefix("/images/art/sec02_img12_main.png")} /></a>
+                  <div class="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img12_main.png")} /></div>
                   <figcaption>【現代の曲がり屋】<br /><span className="text-xsmall">集う・遊ぶ・憩う・働く場をデザイン。</span></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video12.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
+
                 <figure className="col-6">
-                  <a href="#" data-toggle="modal" data-target="#modal01"><img src={withPrefix("/images/art/sec02_img01_main.png")} /></a>
+                  <div class="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img01_main.png")} /></div>
                   <figcaption>【Life Block】<br /><span className="text-xsmall">家族参加でつくる<br className="show-xs-only hide-md" />新発想の家づくり</span></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video01.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
+
                 <figure className="col-6">
-                  <a href="#" data-toggle="modal" data-target="#modal13"><img src={withPrefix("/images/art/sec02_img13_main.png")} /></a>
+                  <div class="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img13_main.png")} /></div>
                   <figcaption>【プラスS構法】<br /><span className="text-xsmall">こだわりの大空間設計が実現する、<br className="pc" />革新的なトラス構造の家です。</span></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video13.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
-                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal02"><img src={withPrefix("/images/art/sec02_img02_main.png")} /></a>
+
+                <figure className="col-6">
+                  <div class="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img02_main.png")} /></div>
                   <figcaption>【育つ家】<br /><span className="text-xsmall">平屋から、<br className="show-xs-only hide-md" />みんなで育てる家</span></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video02.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
-                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal03"><img src={withPrefix("/images/art/sec02_img03_main.png")} /></a>
-                  <figcaption>【ピロティの家】<br /><span className="text-xsmall">家の内外を曖昧に<br className="show-xs-only hide-md" />つなぐ、ピロティの<br className="show-xs-only hide-md" />新たな価値</span>
-                  </figcaption>
+
+                <figure className="col-6">
+                  <div class="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img03_main.png")} /></div>
+                  <figcaption>【ピロティの家】<br /><span className="text-xsmall">家の内外を曖昧に<br className="show-xs-only hide-md" />つなぐ、ピロティの<br className="show-xs-only hide-md" />新たな価値</span></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video03.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
-                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal04"><img src={withPrefix("/images/art/sec02_img04_main.png")} /></a>
+
+                <figure className="col-6">
+                  <div class="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img04_main.png")} /></div>
                   <figcaption>【門のある家】<br /><span className="text-xsmall">地域との距離感を選択<br className="show-xs-only hide-md" />できるデザインと<br className="show-xs-only hide-md" />暮らし</span><br /></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video04.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
-                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal05"><img src={withPrefix("/images/art/sec02_img05_main.png")} /></a>
+
+                <figure className="col-6">
+                  <div class="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img05_main.png")} /></div>
                   <figcaption>【積み木の家】<br /><span className="text-xsmall">つくっては変えられる<br className="show-xs-only hide-md" />発想を縛られない<br className="show-xs-only hide-md" />無柱空間</span></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video05.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
-                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal06"><img src={withPrefix("/images/art/sec02_img06_main.png")} /></a>
+
+                <figure className="col-6">
+                  <div class="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img06_main.png")} /></div>
                   <figcaption>【軒の家】<br /><span className="text-xsmall">ダイナミックな吹抜け<br className="show-xs-only hide-md" />半戸外空間を持つ<br className="show-xs-only hide-md" />暮らし</span></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video06.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
-                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal07"><img src={withPrefix("/images/art/sec02_img07_main.png")} /></a>
+
+                <figure className="col-6">
+                  <div class="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img07_main.png")} /></div>
                   <figcaption>【大開口の家】<br /><span className="text-xsmall">これからの省エネ基準を解決する新発想の<br className="show-xs-only hide-md" />家づくり</span></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video07.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
-                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal14"><img src={withPrefix("/images/art/sec02_img14_main.png")} /></a>
+
+                <figure className="col-6">
+                  <div class="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img14_main.png")} /></div>
                   <figcaption>【Village】<br /><span className="text-xsmall">ひとり暮らし・ふたり暮らしの小さな村</span></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video14.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
-                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal09"><img src={withPrefix("/images/art/sec02_img09_main.png")} /></a>
+
+                <figure className="col-6">
+                  <div class="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img09_main.png")} /></div>
                   <figcaption>【骨の見える家】<br /><span className="text-xsmall">中古流通時代における<br className="show-xs-only hide-md" />価値ある新築住宅<br className="show-xs-only hide-md" />システム</span></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video09.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
-                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal15"><img src={withPrefix("/images/art/sec02_img15_main.png")} /></a>
+
+                <figure className="col-6">
+                  <div class="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img15_main.png")} /></div>
                   <figcaption>【SSS構法】<br /><span className="text-xsmall">木のポテンシャルを活かす高耐震長寿命の家</span></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video15.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
-                <figure className="col-6"><a href="#" data-toggle="modal" data-target="#modal10"><img src={withPrefix("/images/art/sec02_img10_main.png")} /></a>
+
+                <figure className="col-6">
+                  <div class="video-modal-trigger"><img src={withPrefix("/images/art/sec02_img10_main.png")} /></div>
                   <figcaption>【外暮らしの家】<br /><span className="text-xsmall">小さく建てて、<br className="show-xs-only hide-md" />大きく暮らす家</span></figcaption>
+                  <div className="video-modal-content" style={{ display: 'none' }}>
+                    <div className="videoWrap">
+                      <video width="100%" playsInline controls><source src={withPrefix("/images/art/sec02_video10.mp4")} /></video>
+                    </div>
+                  </div>
                 </figure>
 
               </div>
@@ -129,7 +221,7 @@ const SecondPage = () => (
         </div>
       </div>
     </article>
-    <div className="modal fade modal_slideshow" id="modal11" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal11" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -190,7 +282,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal12" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal12" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -254,7 +346,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal01" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal01" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -318,7 +410,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal13" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal13" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -376,7 +468,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal02" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal02" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -424,7 +516,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal03" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal03" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -484,7 +576,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal04" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal04" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -548,7 +640,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal05" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal05" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -609,7 +701,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal06" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal06" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -669,7 +761,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal07" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal07" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -729,7 +821,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal14" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal14" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -771,7 +863,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal08" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal08" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -832,7 +924,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal15" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal15" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -898,7 +990,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal09" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal09" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">
@@ -962,7 +1054,7 @@ const SecondPage = () => (
         </div>
       </div>
     </div>
-    <div className="modal fade modal_slideshow" id="modal10" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div className="modal fade modal_slideshow" id="videoModal10" tabIndex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div className="modal-content">
           <div className="modal-header">

@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main className="l-main">{children}</main>
        <div className="campaign-bnr">
-       <Link to="/35campaign/" target="_blank" className="map-balloon__link" activeClassName="is-current"><img src={withPrefix("/images/campaign-bnr-pc.jpg")} alt="35周年記念記念キャンペーンはこちら" className="pc" /><img src={withPrefix("/images/campaign-bnr-sp.jpg")} alt="35周年記念記念キャンペーンはこちら" className="sp" /></Link>
+       <Link to="/seminar_entry/" target="_blank" className="map-balloon__link" activeClassName="is-current"><img src={withPrefix("/images/seminar-bnr-pc.jpg")} alt="オンラインセミナーはこちら" className="pc" /><img src={withPrefix("/images/seminar-bnr-sp.jpg")} alt="オンラインセミナーはこちら" className="sp" /></Link>
   </div>
       
       <div className="yt-modal--main" style={{display:'none'}}>

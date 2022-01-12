@@ -29,7 +29,7 @@ const SecondPage = () => (
     <Link to="/entry/"><img src={withPrefix("/images/campaign/campaign-main.png")} alt="35周年記念記念キャンペーン 対象商品はこちら" className="pc" /><img src={withPrefix("/images/campaign/campaign-main-sp.png")} alt="35周年記念記念キャンペーン 対象商品はこちら" className="sp" /></Link>
     </div>
     <p className="entry-intro">※エントリ―後、ご登録メールアドレスに応募詳細・応募申込フォームをお送りいたします。<br/>※応募フォームで応募コースをお選びいただきます。</p>
-    <h2>申し込みフォーム</h2>
+    <h2>エントリーフォーム</h2>
     <form id="mailformpro" action="../mail-entry.php" method="POST">
                 <div className="form-group row">
                   <div className="col-12 col-sm-4 required"><label for="MfpField_04">メールアドレス</label></div>

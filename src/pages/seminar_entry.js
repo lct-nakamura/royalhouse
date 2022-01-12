@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 import Map from "../components/map"
 const SecondPage = () => (
   <Layout>
-    <SEO title="建築デザイナーによる家づくりWEBセミナーエントリーフォーム" />
+    <SEO title="建築デザイナーによる家づくりWEBセミナー申し込みフォーム" />
 
     <article className="l-article">
       <div className="article__container">
@@ -20,7 +20,7 @@ const SecondPage = () => (
 					<button className="article__btn--close js-articlebtn-close"><span></span><span></span><span></span></button>
 				</nav>
         <div className="article__title">
-          <h1>建築デザイナーによる家づくりWEBセミナー <br className="pc"/>エントリーフォーム</h1>
+          <h1>建築デザイナーによる家づくりWEBセミナー <br className="pc"/>申し込みフォーム</h1>
         </div>
         <div className="article__contents">
           <div className="container">          
@@ -28,7 +28,7 @@ const SecondPage = () => (
             <p><img src={withPrefix("/images/form/bnr_form.png")} alt="オンラインセミナーはこちらa" /></p>
             <p><img src={withPrefix("/images/form/smn_pc.png")} alt="オンラインセミナーはこちら" className="pc" /></p>
             <p><img src={withPrefix("/images/form/smn_sp.png")} alt="オンラインセミナーはこちら" className="sp" /></p>
-    <h2>エントリーフォーム</h2>
+    <h2>申し込みフォーム</h2>
     <form id="mailformpro" action="../mail-semiar_entry.php" method="POST">
                 <div className="form-group row">
                   <div className="col-12 col-sm-4 required"><label for="MfpField_01">氏名</label></div>

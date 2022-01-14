@@ -109,9 +109,9 @@ const SecondPage = () => (
                   </div>
                 </div>
                 <div className="form-group row">
-                  <div className="col-12 col-sm-4 required"><label for="MfpField_07">家を建てる予定は？</label></div>
+                  <div className="col-12 col-sm-4"><label for="MfpField_07">家を建てる予定は？</label></div>
                   <div className="input-group col-12 col-sm-8 ">
-                    <select name="家を建てる予定は？" className="form-control" id="MfpField_07" required="required" >
+                    <select name="家を建てる予定は？" className="form-control" id="MfpField_07" >
                     <option value="">選択してください</option>
                       <option value="家を建てる予定はない">家を建てる予定はない</option>
                       <option value="ある(半年以内)">ある(半年以内)</option>
@@ -122,15 +122,15 @@ const SecondPage = () => (
                   </div>
                 </div>
                 <div className="form-group row">
-                  <div className="col-12 col-sm-4 required"><label for="MfpField_09">商談中の加盟店(現在商談中でない場合、「なし」とご記入下さい)</label></div>
+                  <div className="col-12 col-sm-4"><label for="MfpField_09">商談中の加盟店(現在商談中でない場合、「なし」とご記入下さい)</label></div>
                   <div className="input-group col-12 col-sm-8 ">
-                    <input type="text" data-type="text" className="form-control" id="MfpField_09" placeholder="" name="商談中の加盟店" required="required" />
+                    <input type="text" data-type="text" className="form-control" id="MfpField_09" placeholder="" name="商談中の加盟店" />
                   </div>
                 </div>
                 <div className="form-group row">
-                  <div className="col-12 col-sm-4 required"><label for="MfpField_08">デザイナーへの質問（ご質問によってはセミナーの中でデザイナーがお答えします）</label></div>
+                  <div className="col-12 col-sm-4"><label for="MfpField_08">デザイナーへの質問（ご質問によってはセミナーの中でデザイナーがお答えします）</label></div>
                   <div className="input-group col-12 col-sm-8 ">
-                    <textarea name="デザイナーへの質問" rows="4" cols="40" data-type="textarea" className="form-control" id="MfpField_08" required="required"/>
+                    <textarea name="デザイナーへの質問" rows="4" cols="40" data-type="textarea" className="form-control" id="MfpField_08" />
                   </div>
                 </div>
                 <p style={{fontWeight:'bold',textAlign: 'center',fontSize: '1.6rem',margin:'24px 0 0'}}>オリジナルカタログ「デザイン実例集」を<br className="sp"/>ご希望の方は<br />ご自宅住所・お電話番号をご入力ください</p>

@@ -25,7 +25,7 @@ const SecondPage = () => (
         <div className="article__contents">
           <div className="container">          
             <section className="article__section article__section01">
-            <p><img src={withPrefix("/images/form/bnr_form.png")} alt="オンラインセミナーはこちらa" /></p>
+            <p><img src={withPrefix("/images/form/bnr_form.jpg")} alt="オンラインセミナーはこちら" /></p>
             <p><img src={withPrefix("/images/form/smn_pc.png")} alt="オンラインセミナーはこちら" className="pc" /></p>
             <p><img src={withPrefix("/images/form/smn_sp.png")} alt="オンラインセミナーはこちら" className="sp" /></p>
     <h2>申し込みフォーム</h2>

@@ -47,7 +47,6 @@ const SecondPage = () => (
                   <div className="input-group col-12 col-sm-8 ">
                     <select name="視聴希望日" className="form-control" id="MfpField_06" required="required" >
                       <option value="">選択してください</option>
-                      <option value="第1回 1月19日">第1回 1月19日</option>
                       <option value="第2回 2月16日">第2回 2月16日</option>
                       <option value="第3回 3月9日">第3回 3月9日</option>
                     </select>
@@ -133,7 +132,7 @@ const SecondPage = () => (
                     <textarea name="デザイナーへの質問" rows="4" cols="40" data-type="textarea" className="form-control" id="MfpField_08" />
                   </div>
                 </div>
-                <p style={{fontWeight:'bold',textAlign: 'center',fontSize: '1.6rem',margin:'24px 0 0'}}>オリジナルカタログ「デザイン実例集」を<br className="sp"/>ご希望の方は<br />ご自宅住所・お電話番号をご入力ください</p>
+                <p style={{fontWeight:'bold',textAlign: 'center',fontSize: '1.6rem',margin:'24px 0 0'}}>オリジナルカタログ「デザイン実例集」を<br className="sp"/>ご希望の方は<br />ご自宅住所・お電話番号をご入力ください<br /><span style={{fontSize: '1.4rem'}}>※後日郵送にてプレゼントいたします。</span></p>
                 <div className="form-group row">
                   <div className="col-12 col-sm-4"><label for="MfpField_03">ご住所（ご自宅）</label></div>
                   <div className="input-group col-12 col-sm-8 ">

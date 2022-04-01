@@ -9,7 +9,7 @@ import Map from "../../components/map"
 
 const SecondPage = () => (
 	<Layout>
-		<SEO title="kicolo 平屋スタイル スキップフロア" />
+		<SEO title="環境にも地球にもやさしいエコな家" />
 		<article className="l-article">
 			<div className="article__container">
 				<nav className="article-nav">
@@ -20,7 +20,7 @@ const SecondPage = () => (
 					<button className="article__btn--close js-articlebtn-close"><span></span><span></span><span></span></button>
 				</nav>
 				<div className="article__title">
-					<h1>kicolo 平屋スタイル スキップフロア</h1>
+					<h1>環境にも地球にもやさしいエコな家</h1>
 				</div>
 				<div className="article__contents">
 					<div className="container">
@@ -28,7 +28,7 @@ const SecondPage = () => (
 							<h2>CGムービー体験</h2>
 							<div className="movie__wrap row">
 								<div className="col-12 col-md-12">
-									<div className="movie text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/-7kBSN3bl3Q?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="kicolo 平屋スタイル スキップフロア"></iframe></div>
+									<div className="movie text-center"><iframe title="環境にも地球にもやさしいエコな家" width="560" height="315" src="https://www.youtube.com/embed/k6yFRUI6xuE?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></div>
 								</div>
 							</div>
 						</section>
@@ -36,21 +36,21 @@ const SecondPage = () => (
 							<h2>VR見学</h2>
 							<h3>画面からVR</h3>
 							<div className="section__image">
-							<a href="/park/vr/13/3d/" target="_blank" rel="noreferrer"><img src={withPrefix("/images/vr/vr13/sec01_img01.jpg")} alt="kicolo 平屋スタイル スキップフロア" /></a>
+							<a href="https://fukamori.jp/pano/royal/honbu/202203comuni_oshare/" target="_blank" rel="noreferrer"><img src={withPrefix("/images/vr/vr25/sec01_img01.jpg")} alt="環境にも地球にもやさしいエコな家" /></a>
 							</div>
 							<div className="button__wrap">
-							<a href="/park/vr/13/3d/" target="_blank" rel="noreferrer" className="button button--primary">VRで体験する</a>
+							<a href="https://fukamori.jp/pano/royal/honbu/202203comuni_oshare/" target="_blank" rel="noreferrer" className="button button--primary">VRで体験する</a>
 							</div>
 						</section>
 						<section className="article__section article__section02">
 							<h2>間取り</h2>
 							<div className="layout__list row">
 								<div className="col-12 col-md-12">
-									<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr13/sec02_img01.png")} alt="1階間取り" /></div>
+									<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr25/sec03_img01.jpg")} alt="1階間取り" /></div>
 									<p className="layout__list__caption text-center">1階</p>
 								</div>
 								<div className="col-12 col-md-12">
-									<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr13/sec02_img02.png")} alt="2階間取り" /></div>
+									<div className="layout__list__image text-center"><img src={withPrefix("/images/vr/vr25/sec03_img02.jpg")} alt="2階間取り" /></div>
 									<p className="layout__list__caption text-center">2階</p>
 								</div>
 							</div>
@@ -64,48 +64,48 @@ const SecondPage = () => (
 												<th>床面積</th>
 											</tr>
 											<tr>
-												<td>1階 浴室</td>
-												<td>4.00㎡</td>
+												<th>1階 子供室2</th>
+												<th>8.00㎡</th>
 											</tr>
 											<tr>
-												<td>1階 洗面所</td>
-												<td>4.00㎡</td>
+												<th>1階 ウォークインクローゼット</th>
+												<th>2.00㎡</th>
 											</tr>
 											<tr>
-												<td>1階 トイレ</td>
-												<td>2.00㎡</td>
+												<th>1階 子供室1</th>
+												<th>8.00㎡</th>
 											</tr>
 											<tr>
-												<td>1階 タタミ室 </td>
-												<td>12.00㎡</td>
+												<th>1階 主寝室</th>
+												<th>12.00㎡</th>
 											</tr>
 											<tr>
-												<td>1階 クローゼット</td>
-												<td>1.00㎡</td>
+												<th>1階 トイレ</th>
+												<th>1.50㎡</th>
 											</tr>
 											<tr>
-												<td>1階 廊下</td>
-												<td>4.00㎡</td>
+												<th>1階 廊下</th>
+												<th>3.00㎡</th>
 											</tr>
 											<tr>
-												<td>1階 洋室 </td>
-												<td>13.50㎡</td>
+												<th>1階 収納</th>
+												<th>2.00㎡</th>
 											</tr>
 											<tr>
-												<td>1階 ウォークイン クローゼット</td>
-												<td>4.00㎡</td>
+												<th>1階 玄関</th>
+												<th>4.25㎡</th>
 											</tr>
 											<tr>
-												<td>1階 玄関</td>
-												<td>5.00㎡</td>
+												<th>1階 ファミリースペース</th>
+												<th>12.00㎡</th>
 											</tr>
 											<tr>
-												<td>1階 ＬＤＫ </td>
-												<td>39.00㎡</td>
+												<th>1階 ウォークインクローゼット</th>
+												<th>2.00㎡</th>
 											</tr>
 											<tr>
-												<td>1階 室内階段</td>
-												<td>3.50㎡</td>
+												<th>1階 室内階段</th>
+												<th>4.00㎡</th>
 											</tr>
 										</tbody>
 									</table>
@@ -119,16 +119,28 @@ const SecondPage = () => (
 												<th>床面積</th>
 											</tr>
 											<tr>
-												<td>2階 洋室 </td>
-												<td>15.00㎡</td>
+												<th>2階 トイレ</th>
+												<th>2.00㎡</th>
 											</tr>
 											<tr>
-												<td>2階 クローゼット</td>
-												<td>6.00㎡</td>
+												<th>2階 浴室</th>
+												<th>3.31㎡</th>
 											</tr>
 											<tr>
-												<td>2階 吹き抜け </td>
-												<td>24.50㎡</td>
+												<th>2階 パントリー</th>
+												<th>2.14㎡</th>
+											</tr>
+											<tr>
+												<th>2階 廊下</th>
+												<th>1.00㎡</th>
+											</tr>
+											<tr>
+												<th>2階 洗面室</th>
+												<th>4.00㎡</th>
+											</tr>
+											<tr>
+												<th>2階 LDK</th>
+												<th>31.54㎡</th>
 											</tr>
 										</tbody>
 									</table>
@@ -138,18 +150,18 @@ const SecondPage = () => (
 										<tbody>
 											<tr>
 												<td>1F床⾯積</td>
-												<td>91.50㎡</td>
-												<td>27.67坪</td>
+												<td>57.75㎡</td>
+												<td>17.46坪</td>
 											</tr>
 											<tr>
 												<td>2F床⾯積</td>
-												<td>24.50㎡</td>
-												<td>7.41坪</td>
+												<td>48.00㎡</td>
+												<td>14.52坪</td>
 											</tr>
 											<tr>
 												<td>延床⾯積</td>
-												<td>116.00㎡</td>
-												<td>35.08坪</td>
+												<td>105.75㎡</td>
+												<td>31.98坪</td>
 											</tr>
 										</tbody>
 									</table>

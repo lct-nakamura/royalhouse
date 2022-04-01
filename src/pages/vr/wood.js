@@ -24,6 +24,12 @@ const SecondPage = () => (
           <div className="container">
             <section className="menu__section">
               <div className="menu__list row">
+                {/*<div className="col-12 col-md-6">
+                  <Link to="/vr/27">
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/wood/menu_img06.jpg")} alt="ウイルス対策万全！住まいのきれいをデザインした家「kicolo きれいシリーズ」" /></div>
+                    <p className="menu__list__caption icon_triborder">ウイルス対策万全！<br />住まいのきれいをデザインした家<br />「kicolo きれいシリーズ」</p>
+                  </Link>
+                </div>*/}
                 <div className="col-12 col-md-6">
                   <Link to="/vr/10">
                     <div className="menu__list__image"><img src={withPrefix("/images/vr/wood/menu_img01.jpg")} alt="kicoloスタイリッシュStyle" /></div>

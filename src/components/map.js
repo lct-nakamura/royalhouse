@@ -58,7 +58,7 @@ const Map = () => (
             </div>
             <div className="map-balloon pt10">
                 <a href="https://www.royal-house.co.jp/campaign/" className="map-balloon__link" target="_blank">
-                    <p>ロイヤルフェア</p>
+                    <p>ロイヤルキャンペーン</p>
                 </a>
             </div>
             <div className="map-balloon pt11">

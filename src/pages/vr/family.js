@@ -24,7 +24,19 @@ const SecondPage = () => (
           <div className="container">
             <section className="menu__section">
               <div className="menu__list row">
-              <div className="col-12 col-md-6">
+                {/*<div className="col-12 col-md-6">
+                  <Link to="/vr/25">
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/family/menu_img06.jpg")} alt="環境にも地球にもやさしいエコな家「COMUNI Oshare Eco edition」" /></div>
+                    <p className="menu__list__caption icon_triborder">環境にも地球にもやさしいエコな家<br />「COMUNI Oshare Eco edition」</p>
+                  </Link>
+                </div>
+                <div className="col-12 col-md-6">
+                  <Link to="/vr/26">
+                    <div className="menu__list__image"><img src={withPrefix("/images/vr/family/menu_img07.jpg")} alt="ウイルス対策万全！住まいのきれいをデザインした家「COMUNIきれいシリーズ」" /></div>
+                    <p className="menu__list__caption icon_triborder">ウイルス対策万全！<br />住まいのきれいをデザインした家<br />「COMUNIきれいシリーズ」</p>
+                  </Link>
+                </div>*/}
+                <div className="col-12 col-md-6">
                   <Link to="/comuni">
                     <div class="menu__list__image"><img src={withPrefix("/images/vr/family/menu_img05.jpg")} alt="楽しく家事、子育てがシェアできる家「COMUNI Oshare」" /></div>
                     <p class="menu__list__caption icon_triborder">楽しく家事、子育てがシェアできる家<br/>「COMUNI Oshare」</p>

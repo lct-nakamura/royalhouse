@@ -25,25 +25,16 @@ const SecondPage = () => (
         <div className="article__contents">
           <div className="container">
             <section className="article__section article__section01">
-              {/* <p className="text-center h3 mb-5">お役立ち情報をクリックで詳細をご覧いただけます。</p> */}
+              <p className="text-center h3 mb-5">キャンペーン期間：2022年4月1日（金）～2022年6月30日（木）<br />今のニーズに合わせてセレクトした暮らしの質がアップする４つのお得なパッケージ♪</p>
               <ul className="info-bnr__list">
-                <li><h2>きれいシリーズ</h2></li>
-                <li><video width="100%" playsInline poster={withPrefix("/images/video/video01.png")} controls><source src={withPrefix("/images/video/video01.mp4")} /></video><p>広げない、増やさない、持ち込まないをポイントにウイルス対策を意識したこれからの安心できる暮らしのパッケージをご紹介します。</p></li>
-                <li><h2>楽してキレイDesiginパッケージ</h2></li>
-                <li><video width="100%" playsInline poster={withPrefix("/images/video/video02.png")} controls><source src={withPrefix("/images/video/video02.mp4")} /></video><p>毎日使うものだからこそ手軽にお手入れができてきれいが長持ちしてほしい。暮らしやすくキレイが続く商品のパッケージをご紹介します。　　</p></li>
-                <li><h2>触らずキレイDesiginパッケージ</h2></li>
-                <li><video width="100%" playsInline poster={withPrefix("/images/video/video03.png")} controls><source src={withPrefix("/images/video/video03.mp4")} /></video><p>家の中に菌やウイルスを持ち込まないためにタッチレス商品や対面なしの宅配ボックスなど触れずに使用できる商品パッケージをご紹介します。</p></li>
-                <li><h2>水からキレイDesignパッケージ</h2></li>
-                <li><video width="100%" playsInline poster={withPrefix("/images/video/video05.png")} controls><source src={withPrefix("/images/video/video05.mp4")} /></video><p>キレイな水の力で暮らしをもっとキレイに。家中どこの水栓からでもきれいな水で安心安全に暮らせる商品のパッケージ</p></li>
-                <li><h2>災害安心Designパッケージ</h2></li>
-                <li><video width="100%" playsInline poster={withPrefix("/images/video/video04.png")} controls><source src={withPrefix("/images/video/video04.mp4")} /></video><p>もしもに備えて大切な家族を守るため太陽光を使った節約、災害、非常時にも安心できる商品パッケージをご紹介します。</p></li>
-                {/* <li><a href="https://www.royal-house.co.jp/mlit-support/" target="_blank"><img src={withPrefix("/images/information/shiensaku.jpg")} alt="4つの支援策" /></a></li>
-                <li><a href="https://www.sumitomoriko.co.jp/trc-damper-wh/" target="_blank"><img src={withPrefix("/images/information/trc.jpg")} alt="TRCダンパー" /></a></li>
-                <li><a href="https://www.toyokitchen.co.jp/ja/collection/new/cube.htm" target="_blank"><img src={withPrefix("/images/information/cube.jpg")} alt="トーヨーキッチン「CUBE」" /></a></li>
-                <li><a href="https://www.housedepot-p.co.jp/newslist.html" target="_blank"><img src={withPrefix("/images/information/flat35.jpg")} alt="フラット３５の金利" /></a></li>
-                <li><a href="https://kdat.jp/products/interior/athletic/" target="_blank"><img src={withPrefix("/images/information/athletic.jpg")} alt="アスレチックシリーズ" /></a></li>
-                <li><a href="https://i-feel-science.com/mirabath/" target="_blank"><img src={withPrefix("/images/information/mirabasu.jpg")} alt="ミラバス" /></a></li>
-                <li><a href="https://www.aiphone.co.jp/products/detached/tv-doorphone/wp-24a/" target="_blank"><img src={withPrefix("/images/information/aiphone.jpg")} alt="スマートフォン連動テレビドアホン" /></a></li> */}
+                <li><h2>キッチン快適パッケージ</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/QPR3Cd7B-QU?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="キッチン快適パッケージ"></iframe></div><p>魅せる無垢材のデザインスタイルキッチン♪家族で楽しく、快適に家事をシェア</p></li>
+                <li><h2>空気きれいパッケージ</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/_e_cElTtLp4?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="空気きれいパッケージ"></iframe></div><p>ウイルスを意識しない暮らしが実現できる、全館空気清浄システムや抗ウイルスヒノキ床材</p></li>
+                <li><h2>災害に備えるパッケージ</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/RMP_z_MJWxM?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="災害に備えるパッケージ"></iframe></div><p>大きな揺れによる建物の倒壊から命を守る制振装置システムや断水が続いても安心な非常用貯水タンク</p></li>
+                <li><h2>地球にやさしい創エネパッケージ</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/jHmVF4wru2c?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="地球にやさしい創エネパッケージ"></iframe></div><p>太陽光パネルと蓄電池で普段の暮らしはもちろん、もしもの時の備えになる</p></li>
               </ul>
             </section>
           </div>

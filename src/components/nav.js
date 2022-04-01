@@ -71,7 +71,7 @@ const Nav = () => (
         <ul className="nav__list">
           <li className="nav__item">
             <a href="https://www.royal-house.co.jp/campaign/" className="nav__link nv10" target="_blank">
-              <p>ロイヤルフェア</p>
+              <p>ロイヤルキャンペーン</p>
             </a>
           </li>
         </ul>

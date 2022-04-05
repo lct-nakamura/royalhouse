@@ -27,7 +27,7 @@ const SecondPage = () => (
             <section className="article__section article__section01">
               <h2><span className="d-inline-block">COMUNI Oshare Eco edition</span><span className="d-inline-block">コンセプトムービー</span></h2>
               <div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/2As94GXXvok?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="COMUNI Oshare Eco editionのコンセプトムービー"></iframe></div>
-              <Link to="https://www.royal-house.co.jp/campaign/" className="comuni__link" activeClassName="is-current">COMUNI Oshare Eco editionについて<br />詳しく見る</Link>
+              <Link to="https://www.royal-house.co.jp/campaign/" className="comuni__link" activeClassName="is-current">COMUNI Oshare Eco edition<br />について詳しく見る</Link>
               <h2><span className="d-inline-block">COMUNI Oshare</span><span className="d-inline-block">コンセプトムービー</span></h2>
               <div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/wcBOOqplsFw?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="COMUNI OSHAREのコンセプトムービー"></iframe></div>
               <Link to="/comuni" className="comuni__link" activeClassName="is-current">COMUNI Oshareについて詳しく見る</Link>

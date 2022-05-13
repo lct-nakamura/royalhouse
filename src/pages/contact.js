@@ -148,7 +148,12 @@ const SecondPage = () => (
                   <div className="col-12 col-sm-4 required"><label for="MfpField_06">お問い合わせ内容</label></div>
                   <div className="input-group col-12 col-sm-8 "> <textarea id="MfpField_06" className="form-control" rows="5" placeholder="こちらにお問い合わせ内容を入力してください" required="required" name="お問い合わせ内容"></textarea></div>
                 </div>
-
+                <div className="form-group row">
+                    <div className="form-check d-block w-100 text-center">
+                      <input className="form-check-input" type="checkbox" id="MfpField_07" name="プライバシーポリシー" value="私はプライバシーポリシーを読み、これに同意します。"  />
+                      <label className="form-check-label" for="MfpField_07" required="required">私はプライバシーポリシーを読み、これに同意します。</label>
+                    </div>
+                </div>
                 <p className="text-center button__submit"><button type="submit" className="button button--primary" id="contact__submit">確認画面へ</button></p>
               </form>
             </section>

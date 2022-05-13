@@ -56,7 +56,7 @@ const SecondPage = () => (
                   <div className="input-group col-12 col-sm-8 ">
                     <input type="text" className="form-control" id="MfpField_01" placeholder="お名前" name="お名前" data-kana="フリガナ" required="required" />
                   </div>
-                </div>ga
+                </div>
                 <div className="form-group row">
                   <div className="col-12 col-sm-4 optional"><label for="MfpField_02">フリガナ</label></div>
                   <div className="input-group col-12 col-sm-8 ">
@@ -188,6 +188,12 @@ const SecondPage = () => (
                     <input className="form-check-input" type="radio" name="最新情報送信[]" value="いいえ" id="MfpField_10b" />
                     <label className="form-check-label" for="MfpField_10b">いいえ</label>
                   </div>
+                </div>
+                <div className="form-group row">
+                    <div className="form-check d-block w-100 text-center">
+                      <input className="form-check-input" type="checkbox" id="MfpField_11" name="プライバシーポリシー" value="私はプライバシーポリシーを読み、これに同意します。" />
+                      <label className="form-check-label" for="MfpField_11" required="required" >私はプライバシーポリシーを読み、これに同意します。</label>
+                    </div>
                 </div>
                 {/* <!-- <div className="text-center">
                   <div className="form-check ">

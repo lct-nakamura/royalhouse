@@ -25,7 +25,7 @@ const SecondPage = () => (
         <div className="article__contents">
           <div className="container">
             <section className="article__section article__section01">
-              <p className="text-center h3 mb-5">キャンペーン期間：2022年4月1日（金）～2022年6月30日（木）<br />今のニーズに合わせてセレクトした暮らしの質がアップする４つのお得なパッケージ♪</p>
+              <p className="text-center h3 mb-5">キャンペーン期間：2022年7月1日（金）～2022年9月30日（金）<br />今のニーズに合わせてセレクトした暮らしの質がアップする４つのお得なパッケージ♪</p>
               <ul className="info-bnr__list">
                 <li><h2>キッチン快適パッケージ</h2></li>
                 <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/QPR3Cd7B-QU?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="キッチン快適パッケージ"></iframe></div><p>魅せる無垢材のデザインスタイルキッチン♪家族で楽しく、快適に家事をシェア</p></li>

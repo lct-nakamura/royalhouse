@@ -25,16 +25,17 @@ const SecondPage = () => (
         <div className="article__contents">
           <div className="container">
             <section className="article__section article__section01">
-              <p className="text-center h3 mb-5">キャンペーン期間：2022年7月1日（金）～2022年9月30日（金）<br />今のニーズに合わせてセレクトした暮らしの質がアップする４つのお得なパッケージ♪</p>
+              <p className="text-center h3 mb-5">キャンペーン期間：2022年10月1日(土)～2022年12月31日(土)<br />選べるZEHとして期間限定の特別パッケージをご用意♪<br />暮らしに合わせて更なる快適な暮らしを実現しましょう！</p>
               <ul className="info-bnr__list">
-                <li><h2>キッチン快適パッケージ</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/QPR3Cd7B-QU?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="キッチン快適パッケージ"></iframe></div><p>魅せる無垢材のデザインスタイルキッチン♪家族で楽しく、快適に家事をシェア</p></li>
-                <li><h2>空気きれいパッケージ</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/_e_cElTtLp4?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="空気きれいパッケージ"></iframe></div><p>ウイルスを意識しない暮らしが実現できる、全館空気清浄システムや抗ウイルスヒノキ床材</p></li>
-                <li><h2>災害に備えるパッケージ</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/RMP_z_MJWxM?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="災害に備えるパッケージ"></iframe></div><p>大きな揺れによる建物の倒壊から命を守る制振装置システムや断水が続いても安心な非常用貯水タンク</p></li>
-                <li><h2>地球にやさしい創エネパッケージ</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/jHmVF4wru2c?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="地球にやさしい創エネパッケージ"></iframe></div><p>太陽光パネルと蓄電池で普段の暮らしはもちろん、もしもの時の備えになる</p></li>
+                <li><h2>「癒しZEH」パッケージ</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/IkdDqntBZiw?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="「癒しZEH」パッケージ「ミラバス」"></iframe></div><p>癒しZEHパッケージ「ミラバス」</p></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/gThsbwzRe1Q?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="癒しZEHパッケージ「ミラブルZERO」"></iframe></div><p>癒しZEHパッケージ「ミラブルZERO」</p></li>
+                <li><h2>「あったかZEH」パッケージ</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/dbhDPlO8W84?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="あったかZEHパッケージ「日東フローリング」"></iframe></div><p>あったかZEHパッケージ「日東フローリング」</p></li>
+                <li><h2>「安心ZEH」パッケージ</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/s7tICOGlB14?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="安心ZEHパッケージ「TRCダンパー」"></iframe></div><p>安心ZEHパッケージ「TRCダンパー」</p></li>
+                <li><h2>「未来ZEH」パッケージ</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/0audkx962Os?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="「未来ZEH」パッケージ"></iframe></div><p></p></li>
               </ul>
             </section>
           </div>

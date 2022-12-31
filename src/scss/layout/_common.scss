@@ -220,11 +220,22 @@ img {
   position: absolute;
   bottom:10px;
   right: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.campaign-bnr a {
   transition: 0.3s;
 }
-.campaign-bnr:hover{
+.campaign-bnr a:nth-of-type(1) {
+  margin-bottom: 16px;
+}
+.campaign-bnr a:hover{
   transform: translateY(-10px);
   opacity: 0.8;
+}
+.campaign-bnr img {
+  width: 320px;
 }
 .campaign-bnr img.sp{
   display: none;
@@ -235,6 +246,15 @@ img {
     bottom:74px;
     right: 0;
     transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .campaign-bnr a:nth-of-type(1) {
+    margin-bottom: 0px;
+  }
+  .campaign-bnr img {
+    width: auto;
   }
   .campaign-bnr img.sp{
     display: block;

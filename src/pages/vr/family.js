@@ -37,6 +37,12 @@ const SecondPage = () => (
                   </Link>
                 </div>*/}
                 <div className="col-12 col-md-6">
+                  <Link to="/vr/28">
+                    <div class="menu__list__image"><img src={withPrefix("/images/vr/family/menu_img08.jpg")} alt="家計にも地球にも優しい　ZEH暮らしの家「COMUNI ZEH」" /></div>
+                    <p class="menu__list__caption icon_triborder">家計にも地球にも優しいZEH暮らしの家<br/>「COMUNI ZEH」</p>
+                    </Link>
+                    </div>
+                <div className="col-12 col-md-6">
                   <Link to="/comuni">
                     <div class="menu__list__image"><img src={withPrefix("/images/vr/family/menu_img05.jpg")} alt="楽しく家事、子育てがシェアできる家「COMUNI Oshare」" /></div>
                     <p class="menu__list__caption icon_triborder">楽しく家事、子育てがシェアできる家<br/>「COMUNI Oshare」</p>

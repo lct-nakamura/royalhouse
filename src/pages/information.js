@@ -25,17 +25,21 @@ const SecondPage = () => (
         <div className="article__contents">
           <div className="container">
             <section className="article__section article__section01">
-              <p className="text-center h3 mb-5">キャンペーン期間：2022年10月1日(土)～2022年12月31日(土)<br />選べるZEHとして期間限定の特別パッケージをご用意♪<br />暮らしに合わせて更なる快適な暮らしを実現しましょう！</p>
+              <p className="text-center h3 mb-5">今のニーズに合った期間限定パッケージをご提案<br />ワクワク楽しみながら家づくり♪</p>
+              <p className="text-center h3 mb-5">期間：2023年1月1日(日)～2023年3月31日(金)</p>
               <ul className="info-bnr__list">
-                <li><h2>「癒しZEH」パッケージ</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/IkdDqntBZiw?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="「癒しZEH」パッケージ「ミラバス」"></iframe></div><p>癒しZEHパッケージ「ミラバス」</p></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/gThsbwzRe1Q?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="癒しZEHパッケージ「ミラブルZERO」"></iframe></div><p>癒しZEHパッケージ「ミラブルZERO」</p></li>
-                <li><h2>「あったかZEH」パッケージ</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/dbhDPlO8W84?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="あったかZEHパッケージ「日東フローリング」"></iframe></div><p>あったかZEHパッケージ「日東フローリング」</p></li>
-                <li><h2>「安心ZEH」パッケージ</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/s7tICOGlB14?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="安心ZEHパッケージ「TRCダンパー」"></iframe></div><p>安心ZEHパッケージ「TRCダンパー」</p></li>
-                <li><h2>「未来ZEH」パッケージ</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/0audkx962Os?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="「未来ZEH」パッケージ"></iframe></div><p></p></li>
+                <li><h2>1.わくわくパッケージ<br />（ミラバス・ミラブルZERO）</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/Agar9zDY2TE?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="1.わくわくパッケージ（ミラバス・ミラブルZERO）"></iframe></div><p>1.わくわくパッケージ（ミラバス・ミラブルZERO）</p></li>
+                <li><h2>2.わくわくパッケージ<br />（桧無垢床材　エアーウォッシュフローリング）</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/a6BFzFtYRYk?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="2.わくわくパッケージ（桧無垢床材　エアーウォッシュフローリング）"></iframe></div><p>2.わくわくパッケージ（桧無垢床材　エアーウォッシュフローリング）</p></li>
+                <li><h2>3.わくわくパッケージ<br />（電気自動車充電器 ELSEEV）</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/UgsJ2Hd7Zk0?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="3.わくわくパッケージ（電気自動車充電器 ELSEEV）"></iframe></div><p>3.わくわくパッケージ（電気自動車充電器 ELSEEV）</p></li>
+                <li><h2>4.わくわくパッケージ<br />（快適キッチンES）</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/1mp2e0Nj3Ac?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="4.わくわくパッケージ（快適キッチンES）"></iframe></div><p>4.わくわくパッケージ（快適キッチンES）</p></li>
+                <li><h2>5.わくわくパッケージ<br />（太陽光発電システム・AiSEG2）</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/KNo5IpD1FI8?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="5.わくわくパッケージ（太陽光発電システム・AiSEG2）"></iframe></div><p>5.わくわくパッケージ（太陽光発電システム・AiSEG2）</p></li>
+                <li><h2>6.わくわくパッケージ（制震装置 TRCダンパー）</h2></li>
+                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/JVRAkGntP7g?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="6.わくわくパッケージ（制震装置 TRCダンパー）"></iframe></div><p>6.わくわくパッケージ（制震装置 TRCダンパー）</p></li>
               </ul>
             </section>
           </div>

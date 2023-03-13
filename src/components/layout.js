@@ -31,7 +31,6 @@ const Layout = ({ children }) => {
       <main className="l-main">{children}</main>
        <div className="campaign-bnr">
        <Link to="https://www.royal-house.co.jp/campaign/" target="_blank" className="map-balloon__link" activeClassName="is-current"><img src={withPrefix("/images/bnr_cp02.png")} alt="暮らしわくわく家づくり応援キャンペーン" className="pc" /><img src={withPrefix("/images/bnr_cp02.png")} alt="暮らしわくわく家づくり応援キャンペーン" className="sp" /></Link>
-       <Link to="/seminar_entry/" target="_blank" className="map-balloon__link" activeClassName="is-current"><img src={withPrefix("/images/bnr_cp03.png")} alt="オンラインセミナーはこちら" className="pc" /><img src={withPrefix("/images/bnr_cp03.png")} alt="オンラインセミナーはこちら" className="sp" /></Link>
   </div>
       
       <div className="yt-modal--main" style={{display:'none'}}>

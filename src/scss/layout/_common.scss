@@ -248,6 +248,8 @@ img {
     transition: 0.3s;
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: center;
   }
 
   .campaign-bnr a:nth-of-type(1) {

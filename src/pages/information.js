@@ -25,21 +25,20 @@ const SecondPage = () => (
         <div className="article__contents">
           <div className="container">
             <section className="article__section article__section01">
-              <p className="text-center h3 mb-5">今のニーズに合った期間限定パッケージをご提案<br />ワクワク楽しみながら家づくり♪</p>
-              <p className="text-center h3 mb-5">期間：2023年1月1日(日)～2023年3月31日(金)</p>
+              <h2>空間デザインパッケージ</h2>
+              <p className="text-center h3 mb-5">これからの住空間にも馴染みやすいスタイルとしてシーンごとにデザイナーがパッケージ監修してご提案。</p>
+              <p className="text-center h3 mb-5">期間：2023年4月1日(土)～2023年6月30日(金)</p>
               <ul className="info-bnr__list">
-                <li><h2>1.わくわくパッケージ<br />（ミラバス・ミラブルZERO）</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/Agar9zDY2TE?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="1.わくわくパッケージ（ミラバス・ミラブルZERO）"></iframe></div><p>1.わくわくパッケージ（ミラバス・ミラブルZERO）</p></li>
-                <li><h2>2.わくわくパッケージ<br />（桧無垢床材　エアーウォッシュフローリング）</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/a6BFzFtYRYk?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="2.わくわくパッケージ（桧無垢床材　エアーウォッシュフローリング）"></iframe></div><p>2.わくわくパッケージ（桧無垢床材　エアーウォッシュフローリング）</p></li>
-                <li><h2>3.わくわくパッケージ<br />（電気自動車充電器 ELSEEV）</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/UgsJ2Hd7Zk0?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="3.わくわくパッケージ（電気自動車充電器 ELSEEV）"></iframe></div><p>3.わくわくパッケージ（電気自動車充電器 ELSEEV）</p></li>
-                <li><h2>4.わくわくパッケージ<br />（快適キッチンES）</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/1mp2e0Nj3Ac?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="4.わくわくパッケージ（快適キッチンES）"></iframe></div><p>4.わくわくパッケージ（快適キッチンES）</p></li>
-                <li><h2>5.わくわくパッケージ<br />（太陽光発電システム・AiSEG2）</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/KNo5IpD1FI8?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="5.わくわくパッケージ（太陽光発電システム・AiSEG2）"></iframe></div><p>5.わくわくパッケージ（太陽光発電システム・AiSEG2）</p></li>
-                <li><h2>6.わくわくパッケージ（制震装置 TRCダンパー）</h2></li>
-                <li><div className="fluid-movie"><iframe width="560" height="315" src="https://www.youtube.com/embed/JVRAkGntP7g?rel=0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="6.わくわくパッケージ（制震装置 TRCダンパー）"></iframe></div><p>6.わくわくパッケージ（制震装置 TRCダンパー）</p></li>
+                <li><h3>リビングDesignパッケージ</h3><p className="h3 mb-5">家族が集う空間を多様な空間デザインに</p></li>
+                <li className="center"><img src={withPrefix("/images/information/cont3_d1_img.png")} alt="リビングDesignパッケージ" /></li>
+                <li><h3>家事を楽しむキッチンDesignパッケージ</h3><p className="h3 mb-5">家事楽動線をデザインした家族でワイワイにぎやかな空間に</p></li>
+                <li className="center"><img src={withPrefix("/images/information/cont3_d2_img.png")} alt="家事を楽しむキッチンDesignパッケージ" /></li>
+                <li><h3>土間スタイルDesignパッケージ</h3><p className="h3 mb-5">伝統的な空間を現代に活用。大収納だけでなく多様な空間にも</p></li>
+                <li className="center"><img src={withPrefix("/images/information/cont3_d3_img.png")} alt="土間スタイルDesignパッケージ" /></li>
+                <li><h3>癒しバスルームDesignパッケージ</h3><p className="h3 mb-5">外を活用して自遊に暮らす暮らしの幅が広がるデザイン</p></li>
+                <li className="center"><img src={withPrefix("/images/information/cont3_d4_img.png")} alt="癒しバスルームDesignパッケージ" /></li>
+                <li><h3>ホテルライクなベッドルームDesignパッケージ</h3><p className="h3 mb-5">外の喧騒を無くした庭付きのホテルライクな寝室を提案</p></li>
+                <li className="center"><img src={withPrefix("/images/information/cont3_d5_img.png")} alt="リビングDesignパッケージ" /></li>
               </ul>
             </section>
           </div>

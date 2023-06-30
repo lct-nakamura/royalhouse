@@ -40,6 +40,16 @@ ctrl + c
 gatsby build --prefix-paths
 ```
 
+### 注意点「ローカル環境起動」「build (本番環境が/park以下になるのでオプションを付ける)」
+※node.jsのバージョンが新しい場合に、上記で挙げたコマンドでエラーが出る可能性があります。エラーが出る場合は以下のコマンドを使用ください。
+```shell
+#ローカル環境起動
+NODE_OPTIONS='--openssl-legacy-provider' gatsby develop
+
+#build (本番環境が/park以下になるのでオプションを付ける)
+NODE_OPTIONS='--openssl-legacy-provider' gatsby build --prefix-paths
+```
+
 ### おまけ
 ※/public内をきれいにする
 

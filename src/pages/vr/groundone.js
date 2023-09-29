@@ -24,6 +24,12 @@ const SecondPage = () => (
           <div className="container">
             <section className="menu__section">
               <div className="menu__list row">
+              <div className="col-12 col-md-6">
+                  <Link to="/vr/29">
+                    <div className="menu__list__image"><img src={withPrefix('/images/vr/groundone/menu_img04.jpg')} alt="LivGrand（リブグランド）" /></div>
+                    <p className="menu__list__caption icon_triborder">1.5層階を持つ平屋<br />LivGrand（リブグランド）</p>
+                  </Link>
+                </div>
                 <div className="col-12 col-md-6">
                   <Link to="/vr/21">
                     <div className="menu__list__image"><img src={withPrefix('/images/vr/groundone/menu_img01.jpg')} alt="平屋の家フラットスタイル" /></div>

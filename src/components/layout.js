@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main className="l-main">{children}</main>
        <div className="campaign-bnr">
-       <Link to="https://www.royal-house.co.jp/campaign/" target="_blank" className="map-balloon__link" activeClassName="is-current"><img src={withPrefix("/images/bnr_cp_2024spring_240601.png")} alt="安心の家づくりキャンペーン キャンペーン期間 4/1〜6/30" className="pc" /><img src={withPrefix("/images/bnr_cp_2024spring-sp_240601.png")} alt="安心の家づくりキャンペーン キャンペーン期間 4/1〜6/30" className="sp" /></Link>
+       <Link to="https://www.royal-house.co.jp/campaign/" target="_blank" className="map-balloon__link" activeClassName="is-current"><img src={withPrefix("/images/bnr_cp_2024summer.png")} alt="新感覚の注文住宅誕生キャンペーン キャンペーン期間 7/1〜9/29" className="pc" /><img src={withPrefix("/images/bnr_cp_2024summer-sp.png")} alt="新感覚の注文住宅誕生キャンペーン キャンペーン期間 7/1〜9/29" className="sp" /></Link>
   </div>
       
       <div className="yt-modal--main" style={{display:'none'}}>
